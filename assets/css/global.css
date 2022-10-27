@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Source+Serif+Pro:wght@400;600&display=swap');
 *{
     margin: 0;
     box-sizing: border-box;
@@ -16,7 +17,7 @@
     top: 0;
     left: 0;
     z-index: 1000;
-    clip-path: circle(150% at 100% 0);
+    clip-path: circle(190% at 100% 0);
     transition: clip-path  0.5 ease-in-out;
 }
 
@@ -75,7 +76,29 @@
 }
 
 .loader-out{
-    clip-path: circle(8.3% at 100% 0);
+    clip-path: circle(0% at 100% 0);
 }
 
+/*scrollbar*/
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: #c1c1c1;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #000;
+}
+::-webkit-scrollbar-track{
+    border: none;
+    background-color: #c1c1c1;
+}
 /*navbar*/
+.menu-opener{
+    color: #fff;
+}
+.menu-opener-expander{
+ visibility: visible;
+ color: #fff;
+}
+.menu-opener-expander circle{
+    fill: #fff;
+}

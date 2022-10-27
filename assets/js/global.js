@@ -1,4 +1,3 @@
-window.addEventListener('load', function(){
-    console.log('entro')
+window.addEventListener('load', ()=>{
     this.document.getElementById('loader').classList.toggle('loader-out')
 })
