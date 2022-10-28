@@ -25,27 +25,84 @@
 /*01 welove*/
 .__welove {
     height: 50vh;
-    padding: 5rem;
+    padding: 5rem 8rem;
+
 }
 
 /*02 showourlove*/
 .__showourlove {
     background: url('/assets/img/Frame1.png');
     height: 100%;
-    padding: 5rem;
+    
+    padding: 5rem 8rem;
+
 }
+
+.__anni_show_list_item{
+    list-style: none;
+    font-family: 'Source Serif Pro';
+    font-size: 4rem;
+    z-index: 5;
+    position: relative;
+    line-height: .7;
+}
+
+.__anni_show_list_item>span{
+    
+    z-index: 1;
+    position: relative;
+    z-index: -1;
+    top: 75px;
+    left: -20px;
+}
+
 
 /*03 wholove*/
 .__wholove {
     height: 100%;
     padding: 5rem;
+    padding: 5rem 8rem;
+
+}
+.__anni_wholove_client{
+    font-family: 'Source Serif Pro';
+    
+}
+.__anni_wholove_client h3{
+
+    font-size: 1.2rem;
+}
+.__anni_wholove_client h2{
+    font-weight: 600;
+    font-size: 2rem;
+}
+.__anni__wholove_portfolio_client{
+    overflow: visible;
+    padding: 0;
+    margin: 0;
+    
+    position: block;
+}
+.__anni_wholove_bg_client_name{
+    line-height: 1;
+    font-weight: 400;
+    font-size: 15rem;
+    color: #D9D9D9;
+       vertical-align: middle;
+    display: inline-block;
+    position: relative;
+    left: -100px;
+    z-index: -1;
+    top: 100px;
+    
 }
 
 /* 04 appointment */
 .__appointment {
     height: 100%;
     background: url(/assets/img/Frame1.png);
-    padding: 5rem;
+padding: 5rem 8rem;
+    ;
 }
 
 /* 05 FAQ */
@@ -57,7 +114,7 @@
 .__FAQ {
     height: 100%;
 
-    padding: 5rem;
+    padding: 5rem 8rem;
 }
  .__anni_answer{
      font-family: 'Source Serif Pro';
@@ -120,7 +177,7 @@
     border-radius: 0;
     padding: 1rem;
     margin: .3rem;
-    border-radius: 5px;
+    border-radius: 0;
 }
 
 .__contact_form_submit {

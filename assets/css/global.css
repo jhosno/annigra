@@ -298,7 +298,7 @@
     font-style: normal;
     font-weight: 800;
     font-size: 250px;
-    line-height: 305px;
+    line-height: 1;
     color: #D9D9D9;
 }
 
@@ -307,7 +307,7 @@
     font-style: normal;
     font-weight: 800;
     font-size: 250px;
-    line-height: 305px;
+    line-height: 1;
 
     color: #FFFFFF;
 }
