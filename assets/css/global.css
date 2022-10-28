@@ -113,6 +113,30 @@
 
 
 /*go to up buttom*/
+
+#__btn-back-to-top {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    right: 21px;
+    bottom: 42px;
+    z-index: 10000;
+    visibility: hidden;
+    -webkit-clip-path: inset(0 0 100% 0);
+    clip-path: inset(0 0 100% 0);
+    overflow: hidden;
+
+}
+
+#__btn-back-to-top.on {
+    -webkit-clip-path: inset(0 0 0 0);
+    clip-path: inset(0 0 0 0);
+    visibility: visible;
+    -webkit-transition: 1s cubic-bezier(.07, .98, 0, .96);
+    -moz-transition: 1s cubic-bezier(.07, .98, 0, .96);
+    transition: 1s cubic-bezier(.07, .98, 0, .96);
+}
+
 #__btn-back-to-top.mkdf-invert>span:before {
     -webkit-clip-path: inset(0 0 0 0);
     clip-path: inset(0 0 0 0);
@@ -199,6 +223,7 @@
     -moz-transform: translateY(-200%);
     transform: translateY(-200%);
 }
+
 #__btn-back-to-top path {
     fill: #fff;
 }
@@ -217,27 +242,45 @@
     transition: border-radius 1s cubic-bezier(.07, .98, 0, .96), background-color 0s 1s;
 }
 
-#__btn-back-to-top {
-    position: fixed;
-    width: 60px;
-    height: 60px;
-    right: 21px;
-    bottom: 42px;
-    z-index: 10000;
-    visibility: hidden;
-    -webkit-clip-path: inset(0 0 100% 0);
-    clip-path: inset(0 0 100% 0);
-    overflow: hidden;
+
+/* section number*/
+.__anni_bg_text {
+ 
+    line-height: 1;
 }
 
-#__btn-back-to-top.on {
-    -webkit-clip-path: inset(0 0 0 0);
-    clip-path: inset(0 0 0 0);
-    visibility: visible;
-    -webkit-transition: 1s cubic-bezier(.07, .98, 0, .96);
-    -moz-transition: 1s cubic-bezier(.07, .98, 0, .96);
-    transition: 1s cubic-bezier(.07, .98, 0, .96);
+.__anni_char_mask {
+    width: 5rem;
+    font-kerning: none;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    display: inline-block;
+    vertical-align: middle;
+
+
 }
+
+.__anni_show {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 250px;
+    color: #D9D9D9;
+    overflow: hidden;
+    vertical-align: middle;
+    display: inline-block;
+    -webkit-transform: translate3d(-120%, 0, 0);
+    -moz-transform: translate3d(-120%, 0, 0);
+    transform: translate3d(-120%, 0, 0);
+    -webkit-transition: -webkit-transform 2s cubic-bezier(.07, .98, 0, .96);
+    -moz-transition: -moz-transform 2s cubic-bezier(.07, .98, 0, .96);
+    transition: transform 2s cubic-bezier(.07, .98, 0, .96);
+    will-change: transform;
+}
+
+/* section number*/
+
 
 
 /*sections styles*/
@@ -258,6 +301,7 @@
     line-height: 305px;
     color: #D9D9D9;
 }
+
 .___section_number_frame {
     font-family: 'Montserrat';
     font-style: normal;
@@ -274,4 +318,235 @@
     font-weight: 400;
     font-size: 44px;
     line-height: 55px;
+}
+
+
+/**********************************************/
+.mkdf-page-header {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    z-index: 110;
+    box-sizing: border-box;
+}
+.mkdf-menu-area{
+    display: relative;
+    top: 0;
+    z-index: 6;
+}
+.page-id-428 .mkdf-page-header .mkdf-menu-area {
+    background-color: rgba(255, 255, 255, 0);
+    height: 140px !important;
+}
+.mkdf-page-header .mkdf-vertical-align-containers {
+    padding: 0 45px;
+}
+.mkdf-vertical-align-containers {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.mkdf-vertical-align-containers .mkdf-position-right {
+    position: relative;
+    height: 100%;
+    float: right;
+    text-align: right;
+    z-index: 2;
+}
+.mkdf-page-header .mkdf-vertical-align-containers .mkdf-position-center-inner, .mkdf-page-header .mkdf-vertical-align-containers .mkdf-position-left-inner, .mkdf-page-header .mkdf-vertical-align-containers .mkdf-position-right-inner {
+    align-items: center;
+    display: flex;
+    height: 100%;
+}
+a[class*=-svg-path] {
+    cursor: pointer;
+    height: 65px;
+    width: 65px;
+}
+.mkdf-side-menu-button-opener {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+.mkdf-side-menu-button-opener .mkdf-side-menu-icon {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+a[class*=-svg-path]>span {
+    display: flex!important;
+    height: 65px;
+    justify-content: center;
+    left: 50%!important;
+    position: absolute!important;
+    top: 50%!important;
+    width: 65px;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+a[class*=-svg-path]>span svg {
+    align-self: center;
+}
+a[class*=-svg-path]>span svg * {
+    fill: none;
+    stroke: none;
+}
+a[class*=-svg-path]>span svg * {
+    fill: none;
+    stroke: none;
+}
+a[class*=-svg-path]>span svg circle {
+    fill: #fff;
+}
+a[class*=-svg-path] rect:nth-child(2) {
+    -webkit-transform-origin: 0 33%;
+    -moz-transform-origin: 0 33%;
+    transform-origin: 0 33%;
+    -webkit-transition: -webkit-transform .15s .1s;
+    -moz-transition: -moz-transform .15s .1s;
+    transition: transform .15s .1s;
+}
+a[class*=-svg-path]>span svg rect {
+    fill: #000;
+}
+a[class*=-svg-path]>span svg * {
+    fill: none;
+    stroke: none;
+}
+a[class*=-svg-path] rect:nth-child(3) {
+    -webkit-transform-origin: 0 70%;
+    -moz-transform-origin: 0 70%;
+    transform-origin: 0 70%;
+    -webkit-transition: -webkit-transform .15s;
+    -moz-transition: -moz-transform .15s;
+    transition: transform .15s;
+}
+a[class*=-svg-path] rect:nth-child(4) {
+    -webkit-transform-origin: 0 35%;
+    -moz-transform-origin: 0 35%;
+    transform-origin: 0 35%;
+    -webkit-transition: -webkit-transform .15s 50ms;
+    -moz-transition: -moz-transform .15s 50ms;
+    transition: transform .15s 50ms;
+}
+a[class*=-svg-path] rect:nth-child(5) {
+    -webkit-transform-origin: 0 68%;
+    -moz-transform-origin: 0 68%;
+    transform-origin: 0 68%;
+    -webkit-transition: -webkit-transform .15s .15s;
+    -moz-transition: -moz-transform .15s .15s;
+    transition: transform .15s .15s;
+}
+
+.__anni_menu{
+    height: 100vh;
+    width: 50vw;
+    background-image: url(https://holmes.qodeinteractive.com/wp-content/uploads/2018/12/side-area-bckgr.jpg);
+    padding: 20px 20px 20px 0;
+    font-family: 'Source Serif Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.__anni_menu_listitem{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.__anni_menu_listitem > a{
+    text-decoration: none;
+    opacity: .3;
+    -webkit-transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    transition: opacity .2s ease-in-out;
+    color: #fff;
+    text-align: center;
+}
+.__anni_menu_listitem > a:hover{
+    
+    opacity: 1;
+
+ 
+}
+
+.mkdf-side-menu a.mkdf-close-side-menu {
+    position: absolute;
+    top: 17px;
+    right: 13px;
+    display: block;
+    z-index: 1000;
+    color: #000;
+}
+
+a[class*=-svg-path] {
+    cursor: pointer;
+    height: 65px;
+    width: 65px;
+}
+
+a[class*=-svg-path]>span {
+    display: flex!important;
+    height: 65px;
+    justify-content: center;
+    left: 50%!important;
+    position: absolute!important;
+    top: 50%!important;
+    width: 65px;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+a.mkdf-close-side-menu .mkdf-header-icon-label {
+    color: #fff!important;
+}
+.mkdf-header-icon-label {
+    left: -18px;
+    position: absolute;
+    top: 50%;
+    font-size: 16px;
+    line-height: 1.3em;
+    font-family: "Source Serif Pro",serif;
+    font-weight: 400;
+    -webkit-transform: translate(-100%,-50%);
+    -moz-transform: translate(-100%,-50%);
+    transform: translate(-100%,-50%);
+    -webkit-transition: color .2s ease-out;
+    -moz-transition: color .2s ease-out;
+    transition: color .2s ease-out;
+    font-weight: 600;
+}
+a.mkdf-close-side-menu>span svg rect {
+    fill: #fff;
+}
+
+
+.__anni_page_header{
+    
+    height: 100vh;
+    width: 100%;
+}
+
+.mkdf-dark-logo{
+    background-color: #fff;
+}
+
+
+/*btns */
+._anni_btn_outline{
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    border-radius: 0;
+    padding: 1.2rem;
 }

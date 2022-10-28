@@ -1,12 +1,9 @@
+
 .home {
     background: url(/assets/img/Evening.png) no-repeat;
     width: 100%;
     height: 100vh;
-    font-family: 'Montserrat', sans-serif;
-    ;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #fff;
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,8 +11,15 @@
 
 /*home*/
 .home h1 {
-
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 121px;
+    line-height: 147px;
+    text-align: center;
     font-size: 7em;
+    color: #fff;
+    text-transform: uppercase;
 }
 
 /*01 welove*/
@@ -45,16 +49,53 @@
 }
 
 /* 05 FAQ */
-.__FAQ{
-    height: 100%;
+.__anni_faq_area > p {
     
+    display: block;
+    justify-content: space-around;
+}
+.__FAQ {
+    height: 100%;
+
     padding: 5rem;
 }
+ .__anni_answer{
+     font-family: 'Source Serif Pro';
+
+ }
+.__anni_faq_btn{
+   
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0;
+    text-align: left;
+    font-family: 'Source Serif Pro';
+
+}
+
+.__anni_toggle_faq{
+    display: flex;
+    flex-direction: column;
+}
+
+.__anni_faq_btn:hover, .__anni_faq_btn:active {
+    background: #2DB9B8;
+    color: #000 ;
+    border: #2DB9B8;
+}
+.__anni_faq_btn>span{
+    text-align: right;
+}
+.__anni_answer{
+    margin-bottom: 1rem;
+}
+
 /*06 contact*/
 .__contact {
     height: 100%;
     background: url('/assets/img/Frame1.png');
-    padding: 10rem 6rem;
+    padding: 5rem 8rem;
+    padding-bottom: 8rem ;
     position: absolute;
 
 }
@@ -67,6 +108,10 @@
 }
 
 /*form*/
+.__contact_form{
+    padding-top: 5rem;
+}
+
 .__contact_form_input,
 .__contact_form_textarea {
     font-family: 'Source Serif Pro';
@@ -132,3 +177,4 @@
     width: 100%;
     border-bottom: 1px dotted currentColor;
 }
+
