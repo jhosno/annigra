@@ -90,6 +90,15 @@
     font-weight: 600;
     font-size: 2rem;
 }
+.__anni_wholove_client div{
+    display: flex;
+    justify-content: center;
+
+}
+.__anni_wholove_client_text{
+    display: flex;
+    flex-direction: column;
+}
 .__anni__wholove_portfolio_client{
     overflow: visible;
     padding: 0;
