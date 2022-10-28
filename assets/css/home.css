@@ -10,6 +10,10 @@
 }
 
 /*home*/
+.__anni_navbar_container{
+    height: 100vh;
+    width: 100%;
+}
 .home h1 {
     font-family: 'Montserrat';
     font-style: normal;
@@ -33,7 +37,6 @@
 .__showourlove {
     background: url('/assets/img/Frame1.png');
     height: 100%;
-    
     padding: 5rem 8rem;
 
 }
@@ -45,8 +48,19 @@
     z-index: 5;
     position: relative;
     line-height: .7;
+    padding-left: 0;
+    display: block;
 }
 
+.__anni_show_list_item a{
+    text-decoration: none;
+    color: #000;
+
+}
+.__anni_show_list_item:hover{
+    font-weight: 700;
+    
+}
 .__anni_show_list_item>span{
     
     z-index: 1;
