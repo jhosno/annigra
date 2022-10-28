@@ -1,8 +1,9 @@
-.home{
+.home {
     background: url(/assets/img/Evening.png) no-repeat;
     width: 100%;
     height: 100vh;
-    font-family: 'Montserrat', sans-serif; ;
+    font-family: 'Montserrat', sans-serif;
+    ;
     font-weight: 700;
     text-transform: uppercase;
     color: #fff;
@@ -10,7 +11,124 @@
     justify-content: center;
     align-items: center;
 }
-.home h1{
-    
+
+/*home*/
+.home h1 {
+
     font-size: 7em;
+}
+
+/*01 welove*/
+.__welove {
+    height: 50vh;
+    padding: 5rem;
+}
+
+/*02 showourlove*/
+.__showourlove {
+    background: url('/assets/img/Frame1.png');
+    height: 100%;
+    padding: 5rem;
+}
+
+/*03 wholove*/
+.__wholove {
+    height: 100%;
+    padding: 5rem;
+}
+
+/* 04 appointment */
+.__appointment {
+    height: 100%;
+    background: url(/assets/img/Frame1.png);
+    padding: 5rem;
+}
+
+/* 05 FAQ */
+.__FAQ{
+    height: 100%;
+    
+    padding: 5rem;
+}
+/*06 contact*/
+.__contact {
+    height: 100%;
+    background: url('/assets/img/Frame1.png');
+    padding: 10rem 6rem;
+    position: absolute;
+
+}
+
+.__contact_nt_line {
+    background-color: #000;
+    height: 2px;
+    width: 34px;
+    display: inline-block;
+}
+
+/*form*/
+.__contact_form_input,
+.__contact_form_textarea {
+    font-family: 'Source Serif Pro';
+    color: #5E5C5C;
+    background: #D9D9D9;
+    border-radius: 0;
+    padding: 1rem;
+    margin: .3rem;
+    border-radius: 5px;
+}
+
+.__contact_form_submit {
+
+    border-radius: 0;
+    width: 218px;
+    height: 72px;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 24px;
+    /* identical to box height, or 126% */
+
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    background: #000000;
+    border-color: #000;
+}
+
+.__contact_form_submit:hover {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+
+}
+
+.__contact_form_submit_content:before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 101%;
+    height: 2px;
+    background-color: inherit;
+    -webkit-transform-origin: 100% 50%;
+    -moz-transform-origin: 100% 50%;
+    transform-origin: 100% 50%;
+    -webkit-transform: scaleX(1);
+    -moz-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transition: -webkit-transform .35s cubic-bezier(.23, 1, .32, 1);
+    -moz-transition: -moz-transform .35s cubic-bezier(.23, 1, .32, 1);
+    transition: transform .35s cubic-bezier(.23, 1, .32, 1);
+    z-index: 10;
+}
+
+.__contact_form_submit_content:after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px dotted currentColor;
 }
