@@ -42,25 +42,26 @@ let open_side_menu = this.document.getElementById('__anni_menu_opener');
 let close_side_menu = this.document.getElementById('__anni_close_side_menu');
 let side_menu = this.document.getElementById('__anni_side_menu_area');
 let menu_icon_has_hover = this.document.getElementsByClassName('__anni_icon_has_hover');
-close_side_menu.addEventListener('click', () => {
-    
-    side_menu.classList.remove('__anni_side_menu_area_display')
-    
-    
-});
-open_side_menu.addEventListener('click', () => {
-    
-    side_menu.classList.add('__anni_side_menu_area_display')
 
+close_side_menu.addEventListener('click', () => {
+    side_menu.style.display = "none";
+    side_menu.style.visibility = "hidden";
+});
+
+open_side_menu.addEventListener('click', () => {
+    console.log('wtf')
+    side_menu.style.display = "block";
+    side_menu.style.visibility = "visible";
 });
 
 open_side_menu.addEventListener("mouseover", e => {
     console.log("mouse over test!");
-    open_side_menu
+    
 }, false);
 
 
 
+const dropdown_element = document.getElementsByClassName
 const dropdowns = document.querySelectorAll(".dropdown");
 dropdowns.forEach((dropdown) => {
     dropdown.addEventListener("click", (e) => {
