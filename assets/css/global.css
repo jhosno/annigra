@@ -110,7 +110,53 @@
     fill: #fff;
 }
 
+@media screen and (max-width: 810px) {
+    #__anni_navbar {
+        display: none;
+    }
 
+}
+
+/*navbar mobile*/
+#__anni_navbar_mobile {
+    background: #fff;
+    width: 100%;
+    height: 5rem;
+}
+
+.__anni_brand_menu_mobile .__anni_language_dropdown {
+    color: #000;
+    font-size: 0.8rem;
+}
+.__anni_brand_menu_mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+    margin-right: 0;
+}
+.__anni_right_mobile_menu{
+    display: flex;
+    justify-content: center;
+    
+}
+.__anni_brand_menu_mobile img {
+    width: 5rem;
+}
+
+@media screen and (max-width: 810px) {
+    #__anni_navbar_mobile {
+        display: block;
+
+    }
+
+}
+
+@media screen and (min-width: 810px) {
+    #__anni_navbar_mobile {
+        display: none;
+    }
+}
 
 
 /* section number*/
@@ -175,7 +221,7 @@
     font-weight: 800;
     font-size: 250px;
     line-height: 1;
-    display:inline-block ;
+    display: inline-block;
     color: #FFFFFF;
 }
 
@@ -187,26 +233,38 @@
     line-height: 55px;
 }
 
-.__anni_section_bg_text span{
+.__anni_section_bg_text span {
     margin: 0;
 }
-.__anni_section_bg_text{
+
+.__anni_section_bg_text {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 800;
     font-size: 12rem;
     line-height: 1;
-    display:inline-block ;
+    display: inline-block;
     color: #d6d6d6;
 }
+
 /*********************side menu*************************/
-#__anni_side_menu_area::-webkit-scrollbar  {
-    
-        display: none;
-    
+#__anni_side_menu_area::-webkit-scrollbar {
+
+    display: none;
+
 }
+
+.__anni_side_menu_area_display {
+    display: block !important;
+    visibility: visible !important;
+    -webkit-transition: all 1s cubic-bezier(0.79, 0.33, 0.14, 0.53);
+    transition: all 1s cubic-bezier(0.79, 0.33, 0.14, 0.53);
+}
+
+.__anni_side_menu_area_display {}
+
 #__anni_side_menu_area {
-   
+
     background: url(https://holmes.qodeinteractive.com/wp-content/uploads/2018/12/side-area-bckgr.jpg);
     display: none;
     padding: 20px 20px 20px 0;
@@ -228,21 +286,24 @@
     text-align: center;
     -webkit-transition: all 1s cubic-bezier(0.79, 0.33, 0.14, 0.53);
     transition: all 1s cubic-bezier(0.79, 0.33, 0.14, 0.53);
-  
+
     font-family: 'Source Serif Pro';
     color: #fff;
-    overflow: scroll!important;
+    overflow: scroll !important;
     overflow-anchor: scroll;
     -ms-overflow-style: scroll;
     touch-action: auto;
     -ms-touch-action: auto;
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
 }
+
 .horizTranslate {
     -webkit-transition: all 1.3s cubic-bezier(0.8, 0.08, 0.14, 0.53);
     transition: all 1.3s cubic-bezier(0.8, 0.08, 0.14, 0.53);
-  }
+}
 
 .__anni_header_side_menu_area {
     display: flex;
@@ -424,6 +485,7 @@
 
     border: solid 2px #000;
 }
+
 /*btns */
 ._anni_btn_outline {
     text-transform: uppercase;
@@ -431,7 +493,7 @@
     font-weight: 600;
     border-radius: 0;
     border: solid 2px #000;
-    
+
 }
 
 

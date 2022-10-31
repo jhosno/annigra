@@ -1,5 +1,5 @@
 .home {
-    background: url(/assets/img/Evening.png) no-repeat;
+    background: url(/assets/img/Evening.png) cover no-repeat;
     width: 100%;
     height: 100vh;
     position: absolute;
@@ -7,7 +7,24 @@
     justify-content: center;
     align-items: center;
 }
+@media screen and (max-width: 810px) {
+    .__anni_home_content{
+        height: 75vh;
+    }
+    .home{
+        height: 75vh;
+    }
+}
+#greeting{
+    font-size: 7rem;
+}
+@media screen and (max-width: 480px) {
+    #greeting{
+        font-size: 2rem;
+    }
 
+
+}
 /*home*/
 .__anni_navbar_container {
     height: 100vh;
