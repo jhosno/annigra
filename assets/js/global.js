@@ -1,10 +1,12 @@
+//wow
+AOS.init();
 //loader
 window.addEventListener('load', () => {
     this.document.getElementById('loader').classList.toggle('loader-out')
 })
 
 //back to up btn
-let backToUpBtn = document.getElementById('__btn-back-to-top');
+let backToUpBtn = document.getElementById('__anni_-back-to-top');
 
 window.onscroll = () => {
     scrollFunction()
@@ -13,6 +15,10 @@ window.onscroll = () => {
 function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
         backToUpBtn.style.display = "block";
+
+        backToUpBtn.classList.add('on')
+        backToUpBtn.classList.add('.__anni_-invert')
+        backToUpBtn.classList.remove('off')
     } else {
         backToUpBtn.style.display = "none";
     }
@@ -39,16 +45,39 @@ let menu_icon_has_hover = this.document.getElementsByClassName('__anni_icon_has_
 close_side_menu.addEventListener('click', () => {
     side_menu.style.display = "none";
     side_menu.style.visibility = "hidden";
-    console.log('hode')
+
 
 });
 open_side_menu.addEventListener('click', () => {
     side_menu.style.display = "block";
     side_menu.style.visibility = "visible";
-    console.log('visible')
+    side_menu.classList.add('horizTranslate')
+
 });
 
 open_side_menu.addEventListener("mouseover", e => {
     console.log("mouse over test!");
     open_side_menu
 }, false);
+
+
+
+const dropdown_element = document.getElementsByClassName
+const dropdowns = document.querySelectorAll(".dropdown");
+dropdowns.forEach((dropdown) => {
+    dropdown.addEventListener("click", (e) => {
+        e.stopPropagation();
+        dropdowns.forEach((c) => c.classList.remove("is-active"));
+        dropdown.classList.add("is-active");
+    });
+});
+
+const language_span = document.getElementById('__anni_languaje_span')
+const language_option = document.getElementById("__anni_languaje_content");
+language_option.addEventListener("click", function (e) {
+    // console.log(e.target.id); // log clicked element 
+    if (e.target.id != "__anni_languaje_content") {
+        language_span.innerHTML = e.target.id
+    }
+
+});

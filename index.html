@@ -12,6 +12,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
     </script>
+    <!-- Css framework -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- custom CSS -->
     <link rel="stylesheet" href="/assets/css/global.css">
     <link rel="stylesheet" href="/assets/css/home.css">
@@ -27,13 +29,32 @@
                 <div></div>
             </div>
         </div>
+
+        <!-- Up bottom -->
+        <a id="__anni_-back-to-top" href="#" class=" off">
+            <span class="__anni_-icon-stack">
+                <svg id="__anni_-arrow-1" xmlns="https://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 12.5 27.6"
+                    style="height: 25px; background: #000;" xml:space="preserve">
+                    <path
+                        d="M4.6,25.6V5.8L3.2,7.2c-0.6,0.6-1.5,0.6-2.1,0S0.5,5.7,1.1,5l4-4c0.6-0.6,1.5-0.6,2.1,0l4,4c0.3,0.3,0.4,0.7,0.4,1.1  s-0.1,0.8-0.4,1.1c-0.6,0.6-1.5,0.6-2.1,0L7.7,5.9v19.8c0,0.8-0.7,1.5-1.5,1.5C5.3,27.1,4.6,26.5,4.6,25.6z">
+                    </path>
+                </svg>
+                <svg id="__anni_-arrow-2" xmlns="https://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 12.5 27.6"
+                    style="height: 25px;" xml:space="preserve">
+                    <path
+                        d="M4.6,25.6V5.8L3.2,7.2c-0.6,0.6-1.5,0.6-2.1,0S0.5,5.7,1.1,5l4-4c0.6-0.6,1.5-0.6,2.1,0l4,4c0.3,0.3,0.4,0.7,0.4,1.1  s-0.1,0.8-0.4,1.1c-0.6,0.6-1.5,0.6-2.1,0L7.7,5.9v19.8c0,0.8-0.7,1.5-1.5,1.5C5.3,27.1,4.6,26.5,4.6,25.6z">
+                    </path>
+                </svg>
+            </span>
+        </a>
         <!-- header -->
 
         <header class="__anni_page_header">
             <div class="__anni_home_content">
                 <div class=" home" id="__home_section">
 
-                    <h1 id="greeting">Good evening</h1>
+                    <h1 id="greeting" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">Good
+                        evening</h1>
                 </div>
 
             </div>
@@ -51,7 +72,15 @@
                         </div>
                         <div class="__anni_navbar_right">
                             <div class="__anni_navbar_right_inner">
-                                <span>language</span>
+                                <div class="__anni_language_dropdown">
+                                    <span id="__anni_languaje_span">English</span>
+                                    <div class="__anni_language_dropdown-content" id="__anni_languaje_content">
+                                        <p class="__anni_lenguage_dropdown_option" id="spanish">Spanish</p>
+                                        <p class="__anni_lenguage_dropdown_option" id="english">English</p>
+                                        <p class="__anni_lenguage_dropdown_option" id="chinese">Chinese</p>
+                                    </div>
+                                </div>
+
                                 <a href="#" id="__anni_menu_opener" class=" _anni_menu_svg_path __anni_icon_has_hover">
                                     <span class="__anni_menu_opner_icon">
                                         <svg xmlns="https://www.w3.org/2000/svg"
@@ -152,23 +181,12 @@
                 </p>
             </div>
             <div class=" col-4">
-                <div class="__anni_bg_text">
-                    <span class="__anni_char_mask">
-                        <span class="__anni_show">
-                            0
-                        </span>
-                    </span>
-                    <span class="__anni_char_mask">
-                        <span class="__anni_show">
-                            1
-                        </span>
-                    </span>
-                    <span class="__anni_char_mask">
-                        <span class="__anni_show">
-                            .
-                        </span>
+                <div class="__anni_section_bg_text">
+                    <span data-aos="fade-left" data-aos-offset="100" data-aos-easing="ease-in-sine">
+                        01.
                     </span>
                 </div>
+
             </div>
         </section>
         <!-- 02 show our love  -->
@@ -176,7 +194,10 @@
             <div class="row">
                 <div class=" col-4">
 
-                    <span class="___section_number_frame __welove_number">02.</span>
+                    <span class="___section_number_frame __welove_number" data-aos="fade-right" data-aos-offset="100"
+                        data-aos-easing="ease-in-sine">
+                        02.
+                    </span>
                 </div>
                 <div class=" col-8 __welove_content ">
                     <h2 class="___section_h2">
@@ -194,7 +215,7 @@
                 <div class="col-6">
                     <ul class="__anni_show_list">
                         <li class="__anni_show_list_item">
-                            <span>
+                            <span data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine">
                                 <svg width="114" height="114" viewBox="0 0 114 114" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <rect width="114" height="114" rx="57" fill="#FEC12D" />
@@ -202,21 +223,21 @@
 
                             </span>
                             <p>
-                                <a href="#">
+                                <a href="#" data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine">
                                     Website
 
                                 </a>
                             </p>
                         </li>
                         <li class="__anni_show_list_item">
-                            <span>
+                            <span data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine">
                                 <svg width="114" height="114" viewBox="0 0 114 114" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <rect width="114" height="114" rx="57" fill="#2DB9B8" />
                                 </svg>
                             </span>
                             <p>
-                                <a href="#">
+                                <a href="#" data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine">
                                     Photography
 
                                 </a>
@@ -224,7 +245,7 @@
                             </p>
                         </li>
                         <li class="__anni_show_list_item">
-                            <span>
+                            <span data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine">
                                 <svg width="114" height="114" viewBox="0 0 114 114" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <rect width="114" height="114" rx="57" fill="#64B4FC" />
@@ -232,7 +253,7 @@
 
                             </span>
                             <p>
-                                <a href="#">
+                                <a href="#" data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine">
                                     Graphic Design
 
                                 </a>
@@ -244,7 +265,7 @@
                 <div class="col-6">
                     <ul>
                         <li class="__anni_show_list_item">
-                            <span>
+                            <span data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine">
                                 <svg width="114" height="114" viewBox="0 0 114 114" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <rect width="114" height="114" rx="57" fill="#FB702C" />
@@ -252,7 +273,7 @@
 
                             </span>
                             <p>
-                                <a href="#">
+                                <a href="#" data-aos="fade-left" data-aos-offset="100" data-aos-easing="ease-in-sine">
                                     Logo
 
                                 </a>
@@ -260,7 +281,7 @@
                             </p>
                         </li>
                         <li class="__anni_show_list_item">
-                            <span>
+                            <span data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine">
                                 <svg width="114" height="114" viewBox="0 0 114 114" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <rect width="114" height="114" rx="57" fill="#24D8AD" />
@@ -268,7 +289,7 @@
 
                             </span>
                             <p>
-                                <a href="#">
+                                <a href="#" data-aos="fade-left" data-aos-offset="100" data-aos-easing="ease-in-sine">
                                     Branding
 
                                 </a>
@@ -276,7 +297,7 @@
                             </p>
                         </li>
                         <li class="__anni_show_list_item">
-                            <span>
+                            <span data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine">
                                 <svg width="114" height="114" viewBox="0 0 114 114" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <rect width="114" height="114" rx="57" fill="#E20F58" />
@@ -284,7 +305,7 @@
 
                             </span>
                             <p>
-                                <a href="#">
+                                <a href="#" data-aos="fade-left" data-aos-offset="100" data-aos-easing="ease-in-sine">
                                     Videographic
                                 </a>
                             </p>
@@ -309,13 +330,14 @@
                 </div>
                 <div class=" col-4">
 
-                    <span class="___section_number __welove_number">03.</span>
+                    <span class="___section_number __welove_number" data-aos="fade-left" data-aos-offset="100"
+                        data-aos-easing="ease-in-sine">03.</span>
                 </div>
             </div>
             <div class="__anni_wholove_client row mt-5">
 
                 <div class="col-6">
-                    <figure>
+                    <figure class="__anni_welove_client_img">
                         <img src="/assets/img/clients/jESSICA-sHAW.png" alt="">
                     </figure>
                 </div>
@@ -333,21 +355,25 @@
                     </p>
                 </div>
                 <div class="row __anni__wholove_portfolio_client ">
+                    <div>
 
+                        <figure class="col-3  __anni_welove_client_work">
 
-                    <span class="__anni_wholove_bg_client_name">Jessica</span>
-                    <figure class="col-3 ">
-                        <img src="https://via.placeholder.com/250x200/D9D9D9/808080%20?text=calendar" alt="">
-                    </figure>
-                    <figure class="col-3 ">
-                        <img src="https://via.placeholder.com/250x200/D9D9D9/808080%20?text=calendar" alt="">
-                    </figure>
-                    <figure class="col-3 ">
-                        <img src="https://via.placeholder.com/250x200/D9D9D9/808080%20?text=calendar" alt="">
-                    </figure>
-                    <figure class="col-3 ">
-                        <img src="https://via.placeholder.com/250x200/D9D9D9/808080%20?text=calendar" alt="">
-                    </figure>
+                            <img src="https://via.placeholder.com/250x200/D9D9D9/808080%20?text=calendar" alt="">
+                        </figure>
+                        <figure class="col-3  __anni_welove_client_work">
+                            <img src="https://via.placeholder.com/250x200/D9D9D9/808080%20?text=calendar" alt="">
+                        </figure>
+                        <figure class="col-3  __anni_welove_client_work">
+                            <img src="https://via.placeholder.com/250x200/D9D9D9/808080%20?text=calendar" alt="">
+                        </figure>
+                        <figure class="col-3  __anni_welove_client_work">
+                            <img src="https://via.placeholder.com/250x200/D9D9D9/808080%20?text=calendar" alt="">
+                        </figure>
+                    </div>
+
+                    <span class="__anni_wholove_bg_client_name" data-aos="fade-right" data-aos-offset="100"
+                        data-aos-easing="ease-in-sine">Jessica</span>
                 </div>
             </div>
             <div class="__anni_wholove_client __anni_wholove_client_on_right  row mt-5">
@@ -370,32 +396,36 @@
                 </div>
 
                 <div class="col-6">
-                    <figure>
+                    <figure class="__anni_welove_client_img">
                         <img src="/assets/img/clients/Marvin-Somerton.png" alt="">
                     </figure>
                 </div>
                 <div class="row __anni__wholove_portfolio_client ">
+                    <div>
 
+                        <figure class="col-3  __anni_welove_client_work">
+                            <img src="https://via.placeholder.com/250x200/D9D9D9/808080%20?text=calendar" alt="">
+                        </figure>
+                        <figure class="col-3  __anni_welove_client_work">
+                            <img src="https://via.placeholder.com/250x200/D9D9D9/808080%20?text=calendar" alt="">
+                        </figure>
+                        <figure class="col-3  __anni_welove_client_work">
+                            <img src="https://via.placeholder.com/250x200/D9D9D9/808080%20?text=calendar" alt="">
+                        </figure>
+                        <figure class="col-3  __anni_welove_client_work">
+                            <img src="https://via.placeholder.com/250x200/D9D9D9/808080%20?text=calendar" alt="">
+                        </figure>
+                    </div>
 
-                    <span class="__anni_wholove_bg_client_name">Marvin</span>
-                    <figure class="col-3 ">
-                        <img src="https://via.placeholder.com/250x200/D9D9D9/808080%20?text=calendar" alt="">
-                    </figure>
-                    <figure class="col-3 ">
-                        <img src="https://via.placeholder.com/250x200/D9D9D9/808080%20?text=calendar" alt="">
-                    </figure>
-                    <figure class="col-3 ">
-                        <img src="https://via.placeholder.com/250x200/D9D9D9/808080%20?text=calendar" alt="">
-                    </figure>
-                    <figure class="col-3 ">
-                        <img src="https://via.placeholder.com/250x200/D9D9D9/808080%20?text=calendar" alt="">
-                    </figure>
+                    <span class="__anni_wholove_bg_client_name" data-aos="fade-left" data-aos-offset="100"
+                        data-aos-easing="ease-in-sine" style="right: -11%;
+                        top: -60%;">Marvin</span>
                 </div>
             </div>
             <div class="__anni_wholove_client row mt-5">
 
                 <div class="col-6">
-                    <figure>
+                    <figure class="__anni_welove_client_img">
                         <img src="/assets/img/clients/Zechariah-McLaurin.png" alt="">
                     </figure>
                 </div>
@@ -418,22 +448,25 @@
                 </div>
                 <div class="row __anni__wholove_portfolio_client ">
 
+                    <div>
 
-                    <span class="__anni_wholove_bg_client_name">Zechariah
+                        <figure class="col-3  __anni_welove_client_work">
+                            <img src="https://via.placeholder.com/250x200/D9D9D9/808080%20?text=calendar" alt="">
+                        </figure>
+                        <figure class="col-3 __anni_welove_client_work">
+                            <img src="https://via.placeholder.com/250x200/D9D9D9/808080%20?text=calendar" alt="">
+                        </figure>
+                        <figure class="col-3  __anni_welove_client_work">
+                            <img src="https://via.placeholder.com/250x200/D9D9D9/808080%20?text=calendar" alt="">
+                        </figure>
+                        <figure class="col-3  __anni_welove_client_work">
+                            <img src="https://via.placeholder.com/250x200/D9D9D9/808080%20?text=calendar" alt="">
+                        </figure>
+                    </div>
+                    <span class="__anni_wholove_bg_client_name" data-aos="fade-right" data-aos-offset="100"
+                        data-aos-easing="ease-in-sine">Zechariah
 
                     </span>
-                    <figure class="col-3 ">
-                        <img src="https://via.placeholder.com/250x200/D9D9D9/808080%20?text=calendar" alt="">
-                    </figure>
-                    <figure class="col-3 ">
-                        <img src="https://via.placeholder.com/250x200/D9D9D9/808080%20?text=calendar" alt="">
-                    </figure>
-                    <figure class="col-3 ">
-                        <img src="https://via.placeholder.com/250x200/D9D9D9/808080%20?text=calendar" alt="">
-                    </figure>
-                    <figure class="col-3 ">
-                        <img src="https://via.placeholder.com/250x200/D9D9D9/808080%20?text=calendar" alt="">
-                    </figure>
                 </div>
             </div>
             </div>
@@ -441,7 +474,8 @@
         <!-- 04 appointment -->
         <section class="__appointment row">
             <div class=" col-6">
-                <span class="___section_number_frame __welove_number">04.</span>
+                <span class="___section_number_frame __welove_number" data-aos="fade-right" data-aos-offset="200"
+                    data-aos-easing="ease-in-sine">04.</span>
                 <h2 class="___section_h2">
                     04.
                     <span class="__contact_nt_line" style="background-color: #000000;width: 140px"></span>
@@ -476,15 +510,29 @@
                 </div>
                 <div class=" col-5">
 
-                    <span class="___section_number __welove_number">05.</span>
+                    <span class="___section_number __welove_number" data-aos="fade-left" data-aos-offset="200"
+                        data-aos-easing="ease-in-sine">05.</span>
                 </div>
                 <div class="col-8 __anni_toggle_faq">
                     <div class="d-grip gap-2 __anni_faq_area">
 
-                        <p>
+                        <p class="__anni_faq_acc">
                             <a class="btn btn-dark __anni_faq_btn" data-bs-toggle="collapse" href="#__anni_question01"
                                 role="button" aria-expanded="false" aria-controls="__anni_question01">
                                 How much do you charge to build a website?
+                                <span class="__anni-acc-open">
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 25 25"
+                                        style="enable-background:new 0 0 25 25;" xml:space="preserve"
+                                        class="__anni_plus-acc">
+                                        <g>
+                                            <rect x="11" y="1" width="3" height="23"></rect>
+                                        </g>
+                                        <g>
+                                            <rect x="1" y="11" width="23" height="3"></rect>
+                                        </g>
+                                    </svg>
+                                </span>
                                 <span>
                                     <svg width="13" height="8" viewBox="0 0 13 8" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -511,7 +559,7 @@
                         </div>
                     </div>
                     <div class="d-grip gap-2 __anni_faq_area">
-                        <p>
+                        <p class="__anni_faq_acc">
                             <a class="btn btn-dark __anni_faq_btn" data-bs-toggle="collapse" href="#__anni_question02"
                                 role="button" aria-expanded="false" aria-controls="__anni_question02">
                                 Do you work with new and small businesses?
@@ -539,7 +587,7 @@
                         </div>
                     </div>
                     <div class="d-grip gap-2 __anni_faq_area">
-                        <p>
+                        <p class="__anni_faq_acc">
                             <a class="btn btn-dark __anni_faq_btn" data-bs-toggle="collapse" href="#__anni_question03"
                                 role="button" aria-expanded="false" aria-controls="__anni_question03">
                                 How long will it take to complete my website?
@@ -567,7 +615,7 @@
                         </div>
                     </div>
                     <div class="d-grip gap-2 __anni_faq_area">
-                        <p>
+                        <p class="__anni_faq_acc">
                             <a class="btn btn-dark __anni_faq_btn" data-bs-toggle="collapse" href="#__anni_question04"
                                 role="button" aria-expanded="false" aria-controls="__anni_question04">
                                 Do I have to be in Portland metro to work with you?
@@ -595,7 +643,7 @@
                         </div>
                     </div>
                     <div class="d-grip gap-2 __anni_faq_area">
-                        <p>
+                        <p class="__anni_faq_acc">
                             <a class="btn btn-dark __anni_faq_btn" data-bs-toggle="collapse" href="#__anni_question05"
                                 role="button" aria-expanded="false" aria-controls="__anni_question05">
                                 Will you maintain our website for us?
@@ -623,7 +671,7 @@
                         </div>
                     </div>
                     <div class="d-grip gap-2 __anni_faq_area">
-                        <p>
+                        <p class="__anni_faq_acc">
                             <a class="btn btn-dark __anni_faq_btn" data-bs-toggle="collapse" href="#__anni_question06"
                                 role="button" aria-expanded="false" aria-controls="__anni_question06">
                                 Do you provide hosting and domain?
@@ -651,7 +699,7 @@
                         </div>
                     </div>
                     <div class="d-grip gap-2 __anni_faq_area">
-                        <p>
+                        <p class="__anni_faq_acc">
                             <a class="btn btn-dark __anni_faq_btn" data-bs-toggle="collapse" href="#__anni_question07"
                                 role="button" aria-expanded="false" aria-controls="__anni_question07">
                                 How much do you charge to build a website?
@@ -678,17 +726,24 @@
                             </div>
                         </div>
                     </div>
+
                     <a href="#"
-                        class="btn btn-outline-dark _anni_btn_outline _anni_more_fag justify-content-end offset-md-9">more
-                        faqs</a>
+                        class="btn  _anni_btn_outline _anni_more_fag justify-content-end offset-md-9 box-e_invert">
+                        <span class="custom-underline_invert">
+                            more
+                            faqs
+                        </span>
+                    </a>
                 </div>
+
             </div>
         </section>
 
         <!-- 06 contact -->
         <section class="__contact row flex">
             <div class="col __contact_content ">
-                <span class="___section_number_frame __contact_number">06.</span>
+                <span class="___section_number_frame __contact_number" data-aos="fade-right" data-aos-offset="200"
+                    data-aos-easing="ease-in-sine">06.</span>
                 <h2 class="___section_h2">
                     06.
                     <span class="__contact_nt_line" style="background-color: #000000;width: 140px"></span>
@@ -702,30 +757,28 @@
 
             </div>
             <div class="col __contact_form">
-                <form class="row g-3">
+                <form class="row g-3" class="was-validated" id="contact_form"  onsubmit=" validateForm()">
                     <div class="col-12">
                         <input type="text" class="form-control __contact_form_input" id="__contact_form_name"
-                            placeholder="Name">
-                        <div class="invalid-feedback">
-                            Please select a valid state.
-                        </div>
+                            placeholder="Name" name="name">
+                        <div class="invalid-feedback">Please fill out this field.</div>
                     </div>
                     <div class="col-12">
                         <input type="text" class="form-control __contact_form_input" id="__contact_form_tlf"
-                            placeholder="telephone">
+                            placeholder="Telephone" name="tel">
                     </div>
                     <div class="col-12">
                         <input type="text" class="form-control __contact_form_input" id="__contact_form_email"
-                            placeholder="Email">
+                            placeholder="Email" name="email">
                     </div>
 
                     <div class="col-12">
                         <textarea class="form-control __contact_form_textarea" id="__contact_form_description" rows="3"
-                            placeholder="Description"></textarea>
+                            placeholder="Description" name="descrip"></textarea>
                     </div>
                     <div class="col-12">
-                        <button type="submit" class="btn btn-dark __contact_form_submit">
-                            <span class="__contact_form_submit_content">
+                        <button type="submit" class="btn btn-dark __contact_form_submit box_e" id="contact_submit">
+                            <span class="__contact_form_submit_content custom_underline">
                                 Send Message
 
                             </span>
@@ -735,23 +788,6 @@
             </div>
         </section>
 
-        <!-- Up bottom -->
-        <a id="__btn-back-to-top" href="#" class="mkdf-invert on">
-            <span class="mkdf-icon-stack">
-                <svg id="__btn-arrow-1" xmlns="https://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 12.5 27.6"
-                    style="height: 25px;" xml:space="preserve">
-                    <path
-                        d="M4.6,25.6V5.8L3.2,7.2c-0.6,0.6-1.5,0.6-2.1,0S0.5,5.7,1.1,5l4-4c0.6-0.6,1.5-0.6,2.1,0l4,4c0.3,0.3,0.4,0.7,0.4,1.1  s-0.1,0.8-0.4,1.1c-0.6,0.6-1.5,0.6-2.1,0L7.7,5.9v19.8c0,0.8-0.7,1.5-1.5,1.5C5.3,27.1,4.6,26.5,4.6,25.6z">
-                    </path>
-                </svg>
-                <svg id="__btn-arrow-2" xmlns="https://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 12.5 27.6"
-                    style="height: 25px;" xml:space="preserve">
-                    <path
-                        d="M4.6,25.6V5.8L3.2,7.2c-0.6,0.6-1.5,0.6-2.1,0S0.5,5.7,1.1,5l4-4c0.6-0.6,1.5-0.6,2.1,0l4,4c0.3,0.3,0.4,0.7,0.4,1.1  s-0.1,0.8-0.4,1.1c-0.6,0.6-1.5,0.6-2.1,0L7.7,5.9v19.8c0,0.8-0.7,1.5-1.5,1.5C5.3,27.1,4.6,26.5,4.6,25.6z">
-                    </path>
-                </svg>
-            </span>
-        </a>
     </main>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
@@ -760,6 +796,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
         integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous">
     </script>
+    <!-- framework JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- Custom JS -->
     <script src="/assets/js/global.js"></script>
     <script src="/assets/js/home.js"></script>
