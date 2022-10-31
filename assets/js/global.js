@@ -56,7 +56,7 @@ open_side_menu.addEventListener('click', () => {
 
 open_side_menu.addEventListener("mouseover", e => {
     console.log("mouse over test!");
-    
+
 }, false);
 
 
@@ -80,3 +80,11 @@ language_option.addEventListener("click", function (e) {
     }
 
 });
+
+/*
+function(e) {
+  e.preventDefault(), t.hasClass("mkdf-fm-opened") ? (t.removeClass("mkdf-fm-opened"), mkdf.body.removeClass("mkdf-expanding-menu-opened")) : (t.addClass("mkdf-fm-opened"), mkdf.body.addClass("mkdf-expanding-menu-opened"), a(document).keyup(function(e) {
+    27 == e.keyCode && (t.removeClass("mkdf-fm-opened"), mkdf.body.removeClass("mkdf-expanding-menu-opened"))
+  }))
+}
+*/

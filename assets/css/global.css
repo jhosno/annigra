@@ -128,6 +128,7 @@
     color: #000;
     font-size: 0.8rem;
 }
+
 .__anni_brand_menu_mobile {
     display: flex;
     justify-content: space-between;
@@ -135,11 +136,9 @@
     padding: .5rem;
     margin-right: 0;
 }
-.__anni_right_mobile_menu{
-    display: flex;
-    justify-content: center;
-    
-}
+
+.__anni_right_mobile_menu {}
+
 .__anni_brand_menu_mobile img {
     width: 5rem;
 }
@@ -158,6 +157,39 @@
     }
 }
 
+.mkdf-mobile-nav {
+
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.mkdf-mobile-header .mkdf-grid {
+    height: 100%;
+}
+
+.mkdf-mobile-header .mkdf-mobile-nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.mkdf-mobile-header .mkdf-mobile-nav ul li {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    -webkit-transform: translateZ(0);
+}
+
+.mkdf-mobile-header .mkdf-mobile-nav .mkdf-grid>ul>li>a,
+.mkdf-mobile-header .mkdf-mobile-nav .mkdf-grid>ul>li>h6 {
+    padding-left: 4px;
+    font-family: "Source Serif Pro", serif;
+    font-weight: 700;
+    font-size: 17px;
+}
 
 /* section number*/
 .__anni_bg_text {
@@ -205,6 +237,7 @@
     font-size: 2rem;
     line-height: 40px;
 }
+
 .___section_number {
     font-family: 'Montserrat';
     font-style: normal;
@@ -228,7 +261,7 @@
     font-family: 'Source Serif Pro';
     font-style: normal;
     font-weight: 400;
-    font-size:3.5rem;
+    font-size: 3.5rem;
     line-height: 55px;
 }
 
@@ -246,6 +279,7 @@
     display: inline-block;
     color: #d6d6d6;
 }
+
 .__section_nt_line {
     background-color: #000;
     height: 2px;
@@ -259,8 +293,9 @@
     }
 
     .___section_number {
-        font-size: 8rem; 
+        font-size: 8rem;
     }
+
     .___section_p {
         font-size: 2rem;
     }
@@ -269,11 +304,13 @@
         height: 1.5px;
         width: 2rem;
     }
+
     .__welove {
         height: 100vh;
         padding: 2rem 1rem;
     }
 }
+
 /*********************side menu*************************/
 #__anni_side_menu_area::-webkit-scrollbar {
 
@@ -564,8 +601,7 @@
     font-weight: 600;
 }
 
-.__anni_language_dropdown:hover .__anni_language_dropdown-content
- {
+.__anni_language_dropdown:hover .__anni_language_dropdown-content {
     display: block;
 }
 

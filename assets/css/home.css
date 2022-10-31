@@ -7,24 +7,29 @@
     justify-content: center;
     align-items: center;
 }
+
 @media screen and (max-width: 810px) {
-    .__anni_home_content{
+    .__anni_home_content {
         height: 75vh;
     }
-    .home{
+
+    .home {
         height: 75vh;
     }
 }
-#greeting{
+
+#greeting {
     font-size: 7rem;
 }
+
 @media screen and (max-width: 480px) {
-    #greeting{
+    #greeting {
         font-size: 2rem;
     }
 
 
 }
+
 /*home*/
 .__anni_navbar_container {
     height: 100vh;
@@ -50,11 +55,12 @@
     overflow: hidden;
 
 }
+
 @media screen and (max-width: 768px) {
     .__welove {
         height: 100vh;
         padding: 2rem 1rem;
-        
+
     }
 }
 
@@ -64,6 +70,7 @@
     background: url('/assets/img/Frame1.png');
     height: 100%;
     padding: 5rem 8rem;
+    width: 100vw;
 
 }
 
@@ -95,18 +102,20 @@
     top: 75px;
     left: -20px;
 }
+
 @media screen and (max-width: 768px) {
- 
+
     .__anni_show_list_item p {
-    font-size: 3rem;
+        font-size: 3rem;
     }
-    
+
 }
+
 @media screen and (max-width: 768px) {
     .__showourlove {
         height: 100%;
         padding: 2rem 1rem;
-        
+
     }
 }
 
@@ -168,21 +177,25 @@
     left: -100px;
     top: -60%;
     z-index: -1;
-    
+
 
 }
-.__anni_welove_client_img:hover{
+
+.__anni_welove_client_img:hover {
     filter: grayscale(0%);
 }
-.__anni_welove_client_img{
+
+.__anni_welove_client_img {
     filter: grayscale(100%);
-    transition: all .6s ease-out,;
+    transition: all .6s ease-out, ;
 }
-.__anni_welove_client_work{
-  margin-top: 2rem;
+
+.__anni_welove_client_work {
+    margin-top: 2rem;
 }
-.__anni_welove_client_work_descrip{
- 
+
+.__anni_welove_client_work_descrip {
+
     top: 0;
     width: 100%;
     z-index: 2;
@@ -190,14 +203,37 @@
     color: #fff;
     width: 100%;
 }
-.__anni__wholove_portfolio_client>div{
+
+.__anni__wholove_portfolio_client>div {
     margin-top: 8rem;
 }
+
 @media screen and (max-width: 768px) {
     .__wholove {
         height: 100%;
         padding: 2rem 1rem;
-        
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .__anni_wholove_bg_client_name {
+        font-size: 5rem;
+        left: -9px;
+        top: -56%;
+    }
+    
+    .__anni__wholove_portfolio_client div{
+        display: inline-flex;
+        flex-direction: row;
+        flex-flow: wrap;
+        margin-top: 0;
+    }
+    .__anni__wholove_portfolio_client div figure{
+        height: fit-content;
+    }
+    .__anni__wholove_portfolio_client div figure img{
+        width: 45vw;
     }
 }
 
@@ -206,7 +242,18 @@
     height: 100%;
     background: url(/assets/img/Frame1.png);
     padding: 5rem 8rem;
-    ;
+    width: 100vw;
+}
+
+@media screen and (max-width: 768px) {
+    .__appointment {
+        height: 100%;
+        padding: 2rem 1rem;
+        
+    }
+    .__welove_content img{
+        width: 85vw;
+    }
 }
 
 /* 05 FAQ */
@@ -223,6 +270,7 @@
     transition: color .2s ease-out, background-color .2s ease-out;
 }
 
+
 .__anni_plus-acc g rect {
     fill: #fff;
 
@@ -236,17 +284,22 @@
 
 .__FAQ {
     height: 100%;
-
     padding: 5rem 8rem;
+}
+
+@media screen and (max-width: 768px) {
+    .__FAQ {
+        height: 100%;
+        padding: 2rem 1rem;
+    }
+
 }
 
 .__anni_answer {
     font-family: 'Source Serif Pro';
-
 }
 
 .__anni_faq_btn {
-
     display: flex;
     justify-content: space-between;
     border-radius: 0;
@@ -332,11 +385,17 @@
     background: url('/assets/img/Frame1.png');
     padding: 5rem 8rem;
     padding-bottom: 8rem;
-    position: absolute;
 
+    width: 100vw;
 }
 
+@media screen and (max-width: 768px) {
+    .__contact {
+        height: 100%;
+        padding: 2rem 1rem;
 
+    }
+}
 
 /*form*/
 .__contact_form {
@@ -383,7 +442,7 @@
 
 .custom-underline,
 .custom-underline:hover {
-    
+
     border-bottom: dotted 2px #fff;
     /*text-decoration: underline;*/
 }
@@ -402,7 +461,7 @@
 }
 
 .__contact_form_submit:hover {
-    
+
     background-color: #000;
     border-color: #000;
 
@@ -430,33 +489,33 @@
 
 .normal-underline_invert,
 .custom-underline_invert {
-  position: relative;
-  display: inline-block;
-  line-height: 4rem;
-  
-  
-  text-align: center;
+    position: relative;
+    display: inline-block;
+    line-height: 4rem;
+
+
+    text-align: center;
 }
 
 .normal-underline_invert,
 .normal-underline_invert:hover {
-  color: #000;
-  text-decoration: underline;
+    color: #000;
+    text-decoration: underline;
 }
 
 .custom-underline_invert,
 .custom-underline_invert:hover,
 .custom-underline_invert:focus,
 .custom-underline_invert:active {
-  color: #000;
-  text-decoration: none;
-  
-  
+    color: #000;
+    text-decoration: none;
+
+
 }
 
 .custom-underline_invert::after {
-  content: "";
-  position: absolute;
+    content: "";
+    position: absolute;
 }
 
 
@@ -464,16 +523,16 @@
 
 /*--- Red Box (box-e) ---*/
 .box-e_invert .custom-underline_invert::after {
-  top: 65%;
-  height: 2px;
-  width: -0%;
-  left: 0%;
-  border-bottom: dotted 2px #000;
+    top: 65%;
+    height: 2px;
+    width: -0%;
+    left: 0%;
+    border-bottom: dotted 2px #000;
 
     transition: 0.5s ease all .3s;
 }
 
 .box-e_invert:hover .custom-underline_invert::after {
-  width: 100%;
+    width: 100%;
     transition: 0.3s ease all;
 }
