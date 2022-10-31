@@ -47,7 +47,15 @@
 .__welove {
     height: 25rem;
     padding: 5rem 8rem;
+    overflow: hidden;
 
+}
+@media screen and (max-width: 768px) {
+    .__welove {
+        height: 100vh;
+        padding: 2rem 1rem;
+        
+    }
 }
 
 
@@ -78,17 +86,30 @@
 
 .__anni_show_list_item:hover {
     font-weight: 700;
-
 }
 
 .__anni_show_list_item>span {
-
     z-index: 1;
     position: relative;
     z-index: -1;
     top: 75px;
     left: -20px;
 }
+@media screen and (max-width: 768px) {
+ 
+    .__anni_show_list_item p {
+    font-size: 3rem;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    .__showourlove {
+        height: 100%;
+        padding: 2rem 1rem;
+        
+    }
+}
+
 
 
 /*03 wholove*/
@@ -170,7 +191,13 @@
 .__anni__wholove_portfolio_client>div{
     margin-top: 8rem;
 }
-
+@media screen and (max-width: 768px) {
+    .__wholove {
+        height: 100%;
+        padding: 2rem 1rem;
+        
+    }
+}
 
 /* 04 appointment */
 .__appointment {
@@ -307,12 +334,7 @@
 
 }
 
-.__contact_nt_line {
-    background-color: #000;
-    height: 2px;
-    width: 34px;
-    display: inline-block;
-}
+
 
 /*form*/
 .__contact_form {

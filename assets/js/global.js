@@ -61,7 +61,6 @@ open_side_menu.addEventListener("mouseover", e => {
 
 
 
-const dropdown_element = document.getElementsByClassName
 const dropdowns = document.querySelectorAll(".dropdown");
 dropdowns.forEach((dropdown) => {
     dropdown.addEventListener("click", (e) => {
