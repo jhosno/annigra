@@ -81,7 +81,7 @@ const language_span = document.getElementById('__anni_languaje_span')
 const language_option = document.getElementById("__anni_languaje_content");
 language_option.addEventListener("click", function (e) {
     // console.log(e.target.id); // log clicked element 
-    console.log( e.target.id)
+    console.log(e.target.id)
     if (e.target.id != "__anni_languaje_content") {
         language_span.innerHTML = e.target.id
     }
