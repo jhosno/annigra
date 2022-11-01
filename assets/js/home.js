@@ -13,14 +13,14 @@ document.addEventListener("DOMContentLoaded", () => {
     if (currentHour <= 18 && currentHour > 12) {
         console.log('afternoon')
         greeting.innerHTML = 'good afternoon'
-        greeting_bg.style.background = "url('/assets/img/Afternoon.png') no-repeat center center"
+        greeting_bg.style.background = "url('/assets/img/Afternoon.jpg') no-repeat center center"
         greeting_bg.style.backgroundSize = "cover"
 
     }
     if (currentHour > 18 && currentHour <= 23) {
         console.log('evening')
         greeting.innerHTML = 'good evening'
-        greeting_bg.style.background = "url('/assets/img/Evening.jpg') no-repeat center center"
+        greeting_bg.style.background = "url('/assets/img/Evening.png') no-repeat center center"
         greeting_bg.style.backgroundSize = "cover"
 
 

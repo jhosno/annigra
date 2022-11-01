@@ -352,8 +352,9 @@
     background-position: center;
     background-size: cover;
     text-align: center;
-    -webkit-transition: all 1s cubic-bezier(0.79, 0.33, 0.14, 0.53);
-    transition: all 1s cubic-bezier(0.79, 0.33, 0.14, 0.53);
+    -webkit-transition: all .6s cubic-bezier(.77,0,.175,1);
+    -moz-transition: all .6s cubic-bezier(.77,0,.175,1);
+    transition: all .6s cubic-bezier(.77,0,.175,1);
 
     font-family: 'Source Serif Pro';
     color: #fff;
