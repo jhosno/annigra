@@ -56,10 +56,6 @@ let menu_icon3 = this.document.querySelector('.__anni_menu_opner_icon .st0:nth-c
 open_side_menu_mobile.addEventListener('click', () => {
     side_menu.style.display = "block";
     side_menu.style.visibility = "visible";
-    menu_icon[3].setAttributeNS = ('height', '23')
-    menu_icon[3].setAttribute = ('height', '23')
-    menu_icon3.setAttribute = ('height', '23')
-    menu_icon3.setAttributeNS = ('fill', 'red')
 
 });
 open_side_menu.addEventListener('click', () => {
@@ -68,14 +64,7 @@ open_side_menu.addEventListener('click', () => {
 });
 
 
-open_side_menu.addEventListener("mouseout", e => {
-    console.log("mouse over test!");
-    menu_icon[0].style.fill = "#FF0000";
-    menu_icon[0].style.height = "23";
 
-    menu_icon[3].setAttributeNS = ('height', '23')
-    menu_icon[3].setAttribute = ('height', '23')
-}, false);
 
 
 
