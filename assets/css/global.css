@@ -4,6 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     padding: 0;
+    
 }
 
 /*Loader*/
@@ -623,30 +624,24 @@
     visibility: hidden;
 }
 
-#__anni_-back-to-top {
+
+#__anni_back-to-top {
     position: fixed;
     width: 60px;
     height: 60px;
     right: 21px;
     bottom: 42px;
-    z-index: 10000;
+    z-index: 1000;
     visibility: hidden;
     -webkit-clip-path: inset(0 0 100% 0);
     clip-path: inset(0 0 100% 0);
     overflow: hidden;
 }
-
-#__anni_-back-to-top {
-    position: fixed;
-    width: 60px;
-    height: 60px;
-    right: 21px;
-    bottom: 42px;
-    z-index: 10000;
-    visibility: hidden;
-    -webkit-clip-path: inset(0 0 100% 0);
-    clip-path: inset(0 0 100% 0);
-    overflow: hidden;
+@media screen {
+    #__anni_back-to-top {
+        right: 31%;
+    }
+    
 }
 
 #__anni_-back-to-top>span {
@@ -852,4 +847,40 @@
     -webkit-transition: border-radius 1s cubic-bezier(.07, .98, 0, .96);
     -moz-transition: border-radius 1s cubic-bezier(.07, .98, 0, .96);
     transition: border-radius 1s cubic-bezier(.07, .98, 0, .96);
+}
+
+@media screen and (min-width: 1366px) {
+    .___section_number_container{
+        position: relative;
+    }
+    .___section_number_frame{
+        position: absolute;
+        z-index: -0;
+
+    }
+    .__welove_content{
+        z-index: 2;
+        position: relative;
+    }
+    .___section_number{
+        position: absolute;
+        right: 10%;
+        z-index: -1;
+    }
+    
+}
+
+.__anni_wholove_client_on_right_name {
+    right: -13% !important;
+    line-height: 1;
+    font-weight: 400;
+    font-size: 15rem;
+    color: #D9D9D9;
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+    top: -60%;
+    z-index: -1;
+    overflow: hidden;
+    width: fit-content;
 }

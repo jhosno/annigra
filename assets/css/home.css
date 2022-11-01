@@ -114,7 +114,10 @@
 @media screen and (max-width: 768px) {
     .__showourlove {
         height: 100%;
-        padding: 2rem 1rem;
+        padding: 4rem 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
 
     }
 }
@@ -167,7 +170,6 @@
 
 .__anni_wholove_bg_client_name {
     line-height: 1;
-
     font-weight: 400;
     font-size: 15rem;
     color: #D9D9D9;
@@ -179,6 +181,13 @@
     z-index: -1;
 
 
+}
+
+
+@media screen and (max-width: 992px) {
+    .__anni_wholove_client_on_right_img{
+        order: -1;
+    }
 }
 
 .__anni_welove_client_img:hover {
@@ -216,23 +225,56 @@
     }
 }
 
+@media screen and (min-width: 1365px) {
+    .__anni_wholove_bg_client_name {
+        font-size: 12rem;
+        top: -58%;
+        right: -12px;
+    }
+}
+
+@media screen and (max-width: 1365px) {
+    .__anni_wholove_bg_client_name {
+        font-size: 5rem;
+        top: -104%;
+        right: 0;
+    }
+
+    .__anni__wholove_portfolio_client div {
+        display: inline-flex;
+        flex-direction: row;
+        flex-flow: wrap;
+        margin-top: 0;
+    }
+
+    .__anni__wholove_portfolio_client div figure {
+        height: fit-content;
+    }
+
+    .__anni__wholove_portfolio_client div figure img {
+        width: 35vw;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .__anni_wholove_bg_client_name {
         font-size: 5rem;
         left: -9px;
         top: -56%;
     }
-    
-    .__anni__wholove_portfolio_client div{
+
+    .__anni__wholove_portfolio_client div {
         display: inline-flex;
         flex-direction: row;
         flex-flow: wrap;
         margin-top: 0;
     }
-    .__anni__wholove_portfolio_client div figure{
+
+    .__anni__wholove_portfolio_client div figure {
         height: fit-content;
     }
-    .__anni__wholove_portfolio_client div figure img{
+
+    .__anni__wholove_portfolio_client div figure img {
         width: 45vw;
     }
 }
@@ -249,9 +291,10 @@
     .__appointment {
         height: 100%;
         padding: 2rem 1rem;
-        
+
     }
-    .__welove_content img{
+
+    .__welove_content img {
         width: 85vw;
     }
 }
