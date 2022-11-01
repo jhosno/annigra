@@ -44,3 +44,47 @@ function validateForm(e) {
     console.log(contact_name)
     return false;
 }
+/* 
+const collapseElementBtns = document.querySelectorAll('.__anni_faq_btn')
+const collapseElementList = document.querySelectorAll('.collapse')
+
+collapseElementBtns.forEach((element, index) => {
+
+    collapseElementBtns[index].addEventListener('click', () => {
+
+        if (collapseElementList[index].classList.contains("collapsing")) {
+       console.log('test')
+       collapseElementList[index].classList.add("collapse");
+       collapseElementList[index].classList.remove("collapsing");
+       collapseElementList[index].classList.remove("show");
+        }
+    })
+}) */
+
+function validateForm() {
+    let cname = document.forms["contact_form"]["cname"].value;
+    let cemail = document.forms["contact_form"]["cemail"].value;
+    let cdescrip = document.forms["contact_form"]["cdescrip"].value;
+    let ctel = document.forms["contact_form"]["ctel"].value;
+    values =  [
+        cname,
+        cemail,
+        cdescrip,
+        ctel
+    ].every(isEmpty)
+
+  }
+  function isEmpty(input){
+    if (input.trim() === "") {
+        alert("must be input something");
+        input.focus();
+        return false;
+  }
+}
+function isEmail(input){
+    if (input.trim() === "") {
+        alert("must be input something");
+        input.focus();
+        return false;
+  }
+}

@@ -657,8 +657,9 @@
                                         </g>
                                     </svg>
                                 </span>
+                                 <!--   
                                 <span class="mkdf-acc-close"></span>
-                                <!--              <span>
+                                            <span>
                                     <svg width="13" height="8" viewBox="0 0 13 8" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -904,24 +905,24 @@
 
             </div>
             <div class="col __contact_form">
-                <form class="row g-3" class="was-validated" id="contact_form" onsubmit=" validateForm()">
+                <form class="row g-3" class="was-validated" id="contact_form" name="contact_form" onsubmit="return validateForm()">
                     <div class="col-12">
                         <input type="text" class="form-control __contact_form_input" id="__contact_form_name"
-                            placeholder="Name" name="name">
+                            placeholder="Name" name="cname">
                         <div class="invalid-feedback">Please fill out this field.</div>
                     </div>
                     <div class="col-12">
                         <input type="text" class="form-control __contact_form_input" id="__contact_form_tlf"
-                            placeholder="Telephone" name="tel">
+                            placeholder="Telephone" name="ctel">
                     </div>
                     <div class="col-12">
                         <input type="text" class="form-control __contact_form_input" id="__contact_form_email"
-                            placeholder="Email" name="email">
+                            placeholder="Email" name="cemail">
                     </div>
 
                     <div class="col-12">
                         <textarea class="form-control __contact_form_textarea" id="__contact_form_description" rows="3"
-                            placeholder="Description" name="descrip"></textarea>
+                            placeholder="Description" name="cdescrip"></textarea>
                     </div>
                     <div class="col-12">
                         <button type="submit" class="btn btn-dark __contact_form_submit box_e" id="contact_submit">
