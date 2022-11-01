@@ -6,19 +6,25 @@ document.addEventListener("DOMContentLoaded", () => {
     if (currentHour <= 12) {
         console.log('morning')
         greeting.innerHTML = 'good morning'
-        greeting_bg.style.background = "url('/assets/img/day.jpg')"
+        greeting_bg.style.background = "url('/assets/img/Morning.jpg') no-repeat center center"
+        greeting_bg.style.backgroundSize = "cover"
 
     }
     if (currentHour <= 18 && currentHour > 12) {
         console.log('afternoon')
         greeting.innerHTML = 'good afternoon'
-        greeting_bg.style.background = "url('/assets/img/Evening.png')"
+        greeting_bg.style.background = "url('/assets/img/Afternoon.png') no-repeat center center"
+        greeting_bg.style.backgroundSize = "cover"
 
     }
     if (currentHour > 18 && currentHour <= 23) {
         console.log('evening')
         greeting.innerHTML = 'good evening'
-        greeting_bg.style.background = "url('/assets/img/night.jpg')"
+        greeting_bg.style.background = "url('/assets/img/Evening.jpg') no-repeat center center"
+        greeting_bg.style.backgroundSize = "cover"
+        
+
+
 
     }
 
