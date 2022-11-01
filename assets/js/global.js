@@ -39,6 +39,7 @@ let contact_email = this.document.getElementById('__contact_form_email')
 
 //menu function 
 let open_side_menu = this.document.getElementById('__anni_menu_opener');
+let open_side_menu_mobile = this.document.getElementById('__anni_menu_opener_mobile');
 let close_side_menu = this.document.getElementById('__anni_close_side_menu');
 let side_menu = this.document.getElementById('__anni_side_menu_area');
 let menu_icon_has_hover = this.document.getElementsByClassName('__anni_icon_has_hover');
@@ -48,8 +49,13 @@ close_side_menu.addEventListener('click', () => {
     side_menu.style.visibility = "hidden";
 });
 
+
+open_side_menu_mobile.addEventListener('click', () => {
+    side_menu.style.display = "block";
+    side_menu.style.visibility = "visible";
+
+});
 open_side_menu.addEventListener('click', () => {
-    console.log('wtf')
     side_menu.style.display = "block";
     side_menu.style.visibility = "visible";
 });
@@ -75,6 +81,7 @@ const language_span = document.getElementById('__anni_languaje_span')
 const language_option = document.getElementById("__anni_languaje_content");
 language_option.addEventListener("click", function (e) {
     // console.log(e.target.id); // log clicked element 
+    console.log( e.target.id)
     if (e.target.id != "__anni_languaje_content") {
         language_span.innerHTML = e.target.id
     }

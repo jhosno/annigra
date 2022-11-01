@@ -152,7 +152,7 @@
 
 }
 
-@media screen and (min-width: 810px) {
+@media screen and (min-width: 811px) {
     #__anni_navbar_mobile {
         display: none;
     }
@@ -405,6 +405,30 @@
 .__anni_custom_font_holder {
     font-weight: 500;
     font-size: 4rem;
+}
+@media screen and (max-width: 811px) {
+    #__anni_side_menu_area{
+        width: 95vw;
+        margin: 1vh 7vw;
+    }
+    
+}
+@media screen and (max-width: 361px) {
+    #__anni_side_menu_area{
+        width: 85vw;
+        margin: 0rem;
+    }
+    .__anni_custom_font_holder {
+        font-weight: 500;
+        font-size:3rem;
+      }
+      .__anni_brand_menu img{
+        width: 7rem;
+    }
+    .__anni_close_side_menu{
+        
+        width: 4rem;
+      }
 }
 
 /*********************navbar*************************/
