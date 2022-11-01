@@ -1037,3 +1037,19 @@ body[class*="opened"] ._anni_menu_svg_path .mkdf-fullscreen-menu-opener-icon rec
     fill: red;
     height: 23;
 }
+
+.invalid{
+    border-color: #dc3545;
+}
+.invalid_msg {
+    color: #dc3545;
+    font-weight: 600;
+    font-family: "Source Serif Pro", serif;
+    font-size: 1rem;
+    padding-left: 1rem;
+
+}
+div[target^="invalid-feedback-"]{
+    display: none;
+}
+#submit-alert{ display: none;        }
