@@ -60,9 +60,14 @@ open_side_menu.addEventListener('click', () => {
     side_menu.style.visibility = "visible";
 });
 
-open_side_menu.addEventListener("mouseover", e => {
-    console.log("mouse over test!");
+let menu_icon = this.document.getElementsByClassName
+('st0')
 
+open_side_menu.addEventListener("mouseout", e => {
+    console.log("mouse over test!");
+    menu_icon[0].style.fill = "#FF0000";
+    
+    menu_icon[3].setAttribute = ('fill', 'red')
 }, false);
 
 

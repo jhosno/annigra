@@ -591,6 +591,15 @@
     transform: scale(1.6);
 }
 
+._anni_menu_svg_path:hover>.__anni_menu_opner_icon .st0:nth-child(3) {
+    animation: grow .5s forwards;
+}
+@keyframes grow
+{
+  100%{
+    height:23;
+  }
+}
 
 /*btns */
 ._anni_btn_outline:hover {
