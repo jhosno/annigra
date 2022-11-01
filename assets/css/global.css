@@ -4,7 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     padding: 0;
-    
+
 }
 
 /*Loader*/
@@ -293,9 +293,6 @@
         font-size: 1rem;
     }
 
-    .___section_number {
-        font-size: 8rem;
-    }
 
     .___section_p {
         font-size: 2rem;
@@ -307,8 +304,14 @@
     }
 
     .__welove {
-        height: 100vh;
+        height: 49vh;
         padding: 2rem 1rem;
+    }
+
+    .___section_number {
+        position: relative;
+        top: -108%;
+        z-index: -2;
     }
 }
 
@@ -326,7 +329,7 @@
     transition: all 1s cubic-bezier(0.79, 0.33, 0.14, 0.53);
 }
 
-.__anni_side_menu_area_display {}
+
 
 #__anni_side_menu_area {
 
@@ -637,11 +640,12 @@
     clip-path: inset(0 0 100% 0);
     overflow: hidden;
 }
+
 @media screen {
     #__anni_back-to-top {
         right: 31%;
     }
-    
+
 }
 
 #__anni_-back-to-top>span {
@@ -849,25 +853,32 @@
     transition: border-radius 1s cubic-bezier(.07, .98, 0, .96);
 }
 
+
+@media screen and (max-width: 512px) {
+
+}
 @media screen and (min-width: 1366px) {
-    .___section_number_container{
+    .___section_number_container {
         position: relative;
     }
-    .___section_number_frame{
+
+    .___section_number_frame {
         position: absolute;
         z-index: -0;
 
     }
-    .__welove_content{
+
+    .__welove_content {
         z-index: 2;
         position: relative;
     }
-    .___section_number{
+
+    .___section_number {
         position: absolute;
         right: 10%;
         z-index: -1;
     }
-    
+
 }
 
 .__anni_wholove_client_on_right_name {

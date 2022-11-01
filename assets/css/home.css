@@ -58,7 +58,7 @@
 
 @media screen and (max-width: 768px) {
     .__welove {
-        height: 100vh;
+        height: 40vh;
         padding: 2rem 1rem;
 
     }
@@ -184,12 +184,6 @@
 }
 
 
-@media screen and (max-width: 992px) {
-    .__anni_wholove_client_on_right_img{
-        order: -1;
-    }
-}
-
 .__anni_welove_client_img:hover {
     filter: grayscale(0%);
 }
@@ -217,21 +211,7 @@
     margin-top: 8rem;
 }
 
-@media screen and (max-width: 768px) {
-    .__wholove {
-        height: 100%;
-        padding: 2rem 1rem;
 
-    }
-}
-
-@media screen and (min-width: 1365px) {
-    .__anni_wholove_bg_client_name {
-        font-size: 12rem;
-        top: -58%;
-        right: -12px;
-    }
-}
 
 @media screen and (max-width: 1365px) {
     .__anni_wholove_bg_client_name {
@@ -256,18 +236,35 @@
     }
 }
 
+@media screen and (min-width: 1365px) {
+    .__anni_wholove_client_on_right_name {
+        font-size: 12rem;
+        top: -58%;
+    }
+    .__anni_wholove_bg_client_name {
+        font-size: 12rem;
+        top: -58%;
+        right: -12px;
+    }
+}
 @media screen and (max-width: 768px) {
     .__anni_wholove_bg_client_name {
         font-size: 5rem;
         left: -9px;
         top: -56%;
     }
+    .__anni_wholove_client_on_right_name {
+        top: -70%;
 
+        font-size: 5rem;
+        
+    }
     .__anni__wholove_portfolio_client div {
         display: inline-flex;
         flex-direction: row;
         flex-flow: wrap;
         margin-top: 0;
+        height: min-content;
     }
 
     .__anni__wholove_portfolio_client div figure {
@@ -278,7 +275,36 @@
         width: 45vw;
     }
 }
+@media screen and (max-width: 992px) {
+    .__anni_wholove_client_on_right_img{
+        order: -1;
+    }
+}
 
+@media screen and (max-width: 768px) {
+    .__wholove {
+        height: 100%;
+        padding: 2rem 1rem;
+        
+    }
+    .__anni__wholove_portfolio_client div figure img {
+        width: 45vw;
+    }
+}
+
+@media screen and (max-width: 512px) {
+    .__anni_welove_client_img img {
+        width: 80vw;
+    }
+    .__anni_wholove_client_on_right_name {
+
+    }
+    .__anni_wholove_bg_client_name {
+        font-size: 5rem;
+        left: -9px;
+        top: -70%}
+
+}
 /* 04 appointment */
 .__appointment {
     height: 100%;
