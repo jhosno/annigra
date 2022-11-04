@@ -171,7 +171,7 @@
     overflow: visible;
     padding: 0;
     margin: 0;
-    height: 100vh;
+    height: 55vh;
     display: flex;
     position: block;
 }
@@ -222,7 +222,7 @@
 }
 
 .__anni__wholove_portfolio_client>div {
-    margin-top: 8rem;
+    /*margin-top: 8rem;*/
 }
 
 
@@ -255,18 +255,30 @@
     .__anni__wholove_portfolio_client div figure img {
         width: 35vw;
     }
+    .__anni__wholove_portfolio_client div {
+        height: 15vh;
+        margin-top: 3rem;
+    
+    }
 }
 
+
+
 @media screen and (min-width: 1365px) {
+    .__anni__wholove_portfolio_client div {
+        height: 26vh;
+    }
     .__anni__wholove_portfolio_client {
-        height: auto;
+        
     }
 
     .__anni_wholove_client h3 {
 
         font-size: 1.8rem;
     }
-
+.__anni_wholove_client_text{
+    margin-bottom: 3rem;
+}
     .__anni_wholove_client p {
         font-size: 1.5rem;
     }
@@ -278,12 +290,12 @@
 
     .__anni_wholove_client_on_right_name {
         font-size: 18rem;
-        top: -58%;
+        top: -82%;
     }
 
     .__anni_wholove_bg_client_name {
         font-size: 18rem;
-        top: -58%;
+        top: -80%;
         right: -12px;
     }
 }
