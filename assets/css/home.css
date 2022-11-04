@@ -53,7 +53,7 @@
     height: 25rem;
     padding: 5rem 8rem;
     overflow: hidden;
-
+    width: 100%;
 }
 
 @media screen and (max-width: 768px) {
@@ -70,7 +70,7 @@
     background: url('/assets/img/Frame1.png');
     height: 100%;
     padding: 5rem 8rem;
-    width: 100vw;
+    width: 100%;
 
 }
 
@@ -187,11 +187,13 @@
 
 .__anni_welove_client_img:hover {
     filter: grayscale(0%);
+    
+
 }
 
 .__anni_welove_client_img {
     filter: grayscale(100%);
-    transition: all .6s ease-out, ;
+    transition:  1s ease-out ;
 }
 
 .__anni_welove_client_work {
@@ -201,7 +203,6 @@
 .__anni_welove_client_work_descrip {
 
     top: 0;
-    width: 100%;
     z-index: 2;
     background: #000;
     color: #fff;
@@ -325,7 +326,7 @@
     height: 100%;
     background: url(/assets/img/Frame1.png);
     padding: 5rem 8rem;
-    width: 100vw;
+    width: 100%;
 }
 
 @media screen and (max-width: 768px) {
@@ -469,8 +470,7 @@
     background: url('/assets/img/Frame1.png');
     padding: 5rem 8rem;
     padding-bottom: 8rem;
-
-    width: 100vw;
+    width: 100%;
 }
 
 @media screen and (max-width: 768px) {
@@ -521,6 +521,7 @@
     position: relative;
     display: inline-block;
     line-height: 4rem;
+    
 
 }
 

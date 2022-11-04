@@ -4,6 +4,8 @@
     margin: 0;
     box-sizing: border-box;
     padding: 0;
+    scrollbar-width: thin;
+    scrollbar-color: #000000 #c1c1c1;
 
 }
 
@@ -83,16 +85,16 @@
 }
 
 /*scrollbar*/
-::-webkit-scrollbar {
+html::-webkit-scrollbar {
     width: 10px;
     background-color: #c1c1c1;
 }
 
-::-webkit-scrollbar-thumb {
+html::-webkit-scrollbar-thumb {
     background-color: #000;
 }
 
-::-webkit-scrollbar-track {
+html::-webkit-scrollbar-track {
     border: none;
     background-color: #c1c1c1;
 }
@@ -140,10 +142,22 @@
 
 .__anni_right_mobile_menu {}
 
+
 .__anni_brand_menu_mobile img {
     width: 5rem;
+    height: fit-content;
+    margin-left: .5rem;
 }
 
+.__anni_brand_menu_mobile_container {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.__anni_brand_menu_mobile_container img:first-child {
+    width: 1.8rem;
+}
 @media screen and (max-width: 810px) {
     #__anni_navbar_mobile {
         display: block;
@@ -352,9 +366,9 @@
     background-position: center;
     background-size: cover;
     text-align: center;
-    -webkit-transition: all .6s cubic-bezier(.77,0,.175,1);
-    -moz-transition: all .6s cubic-bezier(.77,0,.175,1);
-    transition: all .6s cubic-bezier(.77,0,.175,1);
+    -webkit-transition: all .6s cubic-bezier(.77, 0, .175, 1);
+    -moz-transition: all .6s cubic-bezier(.77, 0, .175, 1);
+    transition: all .6s cubic-bezier(.77, 0, .175, 1);
 
     font-family: 'Source Serif Pro';
     color: #fff;
@@ -389,6 +403,7 @@
 .__anni_custom_menu_font a {
     text-decoration: none;
     color: #fff;
+    font-family: 'Montserrat';
     opacity: .3;
     -webkit-transition: opacity .2s ease-in-out;
     -moz-transition: opacity .2s ease-in-out;
@@ -456,7 +471,7 @@
 
 .__anni_brand_menu {
     background: #fff;
-    padding-left: .5rem;
+
 }
 
 .__anni_navbar_container {
@@ -686,19 +701,19 @@ body[class*="opened"] ._anni_menu_svg_path .mkdf-fullscreen-menu-opener-icon rec
 }
 
 /*btns */
-._anni_btn_outline:hover {
+.__anni_btn_outline:hover {
 
     border: solid 2px #000;
 }
 
 /*btns */
-._anni_btn_outline {
+.__anni_btn_outline {
     text-transform: uppercase;
     font-family: 'Montserrat';
     font-weight: 600;
     border-radius: 0;
     border: solid 2px #000;
-
+    font-size: 1.5rem;
 }
 
 
@@ -706,7 +721,7 @@ body[class*="opened"] ._anni_menu_svg_path .mkdf-fullscreen-menu-opener-icon rec
 .__anni_language_dropdown {
     position: relative;
     display: inline-block;
-    font-family: 'Source Serif Pro';
+    font-family: 'Montserrat';
     color: #000;
     margin-right: 2rem;
     font-weight: 400;
@@ -1038,9 +1053,10 @@ body[class*="opened"] ._anni_menu_svg_path .mkdf-fullscreen-menu-opener-icon rec
     height: 23;
 }
 
-.invalid{
+.invalid {
     border-color: #dc3545;
 }
+
 .invalid_msg {
     color: #dc3545;
     font-weight: 600;
@@ -1049,7 +1065,11 @@ body[class*="opened"] ._anni_menu_svg_path .mkdf-fullscreen-menu-opener-icon rec
     padding-left: 1rem;
 
 }
-div[target^="invalid-feedback-"]{
+
+div[target^="invalid-feedback-"] {
     display: none;
 }
-#submit-alert{ display: none;        }
+
+#submit-alert {
+    display: none;
+}

@@ -53,8 +53,9 @@
             <!-- navbar TAB-->
             <nav id="__anni_navbar_mobile">
                 <div class="__anni_brand_menu_mobile">
-                    <a href="#">
-                        <img src="https://splendorous-marshmallow-b4c96b.netlify.app/assets/img/logo-01.png" alt="Brand">
+                    <a href="#" class="__anni_brand_menu_mobile_container">
+                        <img src="https://splendorous-marshmallow-b4c96b.netlify.app/assets/img/logo-01.png"
+                            alt="Brand">
                         <img src="https://splendorous-marshmallow-b4c96b.netlify.app/assets/img/logo.png" alt="Brand">
                     </a>
                     <div class="__anni_right_mobile_menu">
@@ -188,6 +189,8 @@
                         <div class="__anni_navbar_left">
                             <div class="__anni_brand_menu">
                                 <a href="#">
+                                    <img src="https://splendorous-marshmallow-b4c96b.netlify.app/assets/img/logo-01.png"
+                                        alt="Brand">
                                     <img src="https://splendorous-marshmallow-b4c96b.netlify.app/assets/img/logo.png"
                                         alt="Brand">
                                 </a>
@@ -255,13 +258,13 @@
 
                 <div class="__anni_custom_menu_font">
                     <a href="#">
-                        <h2 class="__anni_custom_font_holder">VideoGraphy</h2>
+                        <h2 class="__anni_custom_font_holder">Home</h2>
                     </a>
                 </div>
 
                 <div class="__anni_custom_menu_font">
                     <a href="#">
-                        <h2 class="__anni_custom_font_holder">Logo Design</h2>
+                        <h2 class="__anni_custom_font_holder">Branding</h2>
                     </a>
                 </div>
                 <div class="__anni_custom_menu_font">
@@ -271,14 +274,26 @@
                 </div>
                 <div class="__anni_custom_menu_font">
                     <a href="#">
-                        <h2 class="__anni_custom_font_holder">Web design</h2>
+                        <h2 class="__anni_custom_font_holder">Logo Design</h2>
                     </a>
                 </div>
                 <div class="__anni_custom_menu_font">
                     <a href="#">
-                        <h2 class="__anni_custom_font_holder">About us </h2>
+                        <h2 class="__anni_custom_font_holder">Photography</h2>
                     </a>
                 </div>
+                <div class="__anni_custom_menu_font">
+                    <a href="#">
+                        <h2 class="__anni_custom_font_holder">Videography
+                        </h2>
+                    </a>
+                </div>
+                <div class="__anni_custom_menu_font">
+                    <a href="#">
+                        <h2 class="__anni_custom_font_holder">Website</h2>
+                    </a>
+                </div>
+
             </section>
             <!-- Navbar copy end-->
             <!-- Navbar -->
@@ -879,7 +894,7 @@
                     </div>
 
                     <a href="#"
-                        class="btn  _anni_btn_outline _anni_more_fag justify-content-end offset-md-9 box-e_invert">
+                        class="btn btn-outline-dark __anni_btn_outline _anni_more_fag justify-content-end offset-md-9 box-e_invert">
                         <span class="custom-underline_invert">
                             more
                             faqs
@@ -913,7 +928,7 @@
             </div>
             <div class="col __contact_form">
                 <form class="row g-3" class="was-validated" id="contact_form" name="contact_form"
-                    onsubmit="return validateForm(event)">
+                    onsubmit=" validateForm(event)">
                     <div class="col-12">
                         <input type="text" class="form-control __contact_form_input" id="__contact_form_name"
                             placeholder="Name" name="cname" maxlength="14">
@@ -932,24 +947,21 @@
                         <div class="invalid_msg invalid-feedback invalid-feedback-cemail">The valid format is
                             myaddress@email.com</div>
                     </div>
-
                     <div class="col-12">
                         <textarea class="form-control __contact_form_textarea" id="__contact_form_description" rows="3"
                             placeholder="Description" name="cdescrip"></textarea>
                         <div class="invalid_msg invalid-feedback invalid-feedback-cdescrip">Please fill out this field.
                         </div>
                     </div>
+
                     <div class="col-12">
                         <div id="liveAlertPlaceholder">
                             <div class="alert alert-success  fade  show" role="alert" id="submit-alert">
                                 <div>
                                     Thank you, we will contact you soon!
                                 </div>
-
                             </div>
-
                         </div>
-
 
                         <button type="submit" class="btn btn-dark __contact_form_submit box_e" id="contact_submit">
                             <span class="__contact_form_submit_content custom_underline">
