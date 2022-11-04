@@ -707,7 +707,7 @@ body[class*="opened"] ._anni_menu_svg_path .mkdf-fullscreen-menu-opener-icon rec
     position: relative;
     display: inline-block;
     font-family: 'Source Serif Pro';
-    color: #fff;
+    color: #000;
     margin-right: 2rem;
     font-weight: 400;
     text-transform: capitalize;
