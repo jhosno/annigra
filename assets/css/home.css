@@ -56,6 +56,14 @@
     width: 100%;
 }
 
+@media screen and (min-width: 1600px) {
+
+    .__welove {
+        height: 50vh;
+        padding: 5rem 10rem;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .__welove {
         height: 40vh;
@@ -69,7 +77,7 @@
 .__showourlove {
     background: url('/assets/img/Frame1.png');
     height: 100%;
-    padding: 5rem 8rem;
+    padding: 5rem 10rem;
     width: 100%;
 
 }
@@ -128,7 +136,7 @@
 .__wholove {
     height: 100%;
     padding: 5rem;
-    padding: 5rem 8rem;
+    padding: 5rem 10rem;
     overflow: hidden;
 
 }
@@ -187,13 +195,17 @@
 
 .__anni_welove_client_img:hover {
     filter: grayscale(0%);
-    
+
 
 }
 
 .__anni_welove_client_img {
     filter: grayscale(100%);
-    transition:  1s ease-out ;
+    transition: 1s ease-out;
+}
+
+.__anni_welove_client_work img {
+    width: 18rem;
 }
 
 .__anni_welove_client_work {
@@ -216,6 +228,7 @@
 
 
 @media screen and (max-width: 1365px) {
+
     .__anni_wholove_bg_client_name {
         font-size: 6rem;
         top: -104%;
@@ -245,13 +258,31 @@
 }
 
 @media screen and (min-width: 1365px) {
+    .__anni__wholove_portfolio_client {
+        height: auto;
+    }
+
+    .__anni_wholove_client h3 {
+
+        font-size: 1.8rem;
+    }
+
+    .__anni_wholove_client p {
+        font-size: 1.5rem;
+    }
+
+    .__anni_wholove_client h2 {
+        font-weight: 600;
+        font-size: 2.2rem;
+    }
+
     .__anni_wholove_client_on_right_name {
-        font-size: 12rem;
+        font-size: 18rem;
         top: -58%;
     }
 
     .__anni_wholove_bg_client_name {
-        font-size: 12rem;
+        font-size: 18rem;
         top: -58%;
         right: -12px;
     }
@@ -325,9 +356,10 @@
 .__appointment {
     height: 100%;
     background: url(/assets/img/Frame1.png);
-    padding: 5rem 8rem;
+    padding: 5rem 10rem;
     width: 100%;
 }
+
 
 @media screen and (max-width: 768px) {
     .__appointment {
@@ -369,7 +401,7 @@
 
 .__FAQ {
     height: 100%;
-    padding: 5rem 8rem;
+    padding: 5rem 10rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -439,19 +471,22 @@
         transform: rotate(180deg);
     }
 }
-.__anni-acc-open svg g  rect{
+
+.__anni-acc-open svg g rect {
     fill: #fff;
 }
-.__anni-acc-open{
 
-        display: block;
-        height: 25px;
-        width: 25px;
-        -webkit-transition: -webkit-transform .6s cubic-bezier(.07,.98,0,.96);
-        -moz-transition: -moz-transform .6s cubic-bezier(.07,.98,0,.96);
-        transition: transform .6s cubic-bezier(.07,.98,0,.96);
-      
+.__anni-acc-open {
+
+    display: block;
+    height: 25px;
+    width: 25px;
+    -webkit-transition: -webkit-transform .6s cubic-bezier(.07, .98, 0, .96);
+    -moz-transition: -moz-transform .6s cubic-bezier(.07, .98, 0, .96);
+    transition: transform .6s cubic-bezier(.07, .98, 0, .96);
+
 }
+
 .mkdf-acc-close {
     background: #fff;
     border-radius: 50%;
@@ -462,15 +497,32 @@
     position: absolute;
     top: calc(50% - 3px);
     width: 6px;
-  }
+}
+
+@media screen and (min-width: 1600px) {
+    .__anni_faq_btn {
+        font-size: 1.8rem;
+    }
+
+    .__anni_answer .card-body {
+        font-size: 1.5em;
+    }
+}
 
 /*06 contact*/
 .__contact {
     height: 100%;
     background: url('/assets/img/Frame1.png');
-    padding: 5rem 8rem;
+    padding: 5rem 10rem;
     padding-bottom: 8rem;
     width: 100%;
+}
+
+@media screen and (min-width: 1300px) {
+    .form-control {
+        font-size: 1.5rem;
+        ;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -521,7 +573,7 @@
     position: relative;
     display: inline-block;
     line-height: 4rem;
-    
+
 
 }
 
