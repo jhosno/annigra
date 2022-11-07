@@ -44,23 +44,23 @@ function validateForm(e) {
     
     return false;
 }
-/* 
-const collapseElementBtns = document.querySelectorAll('.__anni_faq_btn')
-const collapseElementList = document.querySelectorAll('.collapse')
 
-collapseElementBtns.forEach((element, index) => {
+let coll = document.getElementsByClassName("collapsible");
+let count;
 
-    collapseElementBtns[index].addEventListener('click', () => {
-
-        if (collapseElementList[index].classList.contains("collapsing")) {
-       console.log('test')
-       collapseElementList[index].classList.add("collapse");
-       collapseElementList[index].classList.remove("collapsing");
-       collapseElementList[index].classList.remove("show");
-        }
-    })
-}) */
-  // Instantiate all toasts in a docs page only
+for (count = 0; count < coll.length; count++) {
+  coll[count].addEventListener("click", function() {
+      
+    this.classList.toggle("active");
+    let content = this.nextElementSibling;
+    
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
 
 
 function validateForm(e) {
