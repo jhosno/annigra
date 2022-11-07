@@ -2,7 +2,7 @@
 AOS.init();
 //loader
 window.addEventListener('load', () => {
-    this.document.getElementById('loader').classList.toggle('loader-out')   
+    this.document.getElementById('loader').classList.toggle('loader-out')
 })
 
 //back to up btn
@@ -79,30 +79,50 @@ dropdowns.forEach((dropdown) => {
 });
 
 const language_obj = document.getElementsByClassName('__anni_lenguage_dropdown_option')
-const language_span = document.getElementById('__anni_languaje_span')
+var language_span = document.getElementById('__anni_languaje_span')
+var language_span_mobile = document.getElementById('__anni_languaje_span_mobile')
 const language_option = document.getElementById("__anni_languaje_content");
 /////asdasd
 
 let i;
 
 for (i = 0; i < language_obj.length; i++) {
-    language_obj[i].addEventListener("click", function() {
-      
-    console.log('asdsdsad')
-    console.log(language_obj)
-    language_obj.addEventListener("click", function (e) {
-        console.log('asdasd')
-    })
-  });
+    language_obj[i].addEventListener("click", function (e) {
+
+        
+        switch (e.target.id) {
+            case 'spanish':
+                language_span.innerHTML = 'english'
+                language_span_mobile.innerHTML = 'english'
+                // code block
+                break;
+                case 'english':
+                    language_span.innerHTML = 'spanish'
+                    language_span_mobile.innerHTML = 'spanish'
+                    // code block
+                    break;
+                    case 'chinese':
+                        language_span.innerHTML = 'english'
+                        language_span_mobile.innerHTML = 'english'
+                // code block
+
+                break;
+            default:
+                language_span.textContent = 'spanish'
+                language_span_mobile.textContent = 'spanish'
+
+                // code block
+        }
+
+    });
 }
-////
-language_option.addEventListener("click", function (e) {
+//
+/* language_option.addEventListener("click", function (e) {
     // console.log(e.target.id); // log clicked element 
     console.log(e.target.id)
     if (e.target.id != "__anni_languaje_content") {
+
         language_span.innerHTML = e.target.id
     }
 
-});
-
-
+}); */
