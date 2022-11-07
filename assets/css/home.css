@@ -79,7 +79,11 @@
     height: 100%;
     padding: 8.375rem 12.5rem;
     width: 100%;
-
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: left 0em, imo !important;
 }
 
 .__anni_show_list_item {
@@ -138,14 +142,14 @@
     padding: 5rem;
     padding: 8.375rem 12.5rem;
     overflow: hidden;
-    
+
 }
 
-.__wholove div:first-child{
-    margin-bottom: 4.25rem!important;
-}
+
+
 .__anni_wholove_client {
     font-family: 'Source Serif Pro';
+    margin-top: 7rem;
 
 }
 
@@ -168,14 +172,24 @@
     font-size: 1.625rem;
 }
 
-.__anni__wholove_portfolio_client  div {
-
+.__anni__wholove_portfolio_client div {
     display: flex;
     justify-content: space-between;
     align-content: center;
     flex-direction: row;
+    width: 7rem;
 
 }
+
+.__anni__wholove_portfolio_client div a {
+    margin-left: 3.875rem;
+}
+
+.__anni__wholove_portfolio_client div a:first-child {
+    margin-left: 0;
+
+}
+
 
 .__anni_wholove_client_text {
     display: flex;
@@ -186,7 +200,7 @@
     overflow: visible;
     padding: 0;
     margin: 0;
-    height: 55vh;
+    /*height: 55vh;*/
     display: flex;
     position: block;
 }
@@ -228,11 +242,15 @@
     color: black;
 }
 
-.__anni_welove_client_work img {
+.__anni_welove_client_work figure {
     width: 18.0625rem;
     height: 12.5rem;
     background-color: #fff;
-    border: solid 0.0625rem;
+}
+.__anni_welove_client_work img {
+    border: solid #000 0.0625rem;
+    width: 18.0625rem;
+    height: 12.5rem;
 }
 
 .__anni_welove_client_work {
@@ -251,9 +269,19 @@
 .__anni__wholove_portfolio_client>div {
     /*margin-top: 8rem;*/
 }
+.__anni__wholove_portfolio_client_right{
+    min-width: 95.75em;;
+    display: flex;
+    justify-content: flex-end;
+}
 
+.__anni_wholove_client_on_right_img{
+    display: flex;
+    justify-content: flex-end;
+}
+@media screen and (max-width: 1500px) {
 
-
+}
 @media screen and (max-width: 1365px) {
 
     .__anni_wholove_bg_client_name {
@@ -294,7 +322,7 @@
 
 @media screen and (min-width: 1365px) {
     .__anni__wholove_portfolio_client div {
-        height: 26vh;
+        /*  height: 26vh;*/
     }
 
     .__anni__wholove_portfolio_client {}
@@ -315,14 +343,13 @@
     }
 
     .__anni_wholove_client_on_right_name {
-        font-size: 18rem;
-        top: -82%;
+        /*top: -82%;*/
     }
 
     .__anni_wholove_bg_client_name {
-        font-size: 18rem;
-        top: -80%;
-        right: -12px;
+        top: -38%;
+        left: -21%;
+        margin-bottom: 7.5rem;
     }
 }
 
@@ -339,6 +366,7 @@
         font-size: 5rem;
 
     }
+ 
 
     .__anni__wholove_portfolio_client div {
         display: inline-flex;
@@ -396,6 +424,11 @@
     background: url(/assets/img/Frame1.png) center center / cover no-repeat;
     padding: 8.375rem 12.5rem;
     width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-left: 0rem !important;
 }
 
 
@@ -551,10 +584,14 @@
 /*06 contact*/
 .__contact {
     height: 100%;
-    background: url('/assets/img/Frame1.png')  center center / cover no-repeat;
+    background: url('/assets/img/Frame1.png') center center / cover no-repeat;
     padding: 8.375rem 12.5rem;
-    padding-bottom: 8rem;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     width: 100%;
+    margin-left: 0rem !important;
 }
 
 @media screen and (min-width: 1300px) {
@@ -574,7 +611,7 @@
 
 /*form*/
 .__contact_form {
-    padding-top: 5rem;
+    margin-top: 1.7rem;
 }
 
 .__contact_form_input,
@@ -620,7 +657,7 @@
 .custom-underline,
 .custom-underline:hover {
 
-    border-bottom: dotted 2px #fff;
+    border-bottom: dotted 0.125rem #fff;
     /*text-decoration: underline;*/
 }
 
@@ -649,7 +686,7 @@
     height: 2px;
     width: 0%;
     left: 0%;
-    border-bottom: dotted 2px #fff;
+    border-bottom: dotted 0.125rem #fff;
     transition: 0.5s ease all .3s;
 }
 
@@ -704,7 +741,7 @@
     height: 2px;
     width: -0%;
     left: 0%;
-    border-bottom: dotted 2px #000;
+    border-bottom: dotted 0.125rem #000;
 
     transition: 0.5s ease all .3s;
 }
