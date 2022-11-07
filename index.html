@@ -59,7 +59,8 @@
                             src="https://splendorous-marshmallow-b4c96b.netlify.app/assets/img/logo.png" alt="Brand">
                     </a>
                     <div class="__anni_right_mobile_menu">
-                        <div class="__anni_language_dropdown">
+
+                        <div class="__anni_language_dropdown" id="__anni_language_dropdown">
                             <span id="__anni_languaje_span">Spanish</span>
                             <div class="__anni_language_dropdown-content" id="__anni_languaje_content">
                                 <p class="__anni_lenguage_dropdown_option" id="spanish">Spanish</p>
@@ -91,8 +92,7 @@
 
             <div class="__anni_home_content">
                 <div class=" home" id="__home_section">
-                    <h1 id="greeting" data-aos="fade-left"      data-aos-offset="500"
-                    data-aos-duration="500" >Good
+                    <h1 id="greeting" data-aos="fade-left" data-aos-offset="500" data-aos-duration="500">Good
                         evening</h1>
                 </div>
 
@@ -234,9 +234,9 @@
         <section class="__welove">
             <div class="row   justify-content-between pe-1">
                 <div class=" col-12 col-lg-8 col-xxl-8 col-md-8 __welove_content ">
-    
+
                     <h2 class="___section_h2">
-    
+
                         01.
                         <span class="__section_nt_line" style="background-color: #000000;"></span>
                         What we love
@@ -246,16 +246,16 @@
                         owners like you.
                     </p>
                 </div>
-                
-    
-                    <span class="___section_number col-12 col-lg-4  col-xxl-4  col-md-4" data-aos="fade-left" data-aos-offset="100"
-                        data-aos-easing="ease-in-sine">
-                        01.
-                    </span>
+
+
+                <span class="___section_number col-12 col-lg-4  col-xxl-4  col-md-4" data-aos="fade-left"
+                    data-aos-offset="100" data-aos-easing="ease-in-sine">
+                    01.
+                </span>
             </div>
 
 
-            
+
         </section>
         <!-- 02 show our love  -->
         <section class="__showourlove">
@@ -321,7 +321,8 @@
 
                             </span>
                             <p>
-                                <a href="#" data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine">
+                                <a href="#" data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine"
+                                    id="graphic-design-link">
                                     Graphic Design
 
                                 </a>
@@ -396,10 +397,10 @@
                         Meet some of our amazing clients.
                     </p>
                 </div>
-                    <span class="___section_number __welove_number  col-12 col-lg-4 col-md-4 col-xxl-5 " data-aos="fade-left" data-aos-offset="100"
-                        data-aos-easing="ease-in-sine">03.</span>
+                <span class="___section_number __welove_number  col-12 col-lg-4 col-md-4 col-xxl-5 "
+                    data-aos="fade-left" data-aos-offset="100" data-aos-easing="ease-in-sine">03.</span>
             </div>
-            <div class="__anni_wholove_client row mt-5">
+            <div class="__anni_wholove_client row mt-6">
                 <div class="row align-items-center justify-content-center col ">
                     <figure class="__anni_welove_client_img col-lg-6 col-12">
                         <img src="/assets/img/clients/jESSICA-sHAW.png" alt="">
@@ -450,7 +451,7 @@
                         data-aos-easing="ease-in-sine">Jessica</span>
                 </div>
             </div>
-            <div class="__anni_wholove_client __anni_wholove_client_on_right  row mt-5 ">
+            <div class="__anni_wholove_client __anni_wholove_client_on_right  row mt-6 ">
                 <div class="col-lg-6 col-12  __anni_wholove_client_text">
                     <p>
                         <h3> <span class="__section_nt_line" style="background-color: #000000;"></span>
@@ -500,7 +501,7 @@
                     data-aos-easing="ease-in-sine">Marvin</span>
             </div>
             </div>
-            <div class="__anni_wholove_client row mt-5">
+            <div class="__anni_wholove_client row mt-6 mb-5">
                 <div class="row align-items-center justify-content-center col ">
 
                     <figure class="__anni_welove_client_img col-lg-6 col-12">
@@ -609,19 +610,21 @@
                         we get.
                     </p>
                 </div>
-             
 
-                    <span class="___section_number __welove_number col-lg-6 col-xxl-4  col-12" data-aos="fade-left" data-aos-offset="200"
-                        data-aos-easing="ease-in-sine">05.</span>
-                
+
+                <span class="___section_number __welove_number col-lg-6 col-xxl-4  col-12" data-aos="fade-left"
+                    data-aos-offset="200" data-aos-easing="ease-in-sine">05.</span>
+
                 <div class="col-lg-8 col-12  col-xxl-8  __anni_toggle_faq">
-
-                    <div class="d-grip gap-2 __anni_faq_area">
-
-                        <p class="__anni_faq_acc">
-                            <a class="btn btn-dark __anni_faq_btn" data-bs-toggle="collapse" href="#__anni_question01"
-                                role="button" aria-expanded="false" aria-controls="__anni_question01">
+                    <!-- pregunta 01 -->
+                    <div class="d-grip gap-2 __anni_faq_area ">
+                        <div class="__anni_faq_acc collapsible">
+                            <a class="__anni_faq_acc btn btn-dark __anni_faq_btn  mb-4" 
+                                href="#__anni_question01" role="button" aria-expanded="false"
+                                aria-controls="__anni_question01">
+                                
                                 How much do you charge to build a website?
+                                
                                 <span class="__anni-acc-open">
                                     <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
                                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 25 25"
@@ -634,22 +637,8 @@
                                         </g>
                                     </svg>
                                 </span>
-                                <!--   
-                                <span class="mkdf-acc-close"></span>
-                                            <span>
-                                    <svg width="13" height="8" viewBox="0 0 13 8" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M0.843002 1.59299L6.5 7.24999L12.157 1.59299L11.45 0.885986L6.5 5.83599L1.55 0.885986L0.843002 1.59299Z"
-                                            fill="white" />
-                                    </svg>
-
-                                </span> -->
                             </a>
-
-                        </p>
-
-
+                        </div>
                         <div class="collapse __anni_answer" id="__anni_question01">
                             <div class="card card-body">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -661,11 +650,15 @@
                             </div>
                         </div>
                     </div>
-                    <div class="d-grip gap-2 __anni_faq_area">
-                        <p class="__anni_faq_acc">
-                            <a class="btn btn-dark __anni_faq_btn" data-bs-toggle="collapse" href="#__anni_question02"
-                                role="button" aria-expanded="false" aria-controls="__anni_question02">
+                    <!-- pregunta 02 -->
+                    <div class="d-grip gap-2 __anni_faq_area ">
+                        <div class="__anni_faq_acc collapsible">
+                            <a class="__anni_faq_acc btn btn-dark __anni_faq_btn  mb-4" data-bs-toggle="collapse"
+                                href="#__anni_question02" role="button" aria-expanded="false"
+                                aria-controls="__anni_question02">
+                                
                                 Do you work with new and small businesses?
+                                
                                 <span class="__anni-acc-open">
                                     <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
                                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 25 25"
@@ -679,8 +672,7 @@
                                     </svg>
                                 </span>
                             </a>
-
-                        </p>
+                        </div>
                         <div class="collapse __anni_answer" id="__anni_question02">
                             <div class="card card-body">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -692,11 +684,15 @@
                             </div>
                         </div>
                     </div>
-                    <div class="d-grip gap-2 __anni_faq_area">
-                        <p class="__anni_faq_acc">
-                            <a class="btn btn-dark __anni_faq_btn" data-bs-toggle="collapse" href="#__anni_question03"
-                                role="button" aria-expanded="false" aria-controls="__anni_question03">
+                    <!-- pregunta 03 -->
+                    <div class="d-grip gap-2 __anni_faq_area ">
+                        <div class="__anni_faq_acc collapsible">
+                            <a class="__anni_faq_acc btn btn-dark __anni_faq_btn  mb-4" data-bs-toggle="collapse"
+                                href="#__anni_question03" role="button" aria-expanded="false"
+                                aria-controls="__anni_question03">
+                                
                                 How long will it take to complete my website?
+                                
                                 <span class="__anni-acc-open">
                                     <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
                                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 25 25"
@@ -710,8 +706,7 @@
                                     </svg>
                                 </span>
                             </a>
-
-                        </p>
+                        </div>
                         <div class="collapse __anni_answer" id="__anni_question03">
                             <div class="card card-body">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -723,11 +718,15 @@
                             </div>
                         </div>
                     </div>
-                    <div class="d-grip gap-2 __anni_faq_area">
-                        <p class="__anni_faq_acc">
-                            <a class="btn btn-dark __anni_faq_btn" data-bs-toggle="collapse" href="#__anni_question04"
-                                role="button" aria-expanded="false" aria-controls="__anni_question04">
+                    <!-- pregunta 04 -->
+                    <div class="d-grip gap-2 __anni_faq_area ">
+                        <div class="__anni_faq_acc collapsible">
+                            <a class="__anni_faq_acc btn btn-dark __anni_faq_btn  mb-4" data-bs-toggle="collapse"
+                                href="#__anni_question04" role="button" aria-expanded="false"
+                                aria-controls="__anni_question04">
+                                
                                 Do I have to be in Portland metro to work with you?
+                                
                                 <span class="__anni-acc-open">
                                     <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
                                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 25 25"
@@ -741,8 +740,7 @@
                                     </svg>
                                 </span>
                             </a>
-
-                        </p>
+                        </div>
                         <div class="collapse __anni_answer" id="__anni_question04">
                             <div class="card card-body">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -754,11 +752,15 @@
                             </div>
                         </div>
                     </div>
-                    <div class="d-grip gap-2 __anni_faq_area">
-                        <p class="__anni_faq_acc">
-                            <a class="btn btn-dark __anni_faq_btn" data-bs-toggle="collapse" href="#__anni_question05"
-                                role="button" aria-expanded="false" aria-controls="__anni_question05">
+                    <!-- pregunta 05 -->
+                    <div class="d-grip gap-2 __anni_faq_area ">
+                        <div class="__anni_faq_acc collapsible">
+                            <a class="__anni_faq_acc btn btn-dark __anni_faq_btn  mb-4" data-bs-toggle="collapse"
+                                href="#__anni_question05" role="button" aria-expanded="false"
+                                aria-controls="__anni_question05">
+                               
                                 Will you maintain our website for us?
+                                
                                 <span class="__anni-acc-open">
                                     <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
                                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 25 25"
@@ -772,8 +774,7 @@
                                     </svg>
                                 </span>
                             </a>
-
-                        </p>
+                        </div>
                         <div class="collapse __anni_answer" id="__anni_question05">
                             <div class="card card-body">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -785,11 +786,15 @@
                             </div>
                         </div>
                     </div>
-                    <div class="d-grip gap-2 __anni_faq_area">
-                        <p class="__anni_faq_acc">
-                            <a class="btn btn-dark __anni_faq_btn" data-bs-toggle="collapse" href="#__anni_question06"
-                                role="button" aria-expanded="false" aria-controls="__anni_question06">
+                    <!-- pregunta 06 -->
+                    <div class="d-grip gap-2 __anni_faq_area collapsible ">
+                        <div class="__anni_faq_acc ">
+                            <a class="__anni_faq_acc btn btn-dark __anni_faq_btn  mb-4" data-bs-toggle="collapse"
+                                href="#__anni_question06" role="button" aria-expanded="false"
+                                aria-controls="__anni_question06">
+                                
                                 Do you provide hosting and domain?
+                                
                                 <span class="__anni-acc-open">
                                     <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
                                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 25 25"
@@ -803,8 +808,7 @@
                                     </svg>
                                 </span>
                             </a>
-
-                        </p>
+                        </div>
                         <div class="collapse __anni_answer" id="__anni_question06">
                             <div class="card card-body">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -816,47 +820,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="d-grip gap-2 __anni_faq_area">
-                        <p class="__anni_faq_acc">
-                            <a class="btn btn-dark __anni_faq_btn" data-bs-toggle="collapse" href="#__anni_question07"
-                                role="button" aria-expanded="false" aria-controls="__anni_question07">
-                                How much do you charge to build a website?
-                                <span class="__anni-acc-open">
-                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 25 25"
-                                        style="enable-background:new 0 0 25 25;" xml:space="preserve">
-                                        <g>
-                                            <rect x="11" y="1" width="3" height="23"></rect>
-                                        </g>
-                                        <g>
-                                            <rect x="1" y="11" width="23" height="3"></rect>
-                                        </g>
-                                    </svg>
-                                </span>
-                            </a>
-
-                        </p>
-                        <div class="collapse __anni_answer" id="__anni_question07">
-                            <div class="card card-body">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                                mollit anim id est laborum.
-                            </div>
-                        </div>
-                    </div>
-
-                    <a href="#"
-                        class="btn btn-outline-dark __anni_btn_outline _anni_more_fag justify-content-end offset-md-9 box-e_invert">
+                    <a href="#" class="btn btn-outline-dark __anni_btn_outline _anni_more_fag justify-content-end offset-md-9 box-e_invert">
                         <span class="custom-underline_invert">
                             more
                             faqs
                         </span>
                     </a>
-                </div>
 
+                </div>
             </div>
         </section>
 

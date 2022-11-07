@@ -2,8 +2,7 @@
 AOS.init();
 //loader
 window.addEventListener('load', () => {
-    this.document.getElementById('loader').classList.toggle('loader-out')
-    
+    this.document.getElementById('loader').classList.toggle('loader-out')   
 })
 
 //back to up btn
@@ -79,15 +78,29 @@ dropdowns.forEach((dropdown) => {
     });
 });
 
+const language_obj = document.getElementsByClassName('__anni_lenguage_dropdown_option')
 const language_span = document.getElementById('__anni_languaje_span')
 const language_option = document.getElementById("__anni_languaje_content");
+/////asdasd
 
+let i;
+
+for (i = 0; i < language_obj.length; i++) {
+    language_obj[i].addEventListener("click", function() {
+      
+    console.log('asdsdsad')
+    console.log(language_obj)
+    language_obj.addEventListener("click", function (e) {
+        console.log('asdasd')
+    })
+  });
+}
+////
 language_option.addEventListener("click", function (e) {
-    console.log('asdsdS')
+    // console.log(e.target.id); // log clicked element 
     console.log(e.target.id)
     if (e.target.id != "__anni_languaje_content") {
         language_span.innerHTML = e.target.id
-        console.log('asdsdS')
     }
 
 });
