@@ -344,7 +344,7 @@ html::-webkit-scrollbar-track {
     right: 20px;
     width: 42rem;
     height: calc(100% - 40px);
-    min-height: calc(100% - 40px);
+   /* min-height: calc(100% - 40px);*/
     padding: 1.5rem 3rem;
     background-color: #000;
     overflow: hidden;
@@ -424,12 +424,14 @@ html::-webkit-scrollbar-track {
 @media screen and (max-width: 512px) {
     #__anni_side_menu_area {
         width: 88vw;
-        margin: 1rem 0rem;
+        margin: 0rem 1rem;
+        right: 20%;
+        height: 95vh!important;
     }
 
     .__anni_custom_font_holder {
 
-        font-size: 3rem;
+        font-size: 2.7rem;
     }
 
     .__anni_brand_menu img {
@@ -779,6 +781,7 @@ body[class*="opened"] ._anni_menu_svg_path .mkdf-fullscreen-menu-opener-icon rec
     transition: 1s cubic-bezier(.07, .98, 0, .96);
 }
 
+
 #__anni_-back-to-top.off {
     -webkit-clip-path: inset(0 0 100% 0);
     clip-path: inset(0 0 100% 0);
@@ -799,12 +802,7 @@ body[class*="opened"] ._anni_menu_svg_path .mkdf-fullscreen-menu-opener-icon rec
     overflow: hidden;
 }
 
-@media screen {
-    #__anni_back-to-top {
-        right: 31%;
-    }
 
-}
 
 #__anni_-back-to-top>span {
     position: relative;
@@ -1003,7 +1001,13 @@ body[class*="opened"] ._anni_menu_svg_path .mkdf-fullscreen-menu-opener-icon rec
     clip-path: inset(0 0 100% 0);
     overflow: hidden;
 }
+@media screen and (max-width: 768px) {
 
+    #__anni_back-to-top {
+        right: 6%;
+    }
+
+}
 #__anni_-back-to-top:hover>span {
     border-radius: 0;
     -webkit-transition: border-radius 1s cubic-bezier(.07, .98, 0, .96);
@@ -1033,6 +1037,7 @@ body[class*="opened"] ._anni_menu_svg_path .mkdf-fullscreen-menu-opener-icon rec
     height: 23;
 }
 
+/*form validation*/
 .invalid {
     border-color: #dc3545;
 }

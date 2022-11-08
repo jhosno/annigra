@@ -13,6 +13,7 @@
 @media screen and (max-width: 810px) {
     .__anni_home_content {
         height: 75vh;
+        width: 100%;
     }
 
     .home {
@@ -25,9 +26,15 @@
 
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (max-width: 1600px) {
     #greeting {
         font-size: 9.7rem;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    #greeting {
+        font-size: 7.2rem;
     }
 }
 
@@ -66,8 +73,24 @@
 
 @media screen and (max-width: 768px) {
     .__welove {
-        height: 40vh;
-        padding: 2rem 1rem;
+        height: 80vh;
+        padding: 6rem 2rem;
+        width: 100%;
+        overflow: hidden;
+
+    }
+
+    .__welove>div .___section_number {
+        order: -1;
+        margin-bottom: 2rem;
+    }
+
+    .__showourlove {
+        height: 100%;
+        padding: 4rem 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
 
     }
 }
@@ -133,12 +156,23 @@
 @media screen and (max-width: 768px) {
     .__showourlove {
         height: 100%;
-        padding: 4rem 1rem;
+        width: 100%;
+        padding: 6rem 2rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        overflow: hidden;
 
     }
+
+    .__showourlove .___section_number_frame {
+        margin-bottom: 2rem;
+    }
+
+    #graphic-design-link {
+        font-size: 2.8rem;
+    }
+
 }
 
 
@@ -149,15 +183,11 @@
     padding: 5rem;
     padding: 8.375rem 12.5rem;
     overflow: hidden;
-
 }
-
-
 
 .__anni_wholove_client {
     font-family: 'Source Serif Pro';
     margin-top: 7rem;
-
 }
 
 .__anni_wholove_client __section_nt_line {
@@ -185,7 +215,6 @@
     align-content: center;
     flex-direction: row;
     width: 7rem;
-
 }
 
 .__anni__wholove_portfolio_client div a {
@@ -194,9 +223,7 @@
 
 .__anni__wholove_portfolio_client div a:first-child {
     margin-left: 0;
-
 }
-
 
 .__anni_wholove_client_text {
     display: flex;
@@ -212,7 +239,6 @@
     position: block;
 }
 
-
 .__anni_wholove_bg_client_name {
     line-height: 1;
     font-weight: 400;
@@ -224,15 +250,10 @@
     left: -100px;
     top: -60%;
     z-index: -1;
-
-
 }
-
 
 .__anni_welove_client_img:hover {
     filter: grayscale(0%);
-
-
 }
 
 .__anni_welove_client_img img {
@@ -291,19 +312,17 @@
 }
 
 
-
-
-
 @media screen and (max-width: 1708px) {
     .__anni__wholove_portfolio_client {
         position: relative;
         left: -9%;
         width: 75.75rem;
         height: 20vh;
-        margin-top: 5rem!important;
-        margin-bottom: 5rem!important;
+        margin-top: 5rem !important;
+        margin-bottom: 5rem !important;
     }
 }
+
 @media screen and (max-width: 1365px) {
     .__anni__wholove_portfolio_client div {
         width: 2rem;
@@ -345,20 +364,48 @@
     }
 }
 
+
+@media screen and (max-width: 992px) {
+    .__anni_wholove_client_on_right_img {
+        order: -1;
+    }
+}
+
 @media screen and (max-width: 768px) {
+
     .__anni_wholove_bg_client_name {
         font-size: 5rem;
         left: -9px;
         top: -56%;
     }
 
-    .__anni_wholove_client_on_right_name {
-        top: -70%;
-
-        font-size: 5rem;
-
+    .__anni__wholove_portfolio_client {
+        position: static;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        margin-top: 0rem !important;
+        margin-bottom: 0rem !important;
+        overflow: hidden;
     }
 
+    .__anni__wholove_portfolio_client_right {
+        min-width: 100%;
+        width: 100%;
+    }
+
+    .__anni_wholove_client_on_right_name {
+        top: -70%;
+        font-size: 5rem;
+    }
+
+    .__anni__wholove_portfolio_client span {
+        order: -1;
+        font-size: 5rem;
+        left: -9px;
+        top: -70%;
+        margin-bottom: 0rem;
+    }
 
     .__anni__wholove_portfolio_client div {
         display: inline-flex;
@@ -372,26 +419,40 @@
         height: fit-content;
     }
 
-    .__anni__wholove_portfolio_client div figure img {
-        width: 45vw;
-    }
-}
 
-@media screen and (max-width: 992px) {
-    .__anni_wholove_client_on_right_img {
+
+    .__wholove .___section_number {
         order: -1;
+        margin-bottom: 2rem;
     }
-}
 
-@media screen and (max-width: 768px) {
     .__wholove {
         height: 100%;
-        padding: 2rem 1rem;
-
+        padding: 6rem 2rem;
+        width: 100%;
+        overflow: hidden;
     }
 
     .__anni__wholove_portfolio_client div figure img {
-        width: 45vw;
+        width: 40vw;
+        height: 7.5rem;
+    }
+
+    .__anni_welove_client_work {
+        margin-top: 0rem;
+    }
+
+    .__anni__wholove_portfolio_client div a {
+        margin-left: 0;
+    }
+
+    .__anni__wholove_portfolio_client img {
+        width: 10.1rem;
+        height: 6.5rem;
+    }
+    .__anni_wholove_client_text {
+         margin-bottom: 0rem; 
+         margin-top: 2rem; 
     }
 }
 
@@ -408,7 +469,6 @@
         left: -9px;
         top: -70%
     }
-
 }
 
 /* 04 appointment */
@@ -428,8 +488,9 @@
 @media screen and (max-width: 768px) {
     .__appointment {
         height: 100%;
-        padding: 2rem 1rem;
-
+        width: 100%;
+        padding: 6rem 2rem;
+        overflow: hidden;
     }
 
     .__welove_content img {
@@ -456,10 +517,12 @@
     fill: #fff;
 
 }
+
 .__anni_answer {
     display: none;
     font-family: 'Source Serif Pro';
 }
+
 .__anni_faq_area>p {
 
     display: block;
@@ -474,7 +537,14 @@
 @media screen and (max-width: 768px) {
     .__FAQ {
         height: 100%;
-        padding: 2rem 1rem;
+        width: 100%;
+        padding: 6rem 2rem;
+        overflow: hidden;
+    }
+
+    .__FAQ .___section_number {
+        order: -1;
+        margin-bottom: 2rem;
     }
 
 }
@@ -599,12 +669,13 @@
 }
 
 @media screen and (max-width: 768px) {
-    .__contact_content{
+    .__contact_content {}
 
-    }
     .__contact {
         height: 100%;
-        padding: 2rem 1rem;
+        width: 100%;
+        padding: 6rem 2rem;
+        overflow: hidden;
 
     }
 }
