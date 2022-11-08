@@ -71,29 +71,6 @@
 
 
 
-@media screen and (max-width: 768px) {
-    .__welove {
-        height: 80vh;
-        padding: 6rem 2rem;
-        width: 100%;
-        overflow: hidden;
-
-    }
-
-    .__welove>div .___section_number {
-        order: -1;
-        margin-bottom: 2rem;
-    }
-
-    .__showourlove {
-        height: 100%;
-        padding: 4rem 1rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-
-    }
-}
 
 
 /*02 showourlove*/
@@ -324,13 +301,14 @@
     }
 
     .__anni__wholove_portfolio_client_right {
-        min-width:0em;
+        min-width: 0em;
     }
 
     .__anni_wholove_bg_client_name {
         left: -187px;
         top: -138%;
     }
+
     .__anni_wholove_client_on_right_name {
         right: -15% !important;
         top: -132%;
@@ -553,6 +531,64 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    .__welove {
+        height: 100%;
+        padding: 6rem 2rem;
+        width: 100%;
+        overflow: hidden;
+
+    }
+
+    .__welove>div .___section_number {
+        order: -1;
+        margin-bottom: 2rem;
+    }
+
+    .__showourlove {
+        height: 100%;
+        padding: 4rem 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .__anni__wholove_portfolio_client {
+        position: static;
+        justify-content: center;
+        margin-right: .5rem;
+    }
+
+    .__anni__wholove_portfolio_client_right {
+        position: static;
+        justify-content: center;
+        margin-right: .5rem;
+    }
+
+    .__anni__wholove_portfolio_client a {
+        margin-right: 0rem !important;
+    }
+
+    .__anni_welove_client_work img {
+        margin-right: 0rem!important;
+        margin-left: 0rem!important;
+        border: solid #000 0.0625rem;
+        width: 10.0625rem;
+        height: 7.5rem;
+        margin-bottom: 2rem;
+        /* margin-right: 5rem; */
+    }
+
+    .__anni__wholove_portfolio_client {
+        flex-wrap: wrap;
+    }
+    .__anni_wholove_client {
+        margin-top: 5rem;
+    }
+
+
+}
 @media screen and (max-width: 512px) {
     .__anni_welove_client_img img {
         width: 80vw;
