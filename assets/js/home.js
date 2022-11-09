@@ -1,3 +1,9 @@
+//home greetings 
+window.addEventListener('load', () => {
+    this.document.getElementById('greeting').classList.toggle('intro')
+    console.log('hi')
+})
+//home greetings 
 document.addEventListener("DOMContentLoaded", () => {
     let currentHour = new Date().getHours()
     let greeting = this.document.getElementById('greeting')

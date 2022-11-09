@@ -3,6 +3,7 @@ AOS.init();
 //loader
 window.addEventListener('load', () => {
     this.document.getElementById('loader').classList.toggle('loader-out')
+    this.document.getElementById('greeting')
 })
 
 //back to up btn
@@ -44,6 +45,7 @@ let close_side_menu = this.document.getElementById('__anni_close_side_menu');
 let side_menu = this.document.getElementById('__anni_side_menu_area');
 let menu_icon_has_hover = this.document.getElementsByClassName('__anni_icon_has_hover');
 
+//Close menu
 close_side_menu.addEventListener('click', () => {
     side_menu.style.display = "none";
     side_menu.style.visibility = "hidden";
@@ -53,6 +55,7 @@ close_side_menu.addEventListener('click', () => {
 let menu_icon = this.document.getElementsByClassName('st0')
 let menu_icon3 = this.document.querySelector('.__anni_menu_opner_icon .st0:nth-child(1)')
 
+//Open menu
 open_side_menu_mobile.addEventListener('click', () => {
     side_menu.style.display = "block";
     side_menu.style.visibility = "visible";
@@ -65,8 +68,7 @@ open_side_menu.addEventListener('click', () => {
 
 
 
-
-
+///Collapse functions
 
 const dropdown_element = document.getElementsByClassName
 const dropdowns = document.querySelectorAll(".dropdown");
@@ -82,47 +84,31 @@ const language_obj = document.getElementsByClassName('__anni_lenguage_dropdown_o
 var language_span = document.getElementById('__anni_languaje_span')
 var language_span_mobile = document.getElementById('__anni_languaje_span_mobile')
 const language_option = document.getElementById("__anni_languaje_content");
-/////asdasd
+/////
 
 let i;
 
 for (i = 0; i < language_obj.length; i++) {
     language_obj[i].addEventListener("click", function (e) {
 
-        
+
         switch (e.target.id) {
             case 'spanish':
                 language_span.innerHTML = 'english'
                 language_span_mobile.innerHTML = 'english'
-                // code block
                 break;
-                case 'english':
-                    language_span.innerHTML = 'spanish'
-                    language_span_mobile.innerHTML = 'spanish'
-                    // code block
-                    break;
-                    case 'chinese':
-                        language_span.innerHTML = 'english'
-                        language_span_mobile.innerHTML = 'english'
-                // code block
-
+            case 'english':
+                language_span.innerHTML = 'spanish'
+                language_span_mobile.innerHTML = 'spanish'
+                break;
+            case 'chinese':
+                language_span.innerHTML = 'english'
+                language_span_mobile.innerHTML = 'english'
                 break;
             default:
                 language_span.textContent = 'spanish'
                 language_span_mobile.textContent = 'spanish'
-
-                // code block
         }
 
     });
 }
-//
-/* language_option.addEventListener("click", function (e) {
-    // console.log(e.target.id); // log clicked element 
-    console.log(e.target.id)
-    if (e.target.id != "__anni_languaje_content") {
-
-        language_span.innerHTML = e.target.id
-    }
-
-}); */

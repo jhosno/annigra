@@ -253,6 +253,15 @@ html::-webkit-scrollbar-track {
     font-size: 2rem;
     line-height: 40px;
     margin-bottom: 2.8rem;
+
+}
+@media only screen and (max-width:1988px) {
+    .___section_h2 {
+        font-size: 2.2rem;
+    }
+    .__contact .___section_h2, .__appointment  .___section_h2{
+        margin-top: 2rem;
+    }
     
 }
 
@@ -261,32 +270,49 @@ html::-webkit-scrollbar-track {
     font-style: normal;
     font-weight: 800;
     font-size: 15rem;
-    line-height: 1;
+    line-height: 10.9rem;
     color: #D9D9D9;
     text-align: right;
     padding-left: 0;
     padding-right: 0;
 }
-
+@media only screen and (max-width:1988px) {
+    .___section_number {
+        font-size: 19rem;
+        line-height: 13.65rem;
+    }
+}
 .___section_number_frame {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 800;
     font-size: 15rem;
-    line-height: 1;
+    line-height: 10.9rem;
     display: inline-block;
     color: #FFFFFF;
     text-align: left;
     padding-left: 0;
     padding-right: 0;
 }
+@media only screen and (max-width:1988px) {
+    .___section_number_frame {
+        font-size: 19rem;
+        line-height: 13.65rem;
+    }
+}
 
 .___section_p {
     font-family: 'Source Serif Pro';
     font-style: normal;
     font-weight: 400;
-    font-size: 2.5rem;
+    font-size: clamp(2rem,2.5rem, 3.2rem);
     line-height: 3, 4rem;
+}
+@media only screen and (max-width:1988px) {
+    .___section_p {
+        font-size: 3.2rem;
+    }
+    
 }
 
 .__anni_section_bg_text span {
@@ -307,7 +333,7 @@ html::-webkit-scrollbar-track {
 
 .__section_nt_line {
     background-color: #000;
-    height: 2px;
+    height: 0.125rem;
     width: 5rem;
     display: inline-block;
 }
@@ -344,7 +370,7 @@ html::-webkit-scrollbar-track {
     right: 20px;
     width: 42rem;
     height: calc(100% - 40px);
-   /* min-height: calc(100% - 40px);*/
+    /* min-height: calc(100% - 40px);*/
     padding: 1.5rem 3rem;
     background-color: #000;
     overflow: hidden;
@@ -354,11 +380,10 @@ html::-webkit-scrollbar-track {
     box-sizing: border-box;
     background-position: center;
     background-size: cover;
-    text-align: right;
+    text-align: left;
     -webkit-transition: all .6s cubic-bezier(.77, 0, .175, 1);
     -moz-transition: all .6s cubic-bezier(.77, 0, .175, 1);
     transition: all .6s cubic-bezier(.77, 0, .175, 1);
-
     font-family: 'Source Serif Pro';
     color: #fff;
     overflow: scroll !important;
@@ -426,7 +451,7 @@ html::-webkit-scrollbar-track {
         width: 88vw;
         margin: 0rem 1rem;
         right: 20%;
-        height: 95vh!important;
+        height: 95vh !important;
     }
 
     .__anni_custom_font_holder {
@@ -515,6 +540,7 @@ html::-webkit-scrollbar-track {
     text-decoration: none;
     color: #fff;
     font-size: 1.0625rem;
+    cursor: pointer;
 }
 
 #__anni_close_side_menu svg {
@@ -734,8 +760,10 @@ body[class*="opened"] ._anni_menu_svg_path .mkdf-fullscreen-menu-opener-icon rec
     font-size: 1.0625rem;
     font-weight: 400;
     text-transform: capitalize;
-
+    cursor: pointer;
 }
+
+
 
 .__anni_language_dropdown span:hover {
     font-weight: 600;
@@ -1001,6 +1029,7 @@ body[class*="opened"] ._anni_menu_svg_path .mkdf-fullscreen-menu-opener-icon rec
     clip-path: inset(0 0 100% 0);
     overflow: hidden;
 }
+
 @media screen and (max-width: 768px) {
 
     #__anni_back-to-top {
@@ -1008,6 +1037,7 @@ body[class*="opened"] ._anni_menu_svg_path .mkdf-fullscreen-menu-opener-icon rec
     }
 
 }
+
 #__anni_-back-to-top:hover>span {
     border-radius: 0;
     -webkit-transition: border-radius 1s cubic-bezier(.07, .98, 0, .96);
