@@ -277,14 +277,14 @@
     z-index: -1;
 }
 
-@media only screen and (max-width: 1988px){
+@media only screen and (max-width: 1988px) {
     .__anni_wholove_bg_client_name {
         left: -138%;
         top: -79%;
-    
+
     }
     .__anni_wholove_client_on_right_name {
-        right: 45% !important;
+        right: 55% !important;
         top: -59%;
     }
 }
@@ -355,56 +355,77 @@
 @media screen and (max-width: 1988px) {
     .__anni__wholove_portfolio_client {
         position: relative;
-        left: -11%;
+        left: -19%;
         width: 85.75rem;
         height: 17vh;
         margin-top: 7.8rem !important;
         margin-bottom: 5rem !important;
         flex-wrap: nowrap;
     }
-    .__anni_show_list_item, #graphic-design-link {     
+
+    .__anni_show_list_item,
+    #graphic-design-link {
         font-size: 4.925rem;
     }
+
     .__anni_welove_client_work {
         width: 23.5625rem;
         height: 16.7rem;
     }
-    .__anni__wholove_portfolio_client_right{
-        left: 60%;
+
+    .__anni__wholove_portfolio_client_right {
+        left: 67%;
+        margin-top: 2rem!important;
     }
+
     .__anni_wholove_client {
-        
+
         margin-top: 14rem;
     }
-    .__anni__wholove_portfolio_client  a {
-        margin-right: 6.5rem;
+
+    .__anni__wholove_portfolio_client a {
+        margin-right: 7.5rem;
     }
-    
+
 }
 
 @media screen and (max-width: 1708px) {
     .__anni_wholove_client {
-        margin-top: 0rem;
+        margin-top: 10rem;
     }
 
     .__anni__wholove_portfolio_client {
         height: 30vh;
         margin-top: 7rem;
-        margin-bottom: 4rem;
+        margin-bottom: 0rem !important;
     }
 
     .__anni__wholove_portfolio_client_right {
         min-width: 0em;
+        margin-top: 4.8rem !important;
     }
 
     .__anni_wholove_bg_client_name {
-        left: -101%;
-        top: -46%;
+        left: -132%;
+        top: -63%;
     }
 
     .__anni_wholove_client_on_right_name {
-        right: -15% !important;
-        top: -132%;
+        right: 60% !important;
+        top: -56%;
+    }
+
+    .__anni__wholove_portfolio_client_right {
+        left: 80%;
+    }
+
+    .__anni_welove_client_work {
+        width: 18.5625rem;
+        height: 12.7rem;
+    }
+
+    .__anni__wholove_portfolio_client a {
+        margin-right: 4.5rem;
     }
 }
 
@@ -646,7 +667,7 @@
         justify-content: center;
 
     }
-    
+
     .__anni__wholove_portfolio_client {
         position: static;
         justify-content: center;
@@ -713,10 +734,11 @@
 }
 
 @media only screen and (max-width:1988px) {
-    .__appoinment_text{
-        padding-left: 0!important;
+    .__appoinment_text {
+        padding-left: 0 !important;
     }
 }
+
 @media screen and (max-width: 768px) {
     .__appointment {
         height: 100%;
@@ -747,7 +769,7 @@
 
 .__anni_plus-acc g rect {
     fill: #fff;
-    
+
 }
 
 .__anni_answer {
@@ -848,7 +870,7 @@
 }
 
 .__anni-acc-open {
-    
+
     display: block;
     height: 25px;
     width: 25px;
@@ -894,10 +916,11 @@
 }
 
 @media only screen and (max-width:1988px) {
-    .__contact_content{
-        padding-left: 0!important;
+    .__contact_content {
+        padding-left: 0 !important;
     }
 }
+
 @media screen and (min-width: 1300px) {
     .form-control {
         font-size: 1.5rem;
@@ -907,7 +930,7 @@
 
 @media screen and (max-width: 768px) {
     .__contact_content {}
-    
+
     .__contact {
         height: 100%;
         width: 100%;
@@ -951,25 +974,27 @@
     background: #000000;
     border-color: #000;
 }
-@media only screen and (max-width: 1988px){
-    .__contact_form_submit{
+
+@media only screen and (max-width: 1988px) {
+    .__contact_form_submit {
 
         font-size: 1.95rem;
     }
-    
+
 }
+
 .normal-underline,
 .custom_underline {
     position: relative;
     display: inline-block;
     line-height: 4rem;
-    
+
 
 }
 
 .custom-underline,
 .custom-underline:hover {
-    
+
     border-bottom: dotted 0.125rem #fff;
     /*text-decoration: underline;*/
 }
@@ -1019,7 +1044,7 @@
     position: relative;
     display: inline-block;
     line-height: 4rem;
-    
+
 
     text-align: center;
 }
@@ -1076,4 +1101,39 @@
         padding-right: 17.8rem;
     }
 
+}
+
+@media only screen and (max-width: 1657px) {
+
+    .__welove,
+    .__showourlove,
+    .__wholove,
+    .__appointment,
+    .__contact,
+    .__FAQ {
+        padding-left: 14.8rem;
+        padding-right: 14.8rem;
+    }
+}
+
+@media screen and (max-width: 1657px) {
+    #graphic-design-link {
+        font-size: 4.7rem !important;
+    }
+
+    .___section_p {
+        font-size: 2.5rem;
+    }
+
+    .__anni_faq_btn {
+
+        font-size: 1.375rem;
+    }
+}
+
+
+@media only screen and (max-width: 1657px) {
+    .__contact_form_submit {
+        font-size: 1.1rem;
+    }
 }

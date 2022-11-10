@@ -8,23 +8,23 @@ document.addEventListener("DOMContentLoaded", () => {
     let currentHour = new Date().getHours()
     let greeting = this.document.getElementById('greeting')
     let greeting_bg = this.document.getElementById('__home_section')
-    
+
     if (currentHour <= 12) {
-        
+
         greeting.innerHTML = 'good morning'
         greeting_bg.style.background = "url('/assets/img/Morning.jpg') no-repeat center center"
         greeting_bg.style.backgroundSize = "cover"
 
     }
     if (currentHour <= 18 && currentHour > 12) {
-        
+
         greeting.innerHTML = 'good afternoon'
         greeting_bg.style.background = "url('/assets/img/Afternoon.jpg') no-repeat center center"
         greeting_bg.style.backgroundSize = "cover"
 
     }
     if (currentHour > 18 && currentHour <= 23) {
-        
+
         greeting.innerHTML = 'good evening'
         greeting_bg.style.background = "url('/assets/img/Evening.png') no-repeat center center"
         greeting_bg.style.backgroundSize = "cover"
@@ -47,7 +47,7 @@ function validateForm(e) {
     let contact_email = this.document.forms['contact_form']['email'].value;
     let contact_tlf = this.document.getElementById('tel')
     let contact_descript = this.document.getElementById('descrip')
-    
+
     return false;
 }
 
@@ -55,17 +55,17 @@ let coll = document.getElementsByClassName("collapsible");
 let count;
 
 for (count = 0; count < coll.length; count++) {
-  coll[count].addEventListener("click", function() {
-      
-    this.classList.toggle("active");
-    let content = this.nextElementSibling;
-    
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
+    coll[count].addEventListener("click", function () {
+
+        this.classList.toggle("active");
+        let content = this.nextElementSibling;
+
+        if (content.style.display === "block") {
+            content.style.display = "none";
+        } else {
+            content.style.display = "block";
+        }
+    });
 }
 
 
@@ -78,16 +78,16 @@ function validateForm(e) {
     let ctel = document.forms["contact_form"]["ctel"];
     let alertSuccess = document.getElementById('submit-alert')
     let validations = [isTel(ctel),
-    isEmpty(cname),
-    isEmpty(cdescrip),
-    isEmail(cemail)].every((value)=> value ?  true : false)
-    if(validations){
-        alertSuccess.style.display= 'block'
+        isEmpty(cname),
+        isEmpty(cdescrip),
+        isEmail(cemail)
+    ].every((value) => value ? true : false)
+    if (validations) {
+        alertSuccess.style.display = 'block'
         setTimeout(
-            ()=>{
-                alertSuccess.style.display= 'none'
-            }
-            , 3000);
+            () => {
+                alertSuccess.style.display = 'none'
+            }, 3000);
     }
 }
 
