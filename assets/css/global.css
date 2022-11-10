@@ -454,7 +454,7 @@ html::-webkit-scrollbar-track {
     /* Firefox */
 }
 /* Hide scrollbar for Chrome, Safari and Opera */
-#__anni_side_menu_area::-webkit-scrollbar {
+#__anni_side_menu_area div::-webkit-scrollbar {
     display: none;
   }
   
