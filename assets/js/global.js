@@ -45,10 +45,19 @@ let close_side_menu = this.document.getElementById('__anni_close_side_menu');
 let side_menu = this.document.getElementById('__anni_side_menu_area');
 let menu_icon_has_hover = this.document.getElementsByClassName('__anni_icon_has_hover');
 
+
 //Close menu
+side_menu.addEventListener('click', (e) => {
+    if(e.target.id === '__anni_side_menu_area'){
+        side_menu.style.display = "none";
+        side_menu.style.visibility = "hidden";
+    }
+    
+})
 close_side_menu.addEventListener('click', () => {
     side_menu.style.display = "none";
     side_menu.style.visibility = "hidden";
+    console.log(e.target)
 });
 
 

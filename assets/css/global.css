@@ -394,22 +394,46 @@ html::-webkit-scrollbar-track {
 
 
 #__anni_side_menu_area {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 9999; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: hidden; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.2); /* Black w/ opacity */
+    overflow-y: scroll !important;
+    overflow-anchor: scroll;
+    -ms-overflow-style: scroll;
+    touch-action: auto;
+    -ms-touch-action: auto;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+
+}
+#__anni_side_menu_area>div:first-child {
 
     background: url("/assets/img/menu_bg.jpg");
     /*filter: grayscale(100%);*/
-    display: none;
+    /* display: none; */
     padding: 20px 20px 20px 0;
     position: fixed;
     top: 18px;
     right: 20px;
     width: 42rem;
+    min-height: 60vh;
     height: calc(100% - 40px);
     /* min-height: calc(100% - 40px);*/
     padding: 1.5rem 3rem;
     background-color: #000;
     overflow: hidden;
-    visibility: hidden;
-    z-index: 9999;
+    /* visibility: hidden; */
+    z-index: 99999;
     -webkit-backface-visibility: hidden;
     box-sizing: border-box;
     background-position: center;
@@ -430,6 +454,12 @@ html::-webkit-scrollbar-track {
     scrollbar-width: none;
     /* Firefox */
 }
+/* Hide scrollbar for Chrome, Safari and Opera */
+#__anni_side_menu_area::-webkit-scrollbar {
+    display: none;
+  }
+  
+
 
 .horizTranslate {
     -webkit-transition: all 1.3s cubic-bezier(0.8, 0.08, 0.14, 0.53);
@@ -473,19 +503,19 @@ html::-webkit-scrollbar-track {
 }
 
 @media screen and (max-width: 811px) {
-    #__anni_side_menu_area {
+    #__anni_side_menu_area>div:first-child {
         width: 95vw;
-        margin: 1vh 7vw;
+        /* margin: 1vh 7vw; */
     }
 
 }
 
 @media screen and (max-width: 512px) {
-    #__anni_side_menu_area {
+    #__anni_side_menu_area>div:first-child{
         width: 88vw;
-        margin: 0rem 1rem;
+        /* margin: 0rem 1rem;
         right: 20%;
-        height: 95vh !important;
+        height: 95vh !important; */
     }
 
     .__anni_custom_font_holder {
@@ -499,9 +529,9 @@ html::-webkit-scrollbar-track {
 }
 
 @media screen and (max-width: 361px) {
-    #__anni_side_menu_area {
+    #__anni_side_menu_area>div:first-child{
         width: 85vw;
-        margin: 0rem;
+        /* margin: 0rem; */
     }
 
     .__anni_custom_font_holder {
