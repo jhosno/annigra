@@ -379,9 +379,7 @@ html::-webkit-scrollbar-track {
 
 /*********************side menu*************************/
 #__anni_side_menu_area::-webkit-scrollbar {
-
     display: none;
-
 }
 
 .__anni_side_menu_area_display {
@@ -397,34 +395,35 @@ html::-webkit-scrollbar-track {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 9999; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+
     left: 0;
     top: 0;
     width: 100%; /* Full width */
     height: 100%; /* Full height */
     overflow: hidden; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgb(53, 53, 53); /* Fallback color */
     background-color: rgba(0,0,0,0.2); /* Black w/ opacity */
-    overflow-y: scroll !important;
-    overflow-anchor: scroll;
-    -ms-overflow-style: scroll;
+
     touch-action: auto;
     -ms-touch-action: auto;
     -ms-overflow-style: none;
     /* IE and Edge */
     scrollbar-width: none;
     /* Firefox */
+    
 
 }
 #__anni_side_menu_area>div:first-child {
-
     background: url("/assets/img/menu_bg.jpg");
     /*filter: grayscale(100%);*/
     /* display: none; */
+    margin-top: 1.5rem; /* Location of the box */
+    margin-right: 1.5rem; /* Location of the box */
+    right: 2%;
     padding: 20px 20px 20px 0;
     position: fixed;
-    top: 18px;
-    right: 20px;
+    /* top: 18px;
+    right: 20px; */
     width: 42rem;
     min-height: 60vh;
     height: calc(100% - 40px);
@@ -444,7 +443,7 @@ html::-webkit-scrollbar-track {
     transition: all .6s cubic-bezier(.77, 0, .175, 1);
     font-family: 'Source Serif Pro';
     color: #fff;
-    overflow: scroll !important;
+    overflow-y: scroll !important;
     overflow-anchor: scroll;
     -ms-overflow-style: scroll;
     touch-action: auto;
