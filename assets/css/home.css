@@ -90,7 +90,7 @@
 }
 
 
-.home h1 {}
+
 
 /*01 welove********************************/
 .__welove {
@@ -279,12 +279,13 @@
 
 @media only screen and (max-width: 1988px) {
     .__anni_wholove_bg_client_name {
-        left: -138%;
+        left: -142%;
         top: -79%;
 
     }
+
     .__anni_wholove_client_on_right_name {
-        right: 55% !important;
+        right: 52% !important;
         top: -59%;
     }
 }
@@ -355,7 +356,7 @@
 @media screen and (max-width: 1988px) {
     .__anni__wholove_portfolio_client {
         position: relative;
-        left: -19%;
+        left: -13%;
         width: 85.75rem;
         height: 17vh;
         margin-top: 7.8rem !important;
@@ -374,8 +375,8 @@
     }
 
     .__anni__wholove_portfolio_client_right {
-        left: 67%;
-        margin-top: 2rem!important;
+        left: 68%;
+        margin-top: 2rem !important;
     }
 
     .__anni_wholove_client {
@@ -398,6 +399,7 @@
         height: 30vh;
         margin-top: 7rem;
         margin-bottom: 0rem !important;
+        left: -10%;
     }
 
     .__anni__wholove_portfolio_client_right {
@@ -429,12 +431,25 @@
     }
 }
 
+@media screen and (max-width: 1657px) {
+
+    .__anni_show_list_item {
+
+        font-size: 4.125rem;
+
+    }
+
+    #graphic-design-link {
+        font-size: 3.90rem;
+    }
+}
+
 @media screen and (max-width: 1520px) {
     .__anni__wholove_portfolio_client div {
         width: 2rem;
     }
 
-    .__anni__wholove_portfolio_client img {
+    .__anni__wholove_portfolio_client figure {
         width: 17.0625rem;
         height: 12.5rem;
         margin-left: 3.625rem;
@@ -514,10 +529,7 @@
     }
 
     .__anni_welove_client_work img {
-        border: solid #000 0.0625rem;
-        width: 15.0625rem;
-        height: 11.5rem;
-        margin-right: 5rem;
+        height: auto;
     }
 
     .__anni__wholove_portfolio_client a {
@@ -1116,9 +1128,22 @@
     }
 }
 
+@media only screen and (max-width: 1657px) {
+
+    .__welove,
+    .__showourlove,
+    .__wholove,
+    .__appointment,
+    .__contact,
+    .__FAQ {
+        padding-left: 12.5rem;
+        padding-right: 12.5rem;
+    }
+}
+
 @media screen and (max-width: 1657px) {
     #graphic-design-link {
-        font-size: 4.7rem !important;
+        font-size: 3.9rem !important;
     }
 
     .___section_p {

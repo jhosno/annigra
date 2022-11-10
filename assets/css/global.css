@@ -256,6 +256,7 @@ html::-webkit-scrollbar-track {
 
 }
 
+
 @media only screen and (max-width:1988px) {
     .___section_h2 {
         font-size: 2.2rem;
@@ -266,6 +267,11 @@ html::-webkit-scrollbar-track {
         margin-top: 2rem;
     }
 
+}
+@media only screen and (max-width: 1657px) {
+    .___section_h2 {
+        font-size: 2rem;
+    }
 }
 
 .___section_number {
@@ -280,16 +286,23 @@ html::-webkit-scrollbar-track {
     padding-right: 0;
 }
 
+
 @media only screen and (max-width:1988px) {
     .___section_number {
         font-size: 18.3rem;
         line-height: 13.65rem;
     }
-    
-    .__FAQ .___section_number{
-        font-size: 15.3rem;   
-       
-        }
+
+    .__FAQ .___section_number {
+        font-size: 15.3rem;
+
+    }
+}
+@media only screen and (max-width: 1657px) {
+    .___section_number {
+        font-size: 15rem;
+
+    }
 }
 
 .___section_number_frame {
@@ -311,6 +324,15 @@ html::-webkit-scrollbar-track {
         line-height: 13.65rem;
     }
 }
+@media only screen and (max-width: 1657px) {
+    .___section_number_frame {
+
+        font-size: 15rem;
+
+    }
+}
+
+@media only screen and (max-width:1988px) {}
 
 .___section_p {
     font-family: 'Source Serif Pro';
