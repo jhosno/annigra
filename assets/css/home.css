@@ -177,9 +177,7 @@
         margin-bottom: 2rem;
     }
 
-    #graphic-design-link {
-        font-size: 2.8rem;
-    }
+ 
 
 }
 
@@ -455,7 +453,6 @@
     .__anni_show_list_item {
 
         font-size: 4.125rem;
-
     }
 
     #graphic-design-link {
@@ -738,6 +735,8 @@
 
     .__anni__wholove_portfolio_client {
         flex-wrap: wrap;
+        row-gap: 1rem;
+}
     }
 
     .__anni_wholove_client {
@@ -1025,17 +1024,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
-    .__contact_content {}
 
-    .__contact {
-        height: 100%;
-        width: 100%;
-        padding: 6rem 2rem;
-        overflow: hidden;
-
-    }
-}
 
 /*form*/
 .__contact_form {
@@ -1265,7 +1254,20 @@
         overflow: hidden;
     }
 }
+@media screen and (max-width: 768px) {
+    .__contact_content {}
 
+    .__contact {
+        height: 100%;
+        width: 100%;
+        padding: 6rem 2rem;
+        overflow: hidden;
+
+    }
+    #graphic-design-link {
+        font-size: 2.8rem!important;
+    }
+}
 @media screen and (max-width: 420px) {
     #graphic-design-link {
         font-size: 2.9rem !important;
