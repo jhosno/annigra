@@ -145,7 +145,7 @@ html::-webkit-scrollbar-track {
 
 .__anni_brand_menu_mobile img {
     width: 5rem;
-    height: fit-content;
+    height: 100%;
     margin-left: .5rem;
 }
 
