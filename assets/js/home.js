@@ -1,7 +1,9 @@
 //home greetings 
 window.addEventListener('load', () => {
-    this.document.getElementById('greeting').classList.toggle('intro')
-    
+    this.document.getElementById('__home_section').classList.toggle('mask-2')
+    this.document.getElementById('__home_section').classList.toggle('cd-intro-content')
+    this.document.getElementById('__home_section_wrapper').classList.toggle('content-wrapper')
+
 })
 //home greetings 
 document.addEventListener("DOMContentLoaded", () => {
@@ -28,16 +30,28 @@ document.addEventListener("DOMContentLoaded", () => {
         greeting.innerHTML = 'good evening'
         greeting_bg.style.background = "url('/assets/img/Evening.png') no-repeat center center"
         greeting_bg.style.backgroundSize = "cover"
-
-
-
-
     }
 
 });
 
+//Collapsible 
+let coll = document.getElementsByClassName("collapsible");
+let count;
 
+for (count = 0; count < coll.length; count++) {
+    coll[count].addEventListener("click", function () {
 
+        this.classList.toggle("active");
+        let content = this.nextElementSibling;
+        if (content.style.maxHeight) {
+            content.style.maxHeight = null;
+        } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+        }
+    });
+}
+
+//Form var
 
 function validateForm(e) {
     e.preventDefault()
@@ -51,22 +65,7 @@ function validateForm(e) {
     return false;
 }
 
-let coll = document.getElementsByClassName("collapsible");
-let count;
 
-for (count = 0; count < coll.length; count++) {
-    coll[count].addEventListener("click", function () {
-
-        this.classList.toggle("active");
-        let content = this.nextElementSibling;
-
-        if (content.style.display === "block") {
-            content.style.display = "none";
-        } else {
-            content.style.display = "block";
-        }
-    });
-}
 
 
 function validateForm(e) {
@@ -93,7 +92,6 @@ function validateForm(e) {
 
 
 function isEmpty(input) {
-
     let invalid_msg = this.document.getElementsByClassName('invalid-feedback-' + input.name)
 
     if (input.value.trim() === "") {
@@ -129,7 +127,6 @@ function isEmail(input) {
         return true;
 
     }
-
 }
 
 function isTel(input) {
@@ -147,6 +144,4 @@ function isTel(input) {
         return true;
 
     }
-
-
 }

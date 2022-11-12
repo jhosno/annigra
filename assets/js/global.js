@@ -107,16 +107,16 @@ for (i = 0; i < language_obj.length; i++) {
                 language_span_mobile.innerHTML = 'english'
                 break;
             case 'english':
-                language_span.innerHTML = 'spanish'
-                language_span_mobile.innerHTML = 'spanish'
+                language_span.innerHTML = 'español'
+                language_span_mobile.innerHTML = 'español'
                 break;
             case 'chinese':
                 language_span.innerHTML = 'english'
                 language_span_mobile.innerHTML = 'english'
                 break;
             default:
-                language_span.textContent = 'spanish'
-                language_span_mobile.textContent = 'spanish'
+                language_span.textContent = 'español'
+                language_span_mobile.textContent = 'español'
         }
 
     });
