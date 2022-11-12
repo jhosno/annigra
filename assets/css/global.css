@@ -335,14 +335,20 @@ html::-webkit-scrollbar-track {
     }
 }
 
-@media only screen and (max-width:1988px) {}
+@media only screen and (max-width:820px) {
+
+    .___section_number_frame,
+    .___section_number {
+        display: none;
+    }
+}
 
 .___section_p {
     font-family: 'Source Serif Pro';
     font-style: normal;
     font-weight: 400;
     font-size: clamp(2rem, 2.5rem, 3.2rem);
-    line-height: 3, 4rem;
+
 }
 
 @media only screen and (max-width:1988px) {
@@ -375,7 +381,15 @@ html::-webkit-scrollbar-track {
     display: inline-block;
 }
 
+@media only screen and (max-width: 420px) {
+    .__section_nt_line {
+        width: 2rem;
+    }
 
+    .___section_h2 {
+        font-size: 1.5rem;
+    }
+}
 
 
 
@@ -520,6 +534,10 @@ html::-webkit-scrollbar-track {
         /* margin: 1vh 7vw; */
     }
 
+    #__anni_icon_close {
+        margin-right: .2rem;
+    }
+
 }
 
 @media screen and (max-width: 512px) {
@@ -531,8 +549,7 @@ html::-webkit-scrollbar-track {
     }
 
     .__anni_custom_font_holder {
-
-        font-size: 2.7rem;
+        font-size: 2.15rem;
     }
 
     .__anni_brand_menu img {
@@ -1111,7 +1128,9 @@ body[class*="opened"] ._anni_menu_svg_path .mkdf-fullscreen-menu-opener-icon rec
 }
 
 @media screen and (max-width: 768px) {
-
+    .___section_h2, .__appointment  .___section_h2,  .__contact .___section_h2 {
+        margin-top: 0rem;
+    }
     #__anni_back-to-top {
         right: 6%;
     }
