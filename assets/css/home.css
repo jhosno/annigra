@@ -684,7 +684,7 @@
     }
 
     .__welove_content {
-        margin-bottom: 2rem;
+        /*margin-bottom: 2rem;*/
     }
 
     .__welove_content img {
@@ -694,7 +694,7 @@
 
 /* 05 FAQ */
 .__anni_faq_area {
-    
+
     cursor: pointer;
     margin: 0;
     box-sizing: border-box;
@@ -797,18 +797,19 @@
     fill: #fff;
 }
 
-.__anni-acc-open  {
+.__anni-acc-open {
     display: flex;
     align-content: center;
     justify-content: center;
     align-items: center;
 }
+
 .__anni-acc-open svg {
     display: block;
     height: 25px;
     width: 25px;
     display: inline-block;
-    
+
 
 }
 
@@ -1144,16 +1145,18 @@
 }
 
 @media only screen and (min-width: 800px) and (max-width: 1200px) {
-    
-    .__anni__wholove_portfolio_client, .__anni__wholove_portfolio_client_right {
+
+    .__anni__wholove_portfolio_client,
+    .__anni__wholove_portfolio_client_right {
 
         padding-left: 2rem;
         padding-right: 2rem;
     }
+
     #greeting {
         font-size: 8.7rem;
     }
- 
+
 
     .__welove,
     .__showourlove,
@@ -1201,28 +1204,32 @@
 
 
 @media only screen and (max-width: 820px) {
-    .col-md-8{
+    .col-md-8 {
         width: 100%;
     }
 }
+
 @media only screen and (max-width: 799px) {
     .__anni_welove_client_work {
         width: 18.5625rem;
         height: 13.7rem;
     }
- 
-    .__anni_wholove_client div figure, .__anni_wholove_client_on_right_img {
+
+    .__anni_wholove_client div figure,
+    .__anni_wholove_client_on_right_img {
         margin-bottom: 1rem !important;
         justify-content: start;
     }
+
     .__anni_welove_client_work img {
-      width: 100%; 
-      height: auto;
+        width: 100%;
+        height: auto;
     }
 
-    .__welove_content  {
-        width: 100%!important;
+    .__welove_content {
+        width: 100% !important;
     }
+
     .__welove,
     .__showourlove,
     .__wholove,
@@ -1252,18 +1259,20 @@
         overflow: hidden;
 
     }
-    
+
     #graphic-design-link {
         font-size: 2.8rem !important;
     }
-    #greeting{
+
+    #greeting {
         padding-left: 5.5rem;
         padding-right: 5.5rem;
-        
-            font-size: 7.7rem;
-            
-        }
-        .__anni_welove_client_work img{
+
+        font-size: 7.7rem;
+
+    }
+
+    .__anni_welove_client_work img {
         height: auto;
         width: auto;
     }
@@ -1271,56 +1280,81 @@
 
 
 @media screen and (max-width: 680px) {
-    .__anni_welove_client_work img{
-        
-            width: 100%;
-            height: auto;
+    .__anni_welove_client_work img {
+
+        width: 100%;
+        height: auto;
     }
+
     .__anni_welove_client_work {
         width: 14.5625rem;
         height: 9.7rem;
 
     }
+
     .__contact_form_submit {
         width: 100%;
 
     }
+
     #greeting {
         font-size: 4rem;
-             line-height: 1;    
+        line-height: 1;
     }
+
     .__anni_welove_client_img img {
         height: 20.375rem;
     }
-    .__anni__wholove_portfolio_client, .__anni__wholove_portfolio_client_right {
+
+    .__anni__wholove_portfolio_client,
+    .__anni__wholove_portfolio_client_right {
         padding-left: 1rem;
         padding-right: 1rem;
     }
-    .__contact_form_input, .__contact_form_textarea {
-        
+
+    .__contact_form_input,
+    .__contact_form_textarea {
+
         margin: 0rem;
-   }
+    }
+
+    .__wholove_bottom_margin {
+        margin-bottom: 6rem;
+    }
+
+    .__anni_show_list_area div:last-child .__anni_show_list_item:last-child {
+        margin-bottom: 2.8rem;
+        
+    }
+
 }
+
 @media screen and (max-width: 420px) {
     #graphic-design-link {
         font-size: 2.5rem !important;
     }
-    .__anni_wholove_client_on_right_name, .__anni_wholove_bg_client_name {
+
+    .__anni_wholove_client_on_right_name,
+    .__anni_wholove_bg_client_name {
         font-size: 5.1rem;
     }
+
     .__anni_welove_client_img img {
         height: 19.375rem;
     }
+
     .__anni_welove_client_work {
         width: 9.5625rem;
         height: 7.7rem;
     }
-    .__anni_welove_portfolio_square_img img{
-      height: 100%; 
+
+    .__anni_welove_portfolio_square_img img {
+        height: 100%;
         width: 100%;
     }
+
     .__anni_wholove_client_first {
-        margin-top: 0; 
+        margin-top: 0;
     }
 }
 

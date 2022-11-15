@@ -559,7 +559,11 @@ html::-webkit-scrollbar-track {
     }
 
     .__anni_custom_font_holder {
-        font-size: 2.15rem;
+        font-size: 2.4rem;
+    }
+    #__anni_side_menu_area>div:first-child {
+        min-height: 58%;
+        padding: 1.5rem 1.2rem;
     }
 
     .__anni_brand_menu img {
