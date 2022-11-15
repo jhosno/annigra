@@ -463,8 +463,8 @@ html::-webkit-scrollbar-track {
     /* top: 18px;
     right: 20px; */
     width: 42rem;
-    min-height: 60vh;
-    height: calc(100% - 40px);
+    min-height: 45vh;
+    /*height: calc(100% - 40px);*/
     /* min-height: calc(100% - 40px);*/
     padding: 1.5rem 3rem;
     background-color: #000;
@@ -550,6 +550,12 @@ html::-webkit-scrollbar-track {
 
 }
 
+@media screen and (max-width: 700px) {
+    .__anni_custom_font_holder {
+     
+        font-size: 3.25rem;
+    }
+}
 @media screen and (max-width: 512px) {
     #__anni_side_menu_area>div:first-child {
         width: 88vw;
@@ -562,7 +568,7 @@ html::-webkit-scrollbar-track {
         font-size: 2.4rem;
     }
     #__anni_side_menu_area>div:first-child {
-        min-height: 58%;
+        /*min-height: 58%;*/
         padding: 1.5rem 1.2rem;
     }
 
@@ -579,7 +585,7 @@ html::-webkit-scrollbar-track {
 
     .__anni_custom_font_holder {
         font-weight: 500;
-        font-size: 3rem;
+        font-size: 2.1rem;
     }
 
     .__anni_brand_menu img {

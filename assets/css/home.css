@@ -1324,7 +1324,10 @@
 
     .__anni_show_list_area div:last-child .__anni_show_list_item:last-child {
         margin-bottom: 2.8rem;
-        
+
+    }
+    .__anni__wholove_portfolio_client figure{
+        margin-bottom: 0;
     }
 
 }
