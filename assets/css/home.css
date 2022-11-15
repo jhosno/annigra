@@ -1135,10 +1135,15 @@
 
 @media only screen and (min-width: 800px) and (max-width: 1200px) {
     
+    .__anni__wholove_portfolio_client, .__anni__wholove_portfolio_client_right {
 
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
     #greeting {
         font-size: 8.7rem;
     }
+ 
 
     .__welove,
     .__showourlove,
@@ -1158,11 +1163,12 @@
     }
 
     #graphic-design-link {
-        font-size: 3.3rem !important;
+        font-size: 4.125rem !important;
     }
 
     .__FAQ .___section_number {
         order: -1;
+        font-size: 12rem;
     }
 
     .___section_number,
@@ -1184,6 +1190,11 @@
 }
 
 
+@media only screen and (max-width: 820px) {
+    .col-md-8{
+        width: 100%;
+    }
+}
 @media only screen and (max-width: 799px) {
     .__anni_welove_client_work {
         width: 18.5625rem;
