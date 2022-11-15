@@ -1132,7 +1132,7 @@
 
 @media only screen and (min-width: 800px) and (max-width: 1200px) {
     
-    
+
     #greeting {
         font-size: 8.7rem;
     }
@@ -1186,10 +1186,7 @@
         width: 18.5625rem;
         height: 13.7rem;
     }
-    .__contact_form_submit {
-        width: 100%;
-
-    }
+ 
     .__anni_wholove_client div figure, .__anni_wholove_client_on_right_img {
         margin-bottom: 1rem !important;
         justify-content: start;
@@ -1260,7 +1257,10 @@
         height: 9.7rem;
 
     }
+    .__contact_form_submit {
+        width: 100%;
 
+    }
     #greeting {
         font-size: 4rem;
              line-height: 1;    
