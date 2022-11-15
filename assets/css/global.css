@@ -9,6 +9,10 @@
 
 }
 
+main {
+    overflow: hidden;
+}
+
 /*Loader*/
 .loader {
     background-color: #fff;
@@ -348,12 +352,18 @@ html::-webkit-scrollbar-track {
     font-style: normal;
     font-weight: 400;
     font-size: clamp(2rem, 2.5rem, 3.2rem);
+    margin-bottom: 0;
 
 }
 
 @media only screen and (max-width:1988px) {
     .___section_p {
         font-size: 3.2rem;
+    }
+
+    .__wholove .___section_p {
+        font-size: 3.15rem;
+
     }
 
 }
@@ -1128,9 +1138,13 @@ body[class*="opened"] ._anni_menu_svg_path .mkdf-fullscreen-menu-opener-icon rec
 }
 
 @media screen and (max-width: 768px) {
-    .___section_h2, .__appointment  .___section_h2,  .__contact .___section_h2 {
+
+    .___section_h2,
+    .__appointment .___section_h2,
+    .__contact .___section_h2 {
         margin-top: 0rem;
     }
+
     #__anni_back-to-top {
         right: 6%;
     }
@@ -1144,21 +1158,6 @@ body[class*="opened"] ._anni_menu_svg_path .mkdf-fullscreen-menu-opener-icon rec
     transition: border-radius 1s cubic-bezier(.07, .98, 0, .96);
 }
 
-.__anni_wholove_client_on_right_name {
-    right: 3% !important;
-    line-height: 1;
-    font-weight: 400;
-    font-size: 15rem;
-    color: #D9D9D9;
-    vertical-align: middle;
-    display: inline-block;
-    position: relative;
-    top: -60%;
-    z-index: -1;
-    font-family: "Source Serif Pro", serif;
-    /*overflow: hidden;*/
-    width: fit-content;
-}
 
 
 .__anni_menu_opner_icon .st0:nth-child(1) {
