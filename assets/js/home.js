@@ -40,7 +40,6 @@ let count;
 
 for (count = 0; count < coll.length; count++) {
     coll[count].addEventListener("click", function () {
-
         this.classList.toggle("active");
         let content = this.nextElementSibling;
         if (content.style.maxHeight) {

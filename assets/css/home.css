@@ -691,16 +691,16 @@
 
 /* 05 FAQ */
 .__anni_faq_area {
-    position: relative;
+    
     cursor: pointer;
     margin: 0;
     box-sizing: border-box;
     -webkit-transform: translateZ(0);
     -moz-transform: translateZ(0);
     transform: translateZ(0);
-    -webkit-transition: color .2s ease-out, background-color .2s ease-out;
-    -moz-transition: color .2s ease-out, background-color .2s ease-out;
-    transition: color .2s ease-out, background-color .2s ease-out;
+    -webkit-transition: color 1s ease-out, background-color 1s ease-out;
+    -moz-transition: color 1s ease-out, background-color 1s ease-out;
+    transition: color 1s ease-out, background-color 1s ease-out;
 }
 
 
@@ -865,7 +865,7 @@
 
 .active .__anni-acc-open {
     display: none;
-    transition: all 1s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: display 1s cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
 
