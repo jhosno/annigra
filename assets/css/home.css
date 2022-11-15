@@ -319,7 +319,7 @@
     display: inline-block;
     position: relative;
     left: 0;
-    top: -179px;
+    top: -9rem;
     z-index: -1;
     height: 0;
     font-family: 'Source Serif Pro';
@@ -336,7 +336,7 @@
     display: inline-block;
     position: relative;
     right: -57%;
-    top: -179px;
+    top: -9rem;
     z-index: -1;
     height: 0;
 }
