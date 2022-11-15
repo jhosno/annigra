@@ -624,13 +624,15 @@
     }
 
     .__anni_wholove_client_on_right_name {
-        top: -102px;
+        top: -6rem;
+
         right: -6%;
 
     }
 
     .__anni_wholove_bg_client_name {
-        top: -102px;
+        top: -6rem;
+        left: 2rem;
     }
 
     .__anni_wholove_client_on_right_name,
@@ -794,11 +796,18 @@
     fill: #fff;
 }
 
+.__anni-acc-open  {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
 .__anni-acc-open svg {
     display: block;
     height: 25px;
     width: 25px;
     display: inline-block;
+    
 
 }
 
