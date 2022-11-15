@@ -443,7 +443,10 @@
 }
 
 @media screen and (max-width: 1520px) {
-
+    .__anni_welove_client_work {
+        width: 16.5625rem;
+        height: 11.7rem;
+    }
 
     .__anni_wholove_client h3 {
         font-size: 1.8rem;
