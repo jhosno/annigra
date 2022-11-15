@@ -653,6 +653,7 @@
         font-size: 1.2rem;
     }
 
+
 }
 
 /* 04 appointment */
@@ -1295,6 +1296,10 @@
         padding-left: 1rem;
         padding-right: 1rem;
     }
+    .__contact_form_input, .__contact_form_textarea {
+        
+        margin: 0rem;
+   }
 }
 @media screen and (max-width: 420px) {
     #graphic-design-link {
