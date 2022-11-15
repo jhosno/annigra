@@ -1336,6 +1336,13 @@
     #graphic-design-link {
         font-size: 2.5rem !important;
     }
+    #greeting {
+        font-size: 3.4rem;
+    }
+    .main-logo {
+        margin-left: 0.5rem;
+        margin-bottom: 0.15rem;
+    }
 
     .__anni_wholove_client_on_right_name,
     .__anni_wholove_bg_client_name {
