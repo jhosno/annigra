@@ -552,10 +552,11 @@ html::-webkit-scrollbar-track {
 
 @media screen and (max-width: 700px) {
     .__anni_custom_font_holder {
-     
+
         font-size: 3.25rem;
     }
 }
+
 @media screen and (max-width: 512px) {
     #__anni_side_menu_area>div:first-child {
         width: 88vw;
@@ -567,6 +568,7 @@ html::-webkit-scrollbar-track {
     .__anni_custom_font_holder {
         font-size: 2.4rem;
     }
+
     #__anni_side_menu_area>div:first-child {
         /*min-height: 58%;*/
         padding: 1.5rem 1.2rem;
@@ -851,10 +853,14 @@ body[class*="opened"] ._anni_menu_svg_path .mkdf-fullscreen-menu-opener-icon rec
 }
 
 /***********************************btns */
+.__anni_btn_outline span {
+    font-weight: 600;
+
+}
+
 .__anni_btn_outline {
     text-transform: uppercase;
     font-family: 'Montserrat';
-    font-weight: 600;
     border-radius: 0;
     border: solid 0.125rem #000;
     font-size: 1.1875rem;
@@ -862,7 +868,6 @@ body[class*="opened"] ._anni_menu_svg_path .mkdf-fullscreen-menu-opener-icon rec
 
 @media screen and (min-width: 1600px) {
     .__anni_btn_outline {
-
         font-size: 1.2rem;
     }
 }
