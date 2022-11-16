@@ -1218,16 +1218,14 @@
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
     .__appoinment_text{
-        
         width: 100%;
     }
     .__appointment>div:last-child{
-        
         width: 100%;
     }
 
 }
-@media only screen and (min-width: 820px) and (max-width: 991px) {
+@media only screen and (min-width: 821px) and (max-width: 991px) {
     .__showourlove>.row:first-child div:first-child {
         width: 41.5%;
     }
