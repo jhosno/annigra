@@ -1211,7 +1211,7 @@ footer {
     font-family: 'montserrat';
     /*font-family: "Source Serif Pro", serif;*/
 
-    padding: 3rem 3rem;
+    padding: 3rem 6rem;
 }
 
 footer>div {
@@ -1255,8 +1255,8 @@ footer li>a {
 
 .__anni_footer-tagline {
     font-family: 'Homemade Apple', cursive;
-    color: #ffff00;
-    font-size: 4rem;
+    color: #f5f541;
+    font-size: 3.5rem;
     position: relative;
     top: -6rem;
     left: 25rem;
