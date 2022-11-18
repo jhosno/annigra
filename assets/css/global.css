@@ -1208,8 +1208,8 @@ footer {
     min-height: 28rem;
     background: #000;
     color: #fff;
-    font-family: 'montserrat';
-    /*font-family: "Source Serif Pro", serif;*/
+    /*font-family: 'montserrat';*/
+    font-family: "Source Serif Pro", serif;
 
     padding: 3rem 6rem;
 }
@@ -1232,14 +1232,13 @@ footer .col-3:last-child {
 }
 
 footer h3 {
-
     font-weight: 600;
-    font-size: 2.51rem
+    font-size: 2.2rem;
 }
 
 footer p,
 footer a {
-    font-size: 1.8rem;
+    font-size: 1.51rem;
 }
 
 footer ul {
@@ -1247,10 +1246,14 @@ footer ul {
     padding-left: 0;
 }
 
-footer li>a {
+footer a {
     text-decoration: none;
     color: #fff;
     cursor: pointer;
+}
+footer a:hover {
+    color: #d6d6d6;
+    font-weight: 600;
 }
 
 .__anni_footer-tagline {
@@ -1293,38 +1296,45 @@ footer li>a {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 820px) {
-    
+
     .__anni_footer-tagline {
         font-size: 1.92rem;
         top: 0rem;
         left: 1rem;
     }
+
     footer h3 {
         font-weight: 600;
         font-size: 2.06rem;
     }
-    footer p, footer a {
+
+    footer p,
+    footer a {
         font-size: 1.2rem;
     }
 }
+
 @media only screen and (min-width: 390px) and (max-width: 767px) {
-    footer{
-        padding:6rem 2rem;
+    footer {
+        padding: 6rem 2rem;
     }
+
     .__anni_footer-links-section {
         row-gap: 2rem;
     }
+
     footer h3 {
-        
+
         font-size: 2.2rem;
     }
+
     .__anni_footer-tagline {
         font-size: 1.0rem;
         top: 1rem;
         left: 0;
     }
 
-    .__anni_brand_footer img{
+    .__anni_brand_footer img {
         width: 100%;
     }
 }
