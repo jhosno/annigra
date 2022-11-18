@@ -864,7 +864,11 @@ body[class*="opened"] ._anni_menu_svg_path .mkdf-fullscreen-menu-opener-icon rec
     font-family: 'Montserrat';
     border-radius: 0;
     border: solid 0.125rem #000;
-    font-size: 1.1875rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    width: 13.625rem;
+    height: 4.5rem;
+
 }
 
 @media screen and (min-width: 1600px) {
@@ -1251,6 +1255,7 @@ footer a {
     color: #fff;
     cursor: pointer;
 }
+
 footer a:hover {
     color: #d6d6d6;
     font-weight: 600;
@@ -1294,6 +1299,9 @@ footer a:hover {
         left: 1rem;
     }
 }
+
+
+
 
 @media only screen and (min-width: 768px) and (max-width: 820px) {
 
