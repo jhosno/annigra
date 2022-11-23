@@ -1264,19 +1264,26 @@ footer a:hover {
 }
 
 .__anni_footer-tagline {
-    font-family: 'Homemade Apple', cursive;
-    color: #f5f541;
+    /*    font-family: 'Homemade Apple', cursive;*/
+    font-family: 'Source Serif Pro';
+    color: #fff;
     font-size: 3.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /*
     position: relative;
     top: -6rem;
     left: 25rem;
-
-
     -moz-transform: rotate(355deg);
     -webkit-transform: rotate(355deg);
     -o-transform: rotate(355deg);
     -ms-transform: rotate(355deg);
     transform: rotate(355deg);
+    */
+}
+.__anni_footer-tagline span{
+    font-weight: 600;
 }
 
 .__footer_form_input {
@@ -1324,7 +1331,18 @@ footer a:hover {
     }
 }
 
-@media only screen and (min-width: 390px) and (max-width: 767px) {
+@media only screen and (min-width: 707px) and (max-width: 767px) {
+    .__anni_footer-tagline {
+        font-size: 2rem; 
+    }
+}
+@media only screen and (min-width: 420px) and (max-width: 706px) {
+    .__anni_footer-tagline {
+        font-size: 1.29rem; 
+    }
+  
+}
+@media only screen and (min-width: 360px) and (max-width: 419px) {
     footer {
         padding: 6rem 2rem;
     }
@@ -1339,12 +1357,72 @@ footer a:hover {
     }
 
     .__anni_footer-tagline {
-        font-size: 1.0rem;
-        top: 1rem;
-        left: 0;
+        font-size: 1.29rem;
+        
     }
 
     .__anni_brand_footer img {
         width: 100%;
     }
+}
+
+.__contact_form_footer {
+    margin-right: 0.15rem;
+    border-radius: 0;
+    width: 100%;
+    height: 4.5rem;
+    color: #000;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.1875rem;
+    line-height: 24px;
+    /* identical to box height, or 126% */
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    background: #fff;
+    border-color: #fff;
+
+}
+
+.normal-underline,
+.custom_underline_footer {
+    position: relative;
+    display: inline-block;
+    line-height: 4rem;
+
+
+}
+
+.custom_underline_footer,
+.custom_underline_footer:hover {
+    border-bottom: dotted 0.125rem #000;
+}
+
+.custom_underline_footer,
+.custom_underline_footer:hover,
+.custom_underline_footer:focus,
+.custom_underline_footer:active {
+    color: #000;
+
+}
+
+.custom_underline_footer::after {
+    content: "";
+    position: absolute;
+}
+
+
+.box_e .custom_underline_footer::after {
+    top: 65%;
+    height: 2px;
+    width: 0%;
+    left: 0%;
+    border-bottom: dotted 0.125rem #000;
+    transition: 0.5s ease all .3s;
+}
+
+.box_e:hover .custom_underline_footer::after {
+    width: 100%;
+    transition: 0.3s ease all reverse;
 }
