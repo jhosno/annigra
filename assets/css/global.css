@@ -1408,7 +1408,7 @@ footer a:hover {
 
 .custom_underline_footer,
 .custom_underline_footer:hover {
-    border-bottom: dotted 0.125rem #000;
+    /*border-bottom: dotted 0.125rem #000;*/
 }
 
 .custom_underline_footer,
