@@ -1161,6 +1161,7 @@ body[class*="opened"] ._anni_menu_svg_path .mkdf-fullscreen-menu-opener-icon rec
     .__anni_btn_outline {
         width: 100%;
     }
+
     .___section_h2,
     .__appointment .___section_h2,
     .__contact .___section_h2 {
@@ -1282,7 +1283,8 @@ footer a:hover {
     transform: rotate(355deg);
     */
 }
-.__anni_footer-tagline span{
+
+.__anni_footer-tagline span {
     font-weight: 600;
 }
 
@@ -1298,12 +1300,12 @@ footer a:hover {
 }
 
 @media only screen and (min-width: 1201px) and (max-width: 2560px) {
-    .__anni_footer-links-section>div:last-child
-    {
-        
+    .__anni_footer-links-section>div:last-child {
+
         padding-left: 5rem;
     }
 }
+
 @media only screen and (min-width: 821px) and (max-width: 1200px) {
     .__anni_footer-links-section {
         row-gap: 2rem;
@@ -1314,9 +1316,9 @@ footer a:hover {
         top: 0rem;
         left: 1rem;
     }
-    .__anni_footer-links-section>div:last-child
-    {
-        
+
+    .__anni_footer-links-section>div:last-child {
+
         padding-left: 2rem;
     }
 }
@@ -1345,37 +1347,49 @@ footer a:hover {
 
 @media only screen and (min-width: 707px) and (max-width: 767px) {
     .__anni_footer-tagline {
-        font-size: 2rem; 
+        font-size: 2rem;
     }
 }
+
 @media only screen and (min-width: 420px) and (max-width: 706px) {
     .__anni_footer-tagline {
-        font-size: 1.29rem; 
+        font-size: 1.29rem;
     }
-  
+
 }
+
 @media only screen and (min-width: 360px) and (max-width: 419px) {
+    
     footer {
         padding: 6rem 2rem;
     }
-
+    
+    .__anni_footer-links-section>div:last-child div {
+        justify-content: center;
+    }
+    
     .__anni_footer-links-section {
         row-gap: 2rem;
+        text-align: center;
     }
-
+    
     footer h3 {
-
+        
         font-size: 2.2rem;
     }
-
+    
     .__anni_footer-tagline {
         font-size: 1.29rem;
         
+    }
+    .__anni_footer-tagline span {
+        text-align: center;
     }
 
     .__anni_brand_footer img {
         width: 100%;
     }
+
 }
 
 .__contact_form_footer {
