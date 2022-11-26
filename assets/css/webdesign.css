@@ -86,9 +86,31 @@
     }
 }
 
-@media screen and (max-width: 1600px) {}
+@media screen and (max-width: 1600px) {
+    #__home_section_wrapper {
+        width: 77.3125rem;
+    }
+}
 
-@media screen and (min-width: 1366px) {}
+@media screen and (max-width: 1366px) {
+    #__home_section_wrapper {
+        width: 55.3125rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #__home_section_wrapper {
+        width: 55.3125rem;
+    }
+}
+
+@media screen and (max-width: 820px) {
+
+    #__home_section_wrapper {
+        width: 39.3125rem;
+    }
+
+}
 
 @media screen and (max-width: 530px) {}
 
@@ -140,6 +162,11 @@ section {
 
 }
 
+.__portfolio {
+    padding-bottom: 4.375rem;
+    min-height: fit-content;
+}
+
 @media only screen and (min-width:1920px) {
     section {
         padding-left: 17.8rem;
@@ -147,7 +174,7 @@ section {
     }
 }
 
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 820px) {
     section {
         padding: 6rem 2rem;
     }
@@ -374,17 +401,19 @@ section {
     margin-left: 3rem;
     margin-right: 3rem;
 }
+
 @media only screen and (max-width: 820px) {
     .__anni_portfolio_list {
         margin-bottom: 6rem;
         margin-left: 1rem;
         margin-right: 1rem;
     }
-    .__portfolio{
+
+    .__portfolio {
         padding-bottom: 3rem;
         min-height: fit-content;
     }
-    
+
 }
 
 .__anni_client_work .row {}
@@ -446,15 +475,18 @@ __anni_portfolio_list .row {
     .__prices li {
         font-size: 1.2rem;
     }
+
     .__prices ul {
         margin-bottom: 2.5rem;
         margin-top: 0;
     }
+
     .__prices .col-md-12>span {
         font-size: 1.7rem;
     }
 }
-/**04 process ***/
+
+/**05 process ***/
 .__anni_ourprocess_diagram div {
     display: flex;
     justify-content: center;
@@ -546,6 +578,50 @@ __anni_portfolio_list .row {
     height: 0.5rem;
 }
 
+@media only screen and (max-width: 1440px) {
+    .__anni_ourprogress_line_diagram span {
+        width: 8rem;
+
+        top: -11rem;
+        left: 14rem;
+    }
+
+    .__anni_ourprogress_line_diagram {
+        transform: rotate(66deg);
+        -webkit-transform: rotate(66deg);
+        -moz-transform: rotate(66deg);
+    }
+
+    .__anni_ourprogress_line_invert_diagram {
+        transform: rotate(-66deg);
+        -webkit-transform: rotate(-66deg);
+        -moz-transform: rotate(-66deg);
+    }
+
+    .__anni_ourprogress_line_invert_diagram span {
+        width: 12rem;
+        position: relative;
+        top: -10rem;
+        left: -16rem;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    .__anni_ourprogress_line_invert_diagram,
+    .__anni_ourprogress_line_invert_diagram span,
+    .__anni_ourprogress_line_diagram span,
+    .__anni_ourprogress_line_diagram{
+        display: none;
+    }
+    .__anni_ourprocess_title_container {
+        width: 23rem;
+    }
+
+    .__anni_ourprocess_point_content {
+        width: 23rem;
+    }
+}
+
 /**07 contact***/
 .__contact {
     height: 100%;
@@ -567,9 +643,10 @@ __anni_portfolio_list .row {
     .__contact .__contact_content {
         font-size: 3rem;
         margin-bottom: 2rem;
-        
+
     }
 }
+
 @media only screen and (max-width:1988px) {
     .__contact_content {
         padding-left: 0 !important;
@@ -621,8 +698,9 @@ __anni_portfolio_list .row {
     .__contact_form_submit {
         width: 100%;
     }
-    
-}   
+
+}
+
 .normal-underline,
 .custom_underline {
     position: relative;
