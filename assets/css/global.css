@@ -10,7 +10,7 @@
 
 }
 
-main {
+main, header, footer {
     overflow: hidden;
 }
 
@@ -251,6 +251,19 @@ html::-webkit-scrollbar-track {
 
 /***************************sections styles*/
 
+.___pages_section_p {
+    font-family: 'Source Serif Pro';
+    font-size: 1.85125rem;
+    margin-bottom: 2.2rem;
+
+    
+}
+.___pages_section_h2 {
+    font-family: 'Source Serif Pro';
+    font-size: 2.5rem;
+    margin-bottom: 2.2rem;
+
+}
 .___section_h2 {
     font-family: 'Source Serif Pro';
     font-style: normal;
@@ -260,6 +273,7 @@ html::-webkit-scrollbar-track {
     margin-bottom: 2.8rem;
 
 }
+
 
 
 @media only screen and (max-width:1988px) {
@@ -280,6 +294,7 @@ html::-webkit-scrollbar-track {
     }
 }
 
+.___pages_section_number,
 .___section_number {
     font-family: 'Montserrat';
     font-style: normal;
@@ -292,6 +307,10 @@ html::-webkit-scrollbar-track {
     padding-right: 0;
 }
 
+.___pages_section_number{
+    text-align: left;
+
+}
 
 @media only screen and (max-width:1988px) {
     .___section_number {
@@ -312,6 +331,7 @@ html::-webkit-scrollbar-track {
     }
 }
 
+.___pages_section_number_frame,
 .___section_number_frame {
     font-family: 'Montserrat';
     font-style: normal;
@@ -323,6 +343,9 @@ html::-webkit-scrollbar-track {
     text-align: left;
     padding-left: 0;
     padding-right: 0;
+}
+.___pages_section_number_frame{
+    text-align: right;
 }
 
 @media only screen and (max-width:1988px) {
@@ -852,11 +875,125 @@ body[class*="opened"] ._anni_menu_svg_path .mkdf-fullscreen-menu-opener-icon rec
     background-color: #fff;
     border: solid 2px #000;
 }
+/*------------------------------------*/
+/*------ Basic Underline Styles ------*/
+/*------------------------------------*/
+
+.normal-underline_invert,
+.custom-underline_invert {
+    position: relative;
+    display: inline-block;
+    line-height: 4rem;
+
+
+    text-align: center;
+}
+
+.normal-underline_invert,
+.normal-underline_invert:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+.custom-underline_invert,
+.custom-underline_invert:hover,
+.custom-underline_invert:focus,
+.custom-underline_invert:active {
+    color: #000;
+    text-decoration: none;
+
+
+}
+
+.custom-underline_invert::after {
+    content: "";
+    position: absolute;
+}
 
 /***********************************btns */
 .__anni_btn_outline span {
     font-weight: 600;
 
+}
+/*-- (box-e) ---*/
+.box-e_invert .custom-underline_invert::after {
+    top: 65%;
+    height: 2px;
+    width: -0%;
+    left: 0%;
+    border-bottom: dotted 0.125rem #000;
+
+    transition: 0.5s ease all .3s;
+}
+
+.box-e_invert:hover .custom-underline_invert::after {
+    width: 100%;
+    transition: 0.3s ease all;
+}
+.__black-btn {
+    margin-right: 0.15rem;
+    border-radius: 0;
+    width: 13.625rem;
+    height: 4.5rem;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.1875rem;
+    line-height: 24px;
+    /* identical to box height, or 126% */
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    background: #000000;
+    border-color: #000;
+}
+
+
+.normal-underline,
+.custom_underline {
+    position: relative;
+    display: inline-block;
+    line-height: 4rem;
+
+
+}
+
+.custom-underline,
+.custom-underline:hover {
+    border-bottom: dotted 0.125rem #fff;
+}
+
+.custom_underline,
+.custom_underline:hover,
+.custom_underline:focus,
+.custom_underline:active {
+    color: #fff;
+
+}
+
+.custom_underline::after {
+    content: "";
+    position: absolute;
+}
+
+.__contact_form_submit:hover {
+    background-color: #000;
+    border-color: #000;
+
+}
+
+.box_e .custom_underline::after {
+    top: 65%;
+    height: 2px;
+    width: 0%;
+    left: 0%;
+    border-bottom: dotted 0.125rem #fff;
+    transition: 0.5s ease all .3s;
+}
+
+.box_e:hover .custom_underline::after {
+    width: 100%;
+    transition: 0.3s ease all reverse;
 }
 
 .__anni_btn_outline {
@@ -866,7 +1003,7 @@ body[class*="opened"] ._anni_menu_svg_path .mkdf-fullscreen-menu-opener-icon rec
     border: solid 0.125rem #000;
     font-weight: 600;
     font-size: 1.1rem;
-    width: 13.625rem;
+    min-width: 13.625rem;
     height: 4.5rem;
 
 }

@@ -1,6 +1,7 @@
 /*home****************************/
 .home {
-    background: url(/assets/img/Evening.png) cover no-repeat;
+    background: url('/assets/img/Morning.jpg') no-repeat center center;
+    background-size: cover;
     width: 100%;
     min-height: 52rem;
     position: absolute;
@@ -1016,59 +1017,10 @@
 
 
 /**************/
-/*------------------------------------*/
-/*------ Basic Underline Styles ------*/
-/*------------------------------------*/
-
-.normal-underline_invert,
-.custom-underline_invert {
-    position: relative;
-    display: inline-block;
-    line-height: 4rem;
-
-
-    text-align: center;
-}
-
-.normal-underline_invert,
-.normal-underline_invert:hover {
-    color: #000;
-    text-decoration: underline;
-}
-
-.custom-underline_invert,
-.custom-underline_invert:hover,
-.custom-underline_invert:focus,
-.custom-underline_invert:active {
-    color: #000;
-    text-decoration: none;
-
-
-}
-
-.custom-underline_invert::after {
-    content: "";
-    position: absolute;
-}
 
 
 
 
-/*-- (box-e) ---*/
-.box-e_invert .custom-underline_invert::after {
-    top: 65%;
-    height: 2px;
-    width: -0%;
-    left: 0%;
-    border-bottom: dotted 0.125rem #000;
-
-    transition: 0.5s ease all .3s;
-}
-
-.box-e_invert:hover .custom-underline_invert::after {
-    width: 100%;
-    transition: 0.3s ease all;
-}
 
 @media only screen and (max-width:1988px) {
 
