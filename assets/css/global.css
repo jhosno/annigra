@@ -369,6 +369,10 @@ html::-webkit-scrollbar-track {
     .___section_number {
         display: none;
     }
+    .___pages_section_number_frame,
+    .___pages_section_number {
+        display: none;
+    }
 }
 
 .___section_p {
@@ -415,13 +419,21 @@ html::-webkit-scrollbar-track {
     display: inline-block;
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 425px) {
     .__section_nt_line {
         width: 2rem;
     }
 
-    .___section_h2 {
+    .___section_h2
+    {
         font-size: 1.5rem;
+    }
+    .___pages_section_p{
+        font-size: 1.2rem;
+    }
+    .___pages_section_h2 {
+        font-size: 1.3rem;
+        font-weight: 600;
     }
 }
 
@@ -1011,6 +1023,12 @@ body[class*="opened"] ._anni_menu_svg_path .mkdf-fullscreen-menu-opener-icon rec
 @media screen and (min-width: 1600px) {
     .__anni_btn_outline {
         font-size: 1.2rem;
+    }
+}
+@media screen and (max-width: 820px) {
+    .__black-btn{
+        width: 100%;
+        margin-bottom: 2rem;
     }
 }
 
