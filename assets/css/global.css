@@ -1016,8 +1016,13 @@ body[class*="opened"] ._anni_menu_svg_path .mkdf-fullscreen-menu-opener-icon rec
     font-size: 1.1rem;
     min-width: 13.625rem;
     height: 4.5rem;
+    padding: 0rem 2rem;
 
 }
+.__anni_btn_outline img{
+    width: 1.5rem;
+}
+
 
 @media screen and (min-width: 1600px) {
     .__anni_btn_outline {

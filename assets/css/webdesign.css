@@ -550,6 +550,8 @@ __anni_portfolio_list .row {
 
 .__anni_outprocess_p {
     font-size: 1.3125rem;
+    font-family: 'Source Serif Pro';
+
 }
 
 .__anni_ourprogress_line_diagram {
@@ -559,7 +561,7 @@ __anni_portfolio_list .row {
 }
 
 .__anni_ourprogress_line_diagram span {
-    width: 23rem;
+    width: 22rem;
     position: relative;
     top: -9rem;
     left: 21rem;
@@ -573,10 +575,10 @@ __anni_portfolio_list .row {
 }
 
 .__anni_ourprogress_line_invert_diagram span {
-    width: 23rem;
+    width: 22rem;
     position: relative;
     top: -8rem;
-    left: -20rem;
+    left: -21rem;
     height: 0.5rem;
 }
 
