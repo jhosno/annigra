@@ -255,8 +255,6 @@ html::-webkit-scrollbar-track {
     font-family: 'Source Serif Pro';
     font-size: 1.85125rem;
     margin-bottom: 2.2rem;
-
-    
 }
 .___pages_section_h2 {
     font-family: 'Source Serif Pro';
@@ -430,6 +428,7 @@ html::-webkit-scrollbar-track {
     }
     .___pages_section_p{
         font-size: 1.2rem;
+        margin-bottom: 0;
     }
     .___pages_section_h2 {
         font-size: 1.3rem;
