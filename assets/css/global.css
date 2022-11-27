@@ -355,9 +355,27 @@ html::-webkit-scrollbar-track {
 
 @media only screen and (max-width: 1657px) {
     .___section_number_frame {
-
         font-size: 15rem;
+    }
+}
+@media only screen and (max-width: 1368px) {
 
+    .___pages_section_number_frame,
+    .___pages_section_number {
+        font-size: 12rem;
+    }
+}
+@media only screen and (max-width: 1024px) {
+
+    .___pages_section_number_frame,
+    .___pages_section_number {
+        font-size: 10rem;
+    }
+    .___pages_section_h2 {
+        font-size: 2.0rem;
+    }
+    .___pages_section_p {
+        font-size: 1.5125rem;
     }
 }
 

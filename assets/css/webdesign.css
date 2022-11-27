@@ -174,9 +174,15 @@ section {
     }
 }
 
+@media screen and (max-width: 1024px) {
+    section {
+        min-height: fit-content;
+        padding: 8.375rem 8.5rem;
+    }
+}
 @media screen and (max-width: 820px) {
     section {
-        
+
         height: fit-content;
         padding: 6rem 2rem;
     }
@@ -501,19 +507,22 @@ __anni_portfolio_list .row {
     flex-direction: row;
 }
 
+.__anni_ourprocess_point>span:last-child {
+    top: 7.1rem;
+}
+
 .__anni_ourprocess_point>span {
     position: relative;
     z-index: -1;
-    top: 7.1rem;
-    left: 14.5rem;
-
+    top: 7.5rem;
+    left: 13.5rem;
 }
 
 .__anni_ourprocess_diagram>div:last-child .__anni_ourprocess_point>span {
     position: relative;
     z-index: -1;
-    top: 7.1rem;
-    left: -14.5rem;
+    top: 7.5rem;
+    left: -13rem;
 }
 
 .__anni_ourprocess_point_content {
@@ -590,6 +599,7 @@ __anni_portfolio_list .row {
         left: 14rem;
     }
 
+
     .__anni_ourprogress_line_diagram {
         transform: rotate(66deg);
         -webkit-transform: rotate(66deg);
@@ -605,18 +615,73 @@ __anni_portfolio_list .row {
     .__anni_ourprogress_line_invert_diagram span {
         width: 12rem;
         position: relative;
+        z-index: -1;
         top: -10rem;
         left: -16rem;
     }
 }
 
+@media only screen and (max-width: 1268px) {
+    .__anni_ourprogress_line_diagram span {
+        width: 8rem;
+        top: -14rem;
+        left: 10rem;
+    }
+    .__anni_ourprocess_title_container {
+        width: 22rem;
+    }
+    .__anni_ourprogress_line_invert_diagram span {
+        
+        top: 14rem;
+        left: 11rem;
+    }
+    .__anni_ourprocess_diagram>div:last-child .__anni_ourprocess_point>span {
+        
+        top: 7.5rem;
+        left: -12rem;
+    }
+    .__anni_ourprogress_line_invert_diagram,
+    .__anni_ourprogress_line_diagram {
+        transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .__anni_ourprogress_line_diagram span {
+        width: 8rem;
+        top: -14rem;
+        left: 10rem;
+    }
+    .__anni_ourprocess_title_container {
+        width: 22rem;
+    }
+    .__anni_ourprogress_line_invert_diagram span {
+        top: 12rem;
+        left: 10.5rem;
+        width: 8.595rem;
+    }
+    .__anni_ourprocess_diagram>div:last-child .__anni_ourprocess_point>span {
+        top: 7.5rem;
+        left: -11rem;
+    }
+    .__anni_ourprogress_line_invert_diagram,
+    .__anni_ourprogress_line_diagram {
+        transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+    }
+}
+
 @media only screen and (max-width: 820px) {
+
     .__anni_ourprogress_line_invert_diagram,
     .__anni_ourprogress_line_invert_diagram span,
     .__anni_ourprogress_line_diagram span,
-    .__anni_ourprogress_line_diagram{
+    .__anni_ourprogress_line_diagram {
         display: none;
     }
+
     .__anni_ourprocess_title_container {
         width: 23rem;
     }
@@ -657,10 +722,17 @@ __anni_portfolio_list .row {
     }
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (max-width: 1368px) {
+.__contact .__contact_content {
+    font-size: 3.5rem;
+}
+}
+@media screen and (max-width: 1300px) {
     .form-control {
         font-size: 1.5rem;
-        ;
+    }
+    .__contact .__contact_content {
+        font-size: 2.8rem;
     }
 }
 
