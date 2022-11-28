@@ -254,11 +254,11 @@ html::-webkit-scrollbar-track {
 .___pages_section_p {
     font-family: 'Source Serif Pro';
     font-size: 1.85125rem;
-    margin-bottom: 2.2rem;
+    margin-bottom: 1rem;
 }
 .___pages_section_h2 {
     font-family: 'Source Serif Pro';
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 2.2rem;
 
 }
@@ -275,7 +275,8 @@ html::-webkit-scrollbar-track {
 
 
 @media only screen and (max-width:1988px) {
-    .___section_h2 {
+.___pages_section_h2,
+    .___section_h2  {
         font-size: 2.2rem;
     }
 
@@ -478,7 +479,7 @@ html::-webkit-scrollbar-track {
     /* Stay in place */
     z-index: 9999;
     /* Sit on top */
-
+    padding: 0;
     left: 0;
     top: 0;
     width: 100%;
@@ -968,7 +969,7 @@ body[class*="opened"] ._anni_menu_svg_path .mkdf-fullscreen-menu-opener-icon rec
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
-    font-size: 1.1875rem;
+    font-size: 1.1rem;
     line-height: 24px;
     /* identical to box height, or 126% */
     letter-spacing: 0.02em;
@@ -1481,6 +1482,12 @@ footer a:hover {
 
         padding-left: 5rem;
     }
+    
+         footer {
+            padding-left: 17.8rem;
+            padding-right: 17.8rem;
+        }
+    
 }
 
 @media only screen and (min-width: 821px) and (max-width: 1200px) {
