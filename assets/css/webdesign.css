@@ -163,7 +163,7 @@ section {
 }
 
 .__portfolio {
-    padding-bottom: 4.375rem;
+    padding-bottom: 3rem;
     min-height: fit-content;
 }
 
@@ -539,8 +539,9 @@ __anni_portfolio_list .row {
 .__anni_diagram_bullet {
     position: relative;
     z-index: 1;
-    top: 7rem;
+    top: 0;
     left: 13.5rem;
+    height: 0;
 }
 
 
@@ -623,14 +624,14 @@ __anni_portfolio_list .row {
 /*****/
 .__anni_ourprogress_line_diagram span {
     width: 41rem;
-    top: -2rem;
-    left: 33rem;
+    top: -5rem;
+    left: 22rem;
 }
 
 .__anni_ourprogress_line_diagram {
-    transform: rotate(18deg);
-    -webkit-transform: rotate(18deg);
-    -moz-transform: rotate(18deg);
+    transform: rotate(35deg);
+    -webkit-transform: rotate(35deg);
+    -moz-transform: rotate(35deg);
 }
 
 .__anni_ourprogress_line_invert_diagram {
@@ -650,13 +651,13 @@ __anni_portfolio_list .row {
 @media only screen and (max-width: 1920px) {
 
     .__anni_ourprogress_line_diagram {
-        transform: rotate(45deg);
-        -webkit-transform: rotate(45deg);
-        -moz-transform: rotate(45deg);
+        transform: rotate(29deg);
+        -webkit-transform: rotate(29deg);
+        -moz-transform: rotate(29deg);
     }
 
     .__anni_ourprogress_line_diagram span {
-        width: 22rem;
+        width: 27rem;
         position: relative;
         top: -3rem;
         left: 26rem;
@@ -664,16 +665,16 @@ __anni_portfolio_list .row {
     }
 
     .__anni_ourprogress_line_invert_diagram {
-        transform: rotate(-45deg);
-        -webkit-transform: rotate(-45deg);
-        -moz-transform: rotate(-45deg);
+        transform: rotate(328deg);
+        -webkit-transform: rotate(328deg);
+        -moz-transform: rotate(328deg);
     }
 
     .__anni_ourprogress_line_invert_diagram span {
-        width: 22rem;
+        width: 27rem;
         position: relative;
-        top: -2rem;
-        left: -27rem;
+        top: -3rem;
+        left: -22rem;
         height: 0.5rem;
     }
 }
