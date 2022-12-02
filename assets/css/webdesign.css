@@ -106,6 +106,7 @@
     #__home_section_wrapper {
         width: 55.3125rem;
     }
+
     #__home_section_wrapper h2 {
         font-size: 1.2rem;
     }
@@ -159,10 +160,11 @@
         font-size: 10rem;
     }
 }
+
 @media screen and (max-width: 1025px) {
     .__anni_navbar_container {
         min-height: 34rem;
-        
+
     }
 }
 
@@ -193,13 +195,14 @@ section {
 
 @media only screen and (max-width: 1657px) {
 
-   
+
     section,
     .home {
         padding-left: 12.5rem;
         padding-right: 12.5rem;
     }
 }
+
 @media screen and (max-width: 1480px) {
 
     .__portfolio_content,
@@ -207,7 +210,9 @@ section {
         padding-left: 2rem;
     }
 }
-@media only screen and (min-width: 800px) and (max-width: 1200px){
+
+@media only screen and (min-width: 800px) and (max-width: 1200px) {
+
     section,
     .home {
         padding: 6rem 6rem;
@@ -216,17 +221,19 @@ section {
 }
 
 @media screen and (max-width: 1024px) {
-    
+
     section,
     .home {
         min-height: fit-content;
         padding: 8.375rem 8.5rem;
     }
 }
+
 @media screen and (max-width: 992px) {
+
     .__ourprocess .___pages_section_number_frame,
     .__prices .___pages_section_number_frame,
-    .__postlaunch .___pages_section_number_frame{
+    .__postlaunch .___pages_section_number_frame {
         order: -1;
     }
 }
@@ -467,12 +474,13 @@ section {
         margin-left: 1rem;
         margin-right: 1rem;
     }
-    
+
     .__portfolio {
         padding-bottom: 3rem;
         min-height: fit-content;
     }
 }
+
 @media only screen and (max-width: 420px) {
     .__portfolio {
         padding-bottom: 0rem;
@@ -545,15 +553,18 @@ __anni_portfolio_list .row {
     .__prices li {
         font-size: 1.2rem;
     }
+
     .__anni_service-price {
         min-height: 47.5rem;
     }
 }
+
 @media only screen and (max-width: 992px) {
     .__anni_service-price {
         min-height: 45rem;
-    }   
+    }
 }
+
 @media only screen and (max-width: 820px) {
     .__prices li {
         font-size: 1.2rem;
@@ -563,21 +574,23 @@ __anni_portfolio_list .row {
         margin-bottom: 2.5rem;
         margin-top: 0;
     }
-    
+
     .__prices .col-md-12>span {
         font-size: 1.7rem;
     }
-    
+
     .__anni_service-price {
         min-height: fit-content;
     }
 }
+
 @media only screen and (max-width: 420px) {
-    .__anni_service-price:last-child{
+    .__anni_service-price:last-child {
         margin-bottom: 0;
-        
+
     }
-    .__anni_service-price{
+
+    .__anni_service-price {
         margin-bottom: 1rem;
     }
 }
@@ -745,14 +758,15 @@ __anni_portfolio_list .row {
 @media only screen and (max-width: 1440px) {
     .__anni_ourprogress_line_diagram span {
         width: 12rem;
-        top: -8rem;
-        left: 23rem;
+        top: -10rem;
+        left: 17rem;
+    
     }
 
     .__anni_ourprogress_line_diagram {
-        transform: rotate(66deg);
-        -webkit-transform: rotate(66deg);
-        -moz-transform: rotate(66deg);
+        transform: rotate(62deg);
+        -webkit-transform: rotate(62deg);
+        -moz-transform: rotate(62deg);
     }
 
     .__anni_ourprogress_line_invert_diagram {
@@ -762,19 +776,21 @@ __anni_portfolio_list .row {
     }
 
     .__anni_ourprogress_line_invert_diagram span {
-        width: 18rem;
+        width: 13rem;
         position: relative;
         z-index: -1;
-        top: -9rem;
-        left: -21rem;
+        top: -11rem;
+        left: -16rem;
     }
+
+
 }
 
 @media only screen and (max-width: 1268px) {
     .__anni_ourprogress_line_diagram span {
-        width: 8rem;
-        top: -14rem;
-        left: 10rem;
+        width: 9rem;
+        top: -9rem;
+        left: 14rem;
     }
 
     .__anni_ourprocess_title_container {
@@ -782,29 +798,46 @@ __anni_portfolio_list .row {
     }
 
     .__anni_ourprogress_line_invert_diagram span {
-
-        top: 14rem;
-        left: 11rem;
+        top: -8rem;
+        left: -16rem;
+        width: 11rem;
     }
 
     .__anni_ourprocess_diagram>div:last-child .__anni_ourprocess_point>span {
-
         top: 7.5rem;
         left: -12rem;
     }
 
-    .__anni_ourprogress_line_invert_diagram,
+    .__anni_ourprogress_line_invert_diagram {
+        transform: rotate(301deg);
+        -webkit-transform: rotate(301deg);
+        -moz-transform: rotate(301deg);
+    }
+
     .__anni_ourprogress_line_diagram {
-        transform: rotate(90deg);
-        -webkit-transform: rotate(90deg);
-        -moz-transform: rotate(90deg);
+        transform: rotate(61deg);
+        -webkit-transform: rotate(61deg);
+        -moz-transform: rotate(61deg);
+    }
+
+    .__anni_diagram_bullet {
+        position: relative;
+        z-index: 1;
+        top: 0;
+        left: 10.5rem;
+        height: 0;
+    }
+
+    .__anni_ourprocess_diagram>div:last-child .__anni_diagram_bullet {
+        left: -10.5rem;
+
     }
 }
 
 @media only screen and (max-width: 1024px) {
     .__anni_ourprogress_line_diagram span {
         width: 8rem;
-        top: -14rem;
+        top: -12rem;
         left: 10rem;
     }
 
@@ -829,6 +862,9 @@ __anni_portfolio_list .row {
         -webkit-transform: rotate(90deg);
         -moz-transform: rotate(90deg);
     }
+
+
+ 
 }
 
 @media only screen and (max-width: 820px) {
