@@ -135,7 +135,7 @@
 
     #__home_section_wrapper h2 {
         font-family: 'Montserrat';
-        font-size: .8rem;
+        font-size: .56rem;
         margin-bottom: 1rem;
         font-weight: 500;
 
@@ -467,12 +467,16 @@ section {
         margin-left: 1rem;
         margin-right: 1rem;
     }
-
+    
     .__portfolio {
         padding-bottom: 3rem;
         min-height: fit-content;
     }
-
+}
+@media only screen and (max-width: 420px) {
+    .__portfolio {
+        padding-bottom: 0rem;
+    }
 }
 
 __anni_portfolio_list .row {
@@ -559,13 +563,22 @@ __anni_portfolio_list .row {
         margin-bottom: 2.5rem;
         margin-top: 0;
     }
-
+    
     .__prices .col-md-12>span {
         font-size: 1.7rem;
     }
-
+    
     .__anni_service-price {
         min-height: fit-content;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .__anni_service-price:last-child{
+        margin-bottom: 0;
+        
+    }
+    .__anni_service-price{
+        margin-bottom: 1rem;
     }
 }
 
