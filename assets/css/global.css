@@ -122,8 +122,9 @@ html::-webkit-scrollbar-track {
     #__anni_navbar {
         display: none;
     }
-
+    
 }
+
 
 /********************************navbar mobile*/
 #__anni_navbar_mobile {
@@ -505,8 +506,6 @@ html::-webkit-scrollbar-track {
 
 #__anni_side_menu_area>div:first-child {
     background: url("/assets/img/menu_bg.jpg");
-    /*filter: grayscale(100%);*/
-    /* display: none; */
     margin-top: 1.5rem;
     /* Location of the box */
     margin-right: 1.5rem;
@@ -514,16 +513,11 @@ html::-webkit-scrollbar-track {
     right: 2%;
     padding: 20px 20px 20px 0;
     position: fixed;
-    /* top: 18px;
-    right: 20px; */
     width: 42rem;
     min-height: 45vh;
-    /*height: calc(100% - 40px);*/
-    /* min-height: calc(100% - 40px);*/
     padding: 1.5rem 3rem;
     background-color: #000;
     overflow: hidden;
-    /* visibility: hidden; */
     z-index: 99999;
     -webkit-backface-visibility: hidden;
     box-sizing: border-box;
@@ -595,7 +589,6 @@ html::-webkit-scrollbar-track {
 @media screen and (max-width: 811px) {
     #__anni_side_menu_area>div:first-child {
         width: 95vw;
-        /* margin: 1vh 7vw; */
     }
 
     #__anni_icon_close {
@@ -614,9 +607,6 @@ html::-webkit-scrollbar-track {
 @media screen and (max-width: 512px) {
     #__anni_side_menu_area>div:first-child {
         width: 88vw;
-        /* margin: 0rem 1rem;
-        right: 20%;
-        height: 95vh !important; */
     }
 
     .__anni_custom_font_holder {
@@ -624,7 +614,6 @@ html::-webkit-scrollbar-track {
     }
 
     #__anni_side_menu_area>div:first-child {
-        /*min-height: 58%;*/
         padding: 1.5rem 1.2rem;
     }
 
@@ -636,7 +625,7 @@ html::-webkit-scrollbar-track {
 @media screen and (max-width: 361px) {
     #__anni_side_menu_area>div:first-child {
         width: 85vw;
-        /* margin: 0rem; */
+        
     }
 
     .__anni_custom_font_holder {
@@ -650,6 +639,12 @@ html::-webkit-scrollbar-track {
 
     .__anni_close_side_menu {
         width: 4rem;
+    }
+}
+@media screen and (max-height: 870px) {
+    #__anni_side_menu_area>div:first-child {
+        height: 92vh;
+        min-height: 0;
     }
 }
 
