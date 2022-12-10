@@ -253,16 +253,6 @@
 
 
 
-.__anni__wholove_portfolio_client,
-.__anni__wholove_portfolio_client_right {
-    overflow: hidden;
-    padding: 0;
-    margin: 0;
-    height: 100%;
-    display: flex;
-    padding-left: 5rem;
-    padding-right: 5rem;
-}
 
 .__wholove_bottom_margin {
     margin-bottom: 8.375rem;
@@ -286,23 +276,8 @@
 
 }
 
-.__anni__wholove_portfolio_client div {
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    overflow: hidden;
 
-}
 
-.__anni__wholove_portfolio_client div a,
-.__anni__wholove_portfolio_client_right div a {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-}
 
 
 
@@ -417,16 +392,7 @@
 
 }
 
-@media screen and (max-width: 1708px) {
 
-
-    .__anni_welove_client_work {
-        width: 18.5625rem;
-        height: 12.7rem;
-    }
-
-
-}
 
 @media screen and (max-width: 1657px) {
     .__anni_wholove_client_on_right_name {
@@ -444,11 +410,7 @@
 }
 
 @media screen and (max-width: 1520px) {
-    .__anni_welove_client_work {
-        width: 16.5625rem;
-        height: 11.7rem;
-    }
-
+ 
     .__anni_wholove_client h3 {
         font-size: 1.8rem;
     }
@@ -463,9 +425,7 @@
         font-size: 2.2rem;
     }
 
-    .__anni_welove_client_work {
-        margin-top: 0rem;
-    }
+  
 }
 
 
@@ -474,17 +434,6 @@
         order: -1;
     }
 
-
-
-    .__anni__wholove_portfolio_client div {
-        flex-wrap: wrap;
-        row-gap: 2rem;
-    }
-
-    .__anni_welove_client_work {
-        width: 20.5625rem;
-        height: 12.7rem;
-    }
 }
 
 @media screen and (max-width: 768px) {
@@ -508,10 +457,7 @@
         margin-bottom: 2rem;
     }
 
-    .__anni_welove_client_work {
-        width: 15.5625rem;
-        height: 8.7rem;
-    }
+ 
 
     .__wholove {
         height: 100%;
@@ -528,11 +474,7 @@
     }
 
 
-    .__anni_welove_client_work {
-        width: 18.5625rem;
-        height: 10.7rem;
 
-    }
 
     .__anni_wholove_client_text {
         margin-bottom: 0rem;
@@ -582,16 +524,7 @@
         margin-left: 0;
     }
 
-    .__anni_welove_client_work figure {
-        margin-right: 0rem !important;
-        margin-left: 0rem !important;
-        border: solid #000 0.0625rem;
-        width: 10.0625rem;
-        height: 7.5rem;
-        margin-bottom: 2rem;
-        margin-left: 0;
-        /* margin-right: 5rem; */
-    }
+ 
 
     .__anni__wholove_portfolio_client {
         flex-wrap: wrap;
@@ -619,10 +552,6 @@
         height: auto;
     }
 
-    .__anni_welove_client_work {
-        width: 12.5625rem;
-        height: 6.7rem;
-    }
 
     .__anni_wholove_client_on_right_name {
         top: -6rem;

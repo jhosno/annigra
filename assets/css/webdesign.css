@@ -482,20 +482,29 @@ section {
 .__anni_portfolio_list {
     margin: auto;
     margin-bottom: 8.375rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    
 }
+
+.__anni_portfolio_list .__anni__wholove_portfolio_client {
+    margin-bottom: 2.65rem;
+}
+
 
 @media only screen and (max-width: 820px) {
     .__anni_portfolio_list {
         margin-bottom: 6rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
+ 
     }
-
+    .__anni_portfolio_list .__contact_form_submit {
+        margin-left:  2rem;
+        margin-right: 2rem;
+     }
     .__portfolio {
         padding-bottom: 3rem;
         min-height: fit-content;
+    }
+    .__anni_portfolio_list .__anni__wholove_portfolio_client {
+        margin-bottom: 2em;
     }
 }
 
@@ -536,7 +545,10 @@ __anni_portfolio_list .row {
     height: 100%;
 
 }
-
+.__anni_portfolio_list .__anni__wholove_portfolio_client:nth-last-child(2){
+    
+    margin-bottom: 0rem;
+}
 /**04 prices ***/
 .__prices {
     font-family: 'Source Serif Pro';
@@ -892,6 +904,19 @@ __anni_portfolio_list .row {
     .__anni_ourprocess_diagram>div{
         row-gap: 2rem;
     }
+    .__anni_ourprocess_point_content {
+        width: 100%;
+    }
+    .__anni_ourprocess_point {
+        width: 100%;
+    }
+    .__anni_ourprocess_title_container {
+        width: 36.85rem; 
+    }
+    .__anni_ourprocess_diagram>div {
+        padding: 0;
+    }
+
 }
 @media only screen and (max-width: 820px) {
     
@@ -942,6 +967,13 @@ __anni_portfolio_list .row {
     .__anni_ourprocess_point {
         width: 100%;
     }
+}
+
+/**06 post launch***/
+.__postlaunch .___pages_section_p,
+.__postlaunch .__welove_content{
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 /**07 contact***/
