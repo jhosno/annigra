@@ -1699,6 +1699,27 @@ footer a:hover {
     padding-left: 5rem;
     padding-right: 5rem;
 }
+.__anni__wholove_portfolio_client_right {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 100%;
+    padding-right: 0.7rem;
+    overflow: hidden;
+
+}
+
+.__anni_welove_client_work {
+    width: 18.0625rem;
+    height: 12.5rem;
+    background-color: #fff;
+    border: solid #000 0.0625rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .__anni__wholove_portfolio_client div {
     display: flex;
@@ -1785,9 +1806,10 @@ footer a:hover {
         margin-bottom: 0;
     }
     .__anni_welove_client_work {
-        width: 15.5625rem;
-    height: 12.7rem;
+        width: 14.5625rem;
+        height: 11.7rem;
     }
+
 }
 @media screen and (max-width: 992px) {
     .__anni__wholove_portfolio_client div,
@@ -1803,6 +1825,8 @@ footer a:hover {
         margin-bottom: 1rem;
     }
 }
+
+
 @media only screen and (max-width: 799px) {
     .__anni_welove_client_work {
         width: 18.5625rem;

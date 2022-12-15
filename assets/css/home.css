@@ -337,15 +337,7 @@
     color: black;
 }
 
-.__anni_welove_client_work {
-    width: 18.0625rem;
-    height: 12.5rem;
-    background-color: #fff;
-    border: solid #000 0.0625rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .__anni_wholove_client figure {
     margin: 0;
@@ -376,21 +368,6 @@
 
 
 
-@media screen and (max-width: 1988px) {
-
-    .__anni_show_list_item,
-    #graphic-design-link {
-        font-size: 4.925rem;
-    }
-
-    .__anni_welove_client_work {
-        width: 23.5625rem;
-        height: 16.7rem;
-    }
-
-
-
-}
 
 
 

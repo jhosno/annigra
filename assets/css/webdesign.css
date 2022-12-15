@@ -821,7 +821,7 @@ __anni_portfolio_list .row {
 
 @media only screen and (max-width: 1268px) {
     .__anni_ourprogress_line_diagram span {
-        width: 9rem;
+        width: 16rem;
         top: -9rem;
         left: 14rem;
     }
@@ -833,7 +833,7 @@ __anni_portfolio_list .row {
     .__anni_ourprogress_line_invert_diagram span {
         top: -8rem;
         left: -16rem;
-        width: 11rem;
+        width: 12rem;
     }
 
     .__anni_ourprocess_diagram>div:last-child .__anni_ourprocess_point>span {
@@ -972,6 +972,15 @@ __anni_portfolio_list .row {
         padding-left: 1rem;
         padding-right: 1rem;
     }
+    .__anni_ourprocess_title_container h4 {
+        font-weight: 600;
+        font-size: 1.578rem;
+        padding: 1.5rem;
+    }
+    .__anni_ourprocess_title_container {
+        height: auto;
+    }
+        
 }
 
 /**06 post launch***/
