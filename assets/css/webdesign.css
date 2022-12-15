@@ -967,6 +967,11 @@ __anni_portfolio_list .row {
     .__anni_ourprocess_point {
         width: 100%;
     }
+    .__anni_ourprocess_diagram {
+    
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
 }
 
 /**06 post launch***/
