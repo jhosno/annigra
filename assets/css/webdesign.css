@@ -1007,13 +1007,7 @@ __anni_portfolio_list .row {
 
 }
 
-@media only screen and (max-width:820px) {
-    .__contact .__contact_content {
-        font-size: 3rem;
-        margin-bottom: 2rem;
 
-    }
-}
 
 @media only screen and (max-width:1988px) {
     .__contact_content {
@@ -1071,11 +1065,24 @@ __anni_portfolio_list .row {
     border-color: #000;
 }
 
+@media screen and (max-width: 1180px) {
+    .__contact_content{
+        display: flex;
+        flex-direction: row;
+    }
+}
 @media screen and (max-width: 820px) {
     .__contact_form_submit {
         width: 100%;
     }
 
+}
+@media only screen and (max-width:820px) {
+    .__contact .__contact_content {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+
+    }
 }
 
 .normal-underline,
