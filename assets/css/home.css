@@ -219,6 +219,7 @@
 
 .__anni_wholove_client p {
     margin-top: 1.875rem;
+    text-align: justify;
 }
 
 
@@ -387,7 +388,7 @@
 }
 
 @media screen and (max-width: 1520px) {
- 
+
     .__anni_wholove_client h3 {
         font-size: 1.8rem;
     }
@@ -402,7 +403,7 @@
         font-size: 2.2rem;
     }
 
-  
+
 }
 
 
@@ -434,7 +435,7 @@
         margin-bottom: 2rem;
     }
 
- 
+
 
     .__wholove {
         height: 100%;
@@ -501,7 +502,7 @@
         margin-left: 0;
     }
 
- 
+
 
     .__anni__wholove_portfolio_client {
         flex-wrap: wrap;
@@ -1073,7 +1074,7 @@
 
     .__showourlove .__welove_content,
     .__contact_content .__welove_content,
-    .__appoinment_text .__welove_content   {
+    .__appoinment_text .__welove_content {
         padding-left: 3rem;
     }
 
@@ -1092,14 +1093,12 @@
         display: flex;
         flex-direction: row;
     }
-    .__contact .___section_h2, .__appointment .___section_h2 {
+
+    .__contact .___section_h2,
+    .__appointment .___section_h2 {
         margin-top: 0rem;
     }
-    __contact_content 
-    .___section_number,
-    .___section_number_frame {
-        font-size: 10rem !important;
-    }
+
 
     #greeting {
         font-size: 5.7rem;
@@ -1135,10 +1134,6 @@
         font-size: 3.7rem !important;
     }
 
-    .___section_number,
-    .___section_number_frame {
-        font-size: 15rem;
-    }
 
     .___section_number {
         text-align: end;
@@ -1172,6 +1167,17 @@
 
     .__anni_wholove_client_on_right .__anni_wholove_client_text {
         padding-left: 0.75rem !important;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .__anni_wholove_client_on_right_name {
+        right: -33%;
+    }
+
+    .__anni__wholove_portfolio_client_right div {
+        display: flex;
+        justify-content: space-evenly;
     }
 }
 
@@ -1212,18 +1218,23 @@
     .__showourlove>.row:first-child div:first-child {
         width: 41.5%;
     }
-    .___section_number, .___section_number_frame {
+
+    .___section_number,
+    .___section_number_frame {
         font-size: 10rem;
     }
+
     .__anni_footer-tagline {
         font-size: 2.1rem;
     }
+
     .__showourlove>.row:first-child div:last-child {
         width: 58.1%;
     }
+
     .__showourlove .__welove_content,
     .__contact_content .__welove_content,
-    .__appoinment_text .__welove_content   {
+    .__appoinment_text .__welove_content {
         padding-left: 2rem;
     }
 
@@ -1234,6 +1245,7 @@
     .__FAQ>.row>div:first-child {
         width: 58.1%;
     }
+
     .__anni_wholove_client_on_right_name {
         right: -40%;
     }
