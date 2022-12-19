@@ -172,13 +172,18 @@
 }
 
 
+
 /***Sections rules***/
 section {
     min-height: 28.4375rem;
     padding: 8.375rem 12.5rem;
     overflow: hidden;
     width: 100%;
-
+    
+}
+section .___pages_section_p{
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .__portfolio {
@@ -204,13 +209,6 @@ section {
     }
 }
 
-@media screen and (max-width: 1480px) {
-
-    .__portfolio_content,
-    .__pages-FAQ .__welove_content {
-        padding-left: 2rem;
-    }
-}
 
 @media only screen and (min-width: 800px) and (max-width: 1200px) {
 
@@ -585,7 +583,7 @@ __anni_portfolio_list .row {
     }
 
     .__anni_service-price {
-        min-height: 47.5rem;
+        min-height: 45.5rem;
     }
 }
 
@@ -614,7 +612,21 @@ __anni_portfolio_list .row {
     }
     .__prices .row:last-child{
         row-gap: 2rem;
+        
     }
+    .__anni_service-price{
+        display: flex;
+        align-items: center;
+
+    }
+    .__portfolio .__portfolio_content, .__pages-FAQ .__welove_content, .__contact .__welove_content {
+        padding-left: 0rem;
+    }
+    #contact_form .col-12{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
 }
 
 @media only screen and (max-width: 420px) {
@@ -821,11 +833,14 @@ __anni_portfolio_list .row {
 
 @media only screen and (max-width: 1268px) {
     .__anni_ourprogress_line_diagram span {
-        width: 16rem;
-        top: -9rem;
-        left: 14rem;
+        width: 10rem;
+    top: -6rem;
+    left: 18rem;
     }
-
+    .__anni_ourprocess_point_content {
+      
+        min-height: 12.8125rem;
+    }
     .__anni_ourprocess_title_container {
         width: 22rem;
     }
@@ -833,7 +848,7 @@ __anni_portfolio_list .row {
     .__anni_ourprogress_line_invert_diagram span {
         top: -8rem;
         left: -16rem;
-        width: 12rem;
+        width: 14rem;
     }
 
     .__anni_ourprocess_diagram>div:last-child .__anni_ourprocess_point>span {
@@ -848,9 +863,9 @@ __anni_portfolio_list .row {
     }
 
     .__anni_ourprogress_line_diagram {
-        transform: rotate(61deg);
-        -webkit-transform: rotate(61deg);
-        -moz-transform: rotate(61deg);
+        transform: rotate(44deg);
+        -webkit-transform: rotate(44deg);
+        -moz-transform: rotate(44deg);
     }
 
     .__anni_diagram_bullet {
@@ -936,6 +951,7 @@ __anni_portfolio_list .row {
     }
     .__anni_ourprocess_point_content {
         width: 100%;
+        min-height: 12.8125rem;
     }
     .__anni_ourprocess_title_anchor {
         position: block;
@@ -979,6 +995,10 @@ __anni_portfolio_list .row {
     }
     .__anni_ourprocess_title_container {
         height: auto;
+    }
+    .__anni_outprocess_p{
+        font-size: 1.2rem;
+        text-align: center;
     }
         
 }

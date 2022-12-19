@@ -148,7 +148,7 @@ html::-webkit-scrollbar-track {
     margin-right: 0;
 }
 
-.__anni_right_mobile_menu {}
+
 
 
 .__anni_brand_menu_mobile img {
@@ -335,7 +335,17 @@ html::-webkit-scrollbar-track {
 }
 
 @media only screen and (max-width:1988px) {
-
+    .__ourprocess .__welove_content,
+    .__prices .__welove_content,
+    .__postlaunch .__welove_content{
+        padding-right: 3rem;
+        
+    }
+    .__portfolio .__portfolio_content ,
+    .__pages-FAQ .__welove_content,
+    .__contact .__welove_content{
+        padding-left: 3rem;
+    }
     .___pages_section_number,
     .___pages_section_number_frame,
     .___section_number {
@@ -371,13 +381,39 @@ html::-webkit-scrollbar-track {
         font-size: 14.2rem;
     }
 }
+@media screen and (max-width: 1480px) {
+
+    .__portfolio_content,
+    .__pages-FAQ .__welove_content {
+        padding-left: 2rem;
+    }
+}
 
 @media only screen and (max-width: 1368px) {
 
     .___pages_section_number_frame,
-    .___pages_section_number {
+    .___pages_section_number,
+    .__pages-FAQ .___pages_section_number {
+        font-size: 12rem;
+        line-height: 9rem;  
+    }
+    .___section_number,
+    .___section_number_frame {
+        line-height: 8rem;
+        font-size: 12rem;        
+    }
+
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1200px) {
+
+    
+    .___section_number,
+    .___section_number_frame {
+        line-height: 8rem;
         font-size: 12rem;
     }
+
 }
 
 @media only screen and (max-width: 1024px) {
@@ -407,6 +443,18 @@ html::-webkit-scrollbar-track {
     .___pages_section_number {
         display: none;
     }
+    .__ourprocess .__welove_content,
+    .__prices .__welove_content,
+    .__postlaunch .__welove_content{
+        padding-right: 0.75rem;
+ 
+    }
+    .__portfolio .__portfolio_content,
+    .__pages-FAQ .__welove_content,
+    .__contact .__welove_content{
+        padding-left: 0.75rem;
+    }
+
 }
 
 .___section_p {
@@ -664,6 +712,7 @@ html::-webkit-scrollbar-track {
         height: 92vh;
         min-height: 0;
     }
+
 }
 
 /*********************navbar*************************/
@@ -1699,6 +1748,7 @@ footer a:hover {
     padding-left: 5rem;
     padding-right: 5rem;
 }
+
 .__anni__wholove_portfolio_client_right {
     display: flex;
     justify-content: flex-end;
@@ -1771,17 +1821,19 @@ footer a:hover {
 .__anni_welove_client_work img {
     width: 100%;
 }
+
 @media screen and (max-width: 1988px) {
     .__anni_welove_client_work {
         width: 23.5625rem;
         height: 16.7rem;
     }
 
-.__anni_welove_client_work {
-    width: 23.5625rem;
-    height: 16.7rem;
+    .__anni_welove_client_work {
+        width: 23.5625rem;
+        height: 16.7rem;
+    }
 }
-}
+
 @media screen and (max-width: 1708px) {
 
 
@@ -1792,6 +1844,7 @@ footer a:hover {
 
 
 }
+
 @media screen and (max-width: 1520px) {
     .__anni_welove_client_work {
         width: 16.5625rem;
@@ -1799,24 +1852,29 @@ footer a:hover {
         margin-top: 0rem;
     }
 }
+
 @media only screen and (min-width: 800px) and (max-width: 1200px) {
 
     .__anni_welove_client_work {
         margin-top: 0rem;
         margin-bottom: 0;
     }
+
     .__anni_welove_client_work {
         width: 14.5625rem;
         height: 11.7rem;
     }
 
 }
+
 @media screen and (max-width: 992px) {
+
     .__anni__wholove_portfolio_client div,
-    .__anni_portfolio_list .__anni__wholove_portfolio_client  {
+    .__anni_portfolio_list .__anni__wholove_portfolio_client {
         flex-wrap: wrap;
         row-gap: 2rem;
     }
+
     .__anni_welove_client_work {
         margin-top: 0rem;
         margin-bottom: 0;
@@ -1832,13 +1890,11 @@ footer a:hover {
         width: 18.5625rem;
         height: 13.7rem;
     }
-    .__anni_welove_client_work img {
-        height: auto;
-        width: auto;
-    }
+
+
     .__anni_welove_client_work img {
         width: 100%;
-        height: auto;
+        height: 100%;
     }
 }
 
@@ -1847,18 +1903,21 @@ footer a:hover {
         width: 15.5625rem;
         height: 8.7rem;
     }
+
     .__anni_welove_client_work {
         width: 18.5625rem;
         height: 10.7rem;
         margin-bottom: 1rem;
 
     }
+
     .__anni__wholove_portfolio_client,
     .__anni__wholove_portfolio_client_right {
 
         padding-left: 2rem;
         padding-right: 2rem;
     }
+
     .__anni_welove_client_work figure {
         margin-right: 0rem !important;
         margin-left: 0rem !important;
@@ -1870,6 +1929,7 @@ footer a:hover {
         /* margin-right: 5rem; */
     }
 }
+
 @media screen and (max-width: 512px) {
 
 
