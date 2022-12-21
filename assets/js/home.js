@@ -9,27 +9,30 @@ window.addEventListener('load', () => {
 document.addEventListener("DOMContentLoaded", () => {
     let currentHour = new Date().getHours()
     let greeting = this.document.getElementById('greeting')
-    let greeting_bg = this.document.getElementById('__home_section')
+    let greeting_bg = this.document.getElementById('hero')
     
     if (currentHour <= 12) {
         greeting.innerHTML = 'good morning'
-        
-        greeting_bg.style.background = "url('/assets/img/Morning.jpg') no-repeat center center"
-        greeting_bg.style.backgroundSize = "cover"
+        greeting_bg.style.background = "url('/assets/img/Morning.jpg') top center/ cover no-repeat";
+        greeting_bg.style.backgroundSize = "cover";
+        greeting_bg.style.backgroundAttachment = "fixed";
     }
-
+    
     if (currentHour <= 18 && currentHour > 12) {    
         
         greeting.innerHTML = 'good afternoon'
-        greeting_bg.style.background = "url('/assets/img/Afternoon.jpg') no-repeat center center"
+        greeting_bg.style.background = "url('/assets/img/Afternoon.jpg') top center/ cover no-repeat"
         greeting_bg.style.backgroundSize = "cover"
+        greeting_bg.style.backgroundAttachment = "fixed";
     }
-
+    
     if (currentHour > 18 && currentHour <= 23) {    
         
+        console.log('dssd')
         greeting.innerHTML = 'good evening'
-        greeting_bg.style.background = "url('/assets/img/Evening.png') no-repeat center center"
         greeting_bg.style.backgroundSize = "cover"
+        greeting_bg.style.background = "url('/assets/img/Evening.png') top center/ cover no-repeat"
+        greeting_bg.style.backgroundAttachment = "fixed";
     }
 
 });

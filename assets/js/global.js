@@ -1,3 +1,4 @@
+
 //wow
 AOS.init();
 //loader
@@ -38,6 +39,11 @@ let contact_name = this.document.getElementById('__contact_form_name')
 let contact_tel = this.document.getElementById('__contact_form_telephone')
 let contact_email = this.document.getElementById('__contact_form_email')
 
+
+
+
+
+//menu function *************************************************************************************************************
 //menu function 
 let open_side_menu = this.document.getElementById('__anni_menu_opener');
 let open_side_menu_mobile = this.document.getElementById('__anni_menu_opener_mobile');
@@ -46,18 +52,29 @@ let side_menu = this.document.getElementById('__anni_side_menu_area');
 let menu_icon_has_hover = this.document.getElementsByClassName('__anni_icon_has_hover');
 
 
+ function resizeHome(navContent) {
+    header.style.height = navBar.offsetHeight + homeSection.offsetHeight + navContent + 'px'
+    header_img.style.height = navBar.offsetHeight + homeSection.offsetHeight +  navContent + 'px'
+    console.log(navContent)
+    console.log(navBar.offsetHeight)
+    console.log(homeSection.offsetHeight)
+    console.log(homeSection.offsetHeight + navBar.offsetHeight + navContent)
+    console.log('resize')
+}
+
 //Close menu
 side_menu.addEventListener('click', (e) => {
     if(e.target.id === '__anni_side_menu_area'){
         side_menu.style.display = "none";
         side_menu.style.visibility = "hidden";
+        resizeHome(navContent.offsetHeight)
     }
     
 })
 close_side_menu.addEventListener('click', () => {
     side_menu.style.display = "none";
     side_menu.style.visibility = "hidden";
-    console.log(e.target)
+    resizeHome(navContent.offsetHeight)
 });
 
 
@@ -65,11 +82,11 @@ let menu_icon = this.document.getElementsByClassName('st0')
 let menu_icon3 = this.document.querySelector('.__anni_menu_opner_icon .st0:nth-child(1)')
 
 //Open menu
-open_side_menu_mobile.addEventListener('click', () => {
-    side_menu.style.display = "block";
-    side_menu.style.visibility = "visible";
+// open_side_menu_mobile.addEventListener('click', () => {
+//     side_menu.style.display = "block";
+//     side_menu.style.visibility = "visible";
 
-});
+// });
 open_side_menu.addEventListener('click', () => {
     side_menu.style.display = "block";
     side_menu.style.visibility = "visible";

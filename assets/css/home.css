@@ -1,14 +1,12 @@
 /*home****************************/
-.home {
-    background: url('/assets/img/Morning.jpg') no-repeat center center;
+#hero {
+    background: url(/assets/img/Afternoon.jpg) no-repeat center center;
     background-size: cover;
-    width: 100%;
-    min-height: 52rem;
-    position: absolute;
+}
+.home {
     display: flex;
-    justify-content: center;
+    align-content: center;
     align-items: center;
-    overflow: hidden;
 }
 
 @media screen and (max-width: 810px) {
