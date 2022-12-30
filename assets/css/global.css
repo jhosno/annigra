@@ -433,8 +433,10 @@ html::-webkit-scrollbar-track {
 @media only screen and (max-width: 1024px) {
 
     .___pages_section_number_frame,
+    .___pages_section_number_frame, .___pages_section_number, .__pages-FAQ .___pages_section_number,
     .___pages_section_number {
         font-size: 10rem;
+        line-height: 7rem;
     }
 
     .___pages_section_h2 {
@@ -747,7 +749,7 @@ html::-webkit-scrollbar-track {
 }
 
 #hero {
-    background: url(/assets/img/Frame1.png) no-repeat center center;
+    background: url(/assets/img/Frame3.png) no-repeat center center;
     background-size: cover;
 }
 
@@ -884,7 +886,7 @@ html::-webkit-scrollbar-track {
     }
 
     .header-title h1     {
-        font-size: 1.76rem;
+        font-size: 2.76rem;
     }
 }
 

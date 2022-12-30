@@ -198,21 +198,21 @@ function isTel(input) {
 // }
 
 
-/*get exactly height from home section*/
-const navBar = document.getElementById('__anni_navbar')
-const homeSection = document.getElementById('home')
-const header_img = document.getElementById('home_img')
-const header = document.getElementById('__anni_page_header')
-const navContent = document.getElementById('__anni_side_menu_area')
+// /*get exactly height from home section*/
+// const navBar = document.getElementById('__anni_navbar')
+// const homeSection = document.getElementById('home')
+// const header_img = document.getElementById('home_img')
+// const header = document.getElementById('__anni_page_header')
+// const navContent = document.getElementById('__anni_side_menu_area')
 
- function resizeHome(navContent) {
-    console.log(navContent)
-    console.log(navBar.offsetHeight)
-    console.log(homeSection.offsetHeight)
-    console.log(homeSection.offsetHeight + navBar.offsetHeight + navContent)
-    header.style.height = navBar.offsetHeight + homeSection.offsetHeight + 'px'
-    header_img.style.height = navBar.offsetHeight + homeSection.offsetHeight + 'px'
-    console.log('resize')
-}
+//  function resizeHome(navContent) {
+//     console.log(navContent)
+//     console.log(navBar.offsetHeight)
+//     console.log(homeSection.offsetHeight)
+//     console.log(homeSection.offsetHeight + navBar.offsetHeight + navContent)
+//     header.style.height = navBar.offsetHeight + homeSection.offsetHeight + 'px'
+//     header_img.style.height = navBar.offsetHeight + homeSection.offsetHeight + 'px'
+//     console.log('resize')
+// }
 
-window.addEventListener('resize', resizeHome(navContent.offsetHeight))
+// window.addEventListener('resize', resizeHome(navContent.offsetHeight))
