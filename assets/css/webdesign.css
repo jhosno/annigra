@@ -299,13 +299,14 @@ section .___pages_section_p {
     height: 100%;
     width: 100%;
     background-attachment: initial;
-    background-repeat: repeat-x;
+    background-repeat: repeat;
     background-size: auto;
-    margin: left 0em, imo !important;
+    
+    background-position-y: top;
 }
-.__postlaunch {
+/* .__postlaunch {
     background: url('/assets/img/Frame1.png') center center / cover no-repeat;
-}
+} */
 
 .__welove_content {
     margin-bottom: 1rem;
