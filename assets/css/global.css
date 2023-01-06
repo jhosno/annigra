@@ -758,7 +758,7 @@ html::-webkit-scrollbar-track {
     top: 0;
     left: 0;
     width: 100%;
-    min-height: 60rem;
+    min-height: 90rem;
     z-index: -99999;
 }
 
@@ -780,15 +780,20 @@ html::-webkit-scrollbar-track {
 @media screen and (max-width: 1200px) {
     .main-logo {
         padding: 0;
-
     }
-    
     #__anni_side_menu_area>div:first-child {
         width: 37rem;
         min-height: 29vh;
     }
     .header-title h2 {
         font-size: 1.2rem;
+    }
+    .__anni_hero_bg {
+        min-height: 100%;
+    }
+    #__anni_hero {
+
+        min-height: 33.25rem;
     }
 }
 
@@ -872,6 +877,7 @@ html::-webkit-scrollbar-track {
     .__anni_custom_font_holder {
         font-size: 1.85125rem;
     }
+
 }
 
 
@@ -888,6 +894,7 @@ html::-webkit-scrollbar-track {
     .header-title h1     {
         font-size: 2.76rem;
     }
+
 }
 
 .__anni_navbar_container {
