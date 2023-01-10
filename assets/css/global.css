@@ -808,7 +808,10 @@ html::-webkit-scrollbar-track {
     #__anni_hero {
         min-height: 30rem;
     }
-
+    .__anni_hero_bg {
+   
+        min-height: 42rem;
+   }
     .__anni_brand_menu img:first-child {
         width: 1.8rem;
     }
